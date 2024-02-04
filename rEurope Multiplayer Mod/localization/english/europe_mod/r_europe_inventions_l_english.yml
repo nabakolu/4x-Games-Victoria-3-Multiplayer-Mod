@@ -1,0 +1,209 @@
+﻿l_english:
+   ## Modded Below Here ##
+ synthetic_strategic_resources:0 "Synthetic Resource Production"
+ synthetic_strategic_resources_desc:0 "Through the use of inefficient processes and vast amount of resources, more commonly available resources can be used to create rarer resources such as using coal to produce oil, and using oil to produce rubber."
+ 
+  ## World War Diplomacy technology to boost number of allowed diplomatic actions
+ great_war_diplomacy:0 "Great War Diplomacy"
+ great_war_diplomacy_desc:0 "Grants enough diplomatic play maneuvers to enable a functional Great War as well as reducing the amount of war exhaustion gained due to casualties by 65%."
+
+  ## Building Group Agriculture Throughput Bonus Levels 1 --> 4
+ building_agriculture_throughput_bonus_level_1:0 "Agriculture Throughput Bonus Level 1"
+ building_agriculture_throughput_bonus_level_1_desc:0 "10% throughput bonus for Agriculture: Rye Farms, Wheat Farms, Rice Farms, Maize Farms, Millet Farms, Vineyards, and Subsistence Agriculture"
+ building_agriculture_throughput_bonus_level_2:0 "Agriculture Throughput Bonus Level 2"
+ building_agriculture_throughput_bonus_level_2_desc:0 "20% throughput bonus for Agriculture: Rye Farms, Wheat Farms, Rice Farms, Maize Farms, Millet Farms, Vineyards, and Subsistence Agriculture"
+ building_agriculture_throughput_bonus_level_3:0 "Agriculture Throughput Bonus Level 3"
+ building_agriculture_throughput_bonus_level_3_desc:0 "30% throughput bonus for Agriculture: Rye Farms, Wheat Farms, Rice Farms, Maize Farms, Millet Farms, Vineyards, and Subsistence Agriculture"
+ building_agriculture_throughput_bonus_level_4:0 "Agriculture Throughput Bonus Level 4"
+ building_agriculture_throughput_bonus_level_4_desc:0 "40% throughput bonus for Agriculture: Rye Farms, Wheat Farms, Rice Farms, Maize Farms, Millet Farms, Vineyards, and Subsistence Agriculture"
+
+  ## Building Group Ranching & Fishing & Whaling Throughput Bonus Levels 1 --> 4
+ building_ranching_fishing_whaling_throughput_bonus_level_1:0 "Ranching, Fishing, and Whaling Throughput Bonus Level 1"
+ building_ranching_fishing_whaling_throughput_bonus_level_1_desc:0 "10% throughput bonus for Ranching, Fishing, and Whaling: Livestock Ranches, Subsistence Ranches, Fishing Wharfs, and Whaling Stations"
+ building_ranching_fishing_whaling_throughput_bonus_level_2:0 "Ranching, Fishing, and Whaling Throughput Bonus Level 2"
+ building_ranching_fishing_whaling_throughput_bonus_level_2_desc:0 "20% throughput bonus for Ranching, Fishing, and Whaling: Livestock Ranches, Subsistence Ranches, Fishing Wharfs, and Whaling Stations"
+ building_ranching_fishing_whaling_throughput_bonus_level_3:0 "Ranching, Fishing, and Whaling Throughput Bonus Level 3"
+ building_ranching_fishing_whaling_throughput_bonus_level_3_desc:0 "30% throughput bonus for Ranching, Fishing, and Whaling: Livestock Ranches, Subsistence Ranches, Fishing Wharfs, and Whaling Stations"
+ building_ranching_fishing_whaling_throughput_bonus_level_4:0 "Ranching, Fishing, and Whaling Throughput Bonus Level 4"
+ building_ranching_fishing_whaling_throughput_bonus_level_4_desc:0 "40% throughput bonus for Ranching, Fishing, and Whaling: Livestock Ranches, Subsistence Ranches, Fishing Wharfs, and Whaling Stations"
+
+  ## Building Group Plantations Throughput Bonus Levels 1 --> 4
+ building_plantations_throughput_bonus_level_1:0 "Plantations Throughput Bonus Level 1"
+ building_plantations_throughput_bonus_level_1_desc:0 "10% throughput bonus for Plantations: Banana Plantations, Coffee Plantations, Cotton Plantations, Dye Plantations, Opium Plantations, Rubber Plantations, Silk Plantations, Sugar Plantations, Tea Plantations, and Tobacco Plantations"
+ building_plantations_throughput_bonus_level_2:0 "Plantations Throughput Bonus Level 2"
+ building_plantations_throughput_bonus_level_2_desc:0 "20% throughput bonus for Plantations: Banana Plantations, Coffee Plantations, Cotton Plantations, Dye Plantations, Opium Plantations, Rubber Plantations, Silk Plantations, Sugar Plantations, Tea Plantations, and Tobacco Plantations"
+ building_plantations_throughput_bonus_level_3:0 "Plantations Throughput Bonus Level 3"
+ building_plantations_throughput_bonus_level_3_desc:0 "30% throughput bonus for Plantations: Banana Plantations, Coffee Plantations, Cotton Plantations, Dye Plantations, Opium Plantations, Rubber Plantations, Silk Plantations, Sugar Plantations, Tea Plantations, and Tobacco Plantations"
+ building_plantations_throughput_bonus_level_4:0 "Plantations Throughput Bonus Level 4"
+ building_plantations_throughput_bonus_level_4_desc:0 "40% throughput bonus for Plantations: Banana Plantations, Coffee Plantations, Cotton Plantations, Dye Plantations, Opium Plantations, Rubber Plantations, Silk Plantations, Sugar Plantations, Tea Plantations, and Tobacco Plantations"
+
+  ## Building Group Logging & Mining & Oil Extraction Throughput Bonus Levels 1 --> 4
+ building_logging_mining_oil_throughput_bonus_level_1:0 "Logging & Mining & Oil Extraction Throughput Bonus Level 1"
+ building_logging_mining_oil_throughput_bonus_level_1_desc:0 "10% throughput bonus for Logging & Mining & Oil Extraction: Coal Mines, Gold Fields, Gold Mines, Iron Mines, Lead Mines, Logging Camps, Oil Rigs, and Sulfur Mines"
+ building_logging_mining_oil_throughput_bonus_level_2:0 "Logging & Mining & Oil Extraction Throughput Bonus Level 2"
+ building_logging_mining_oil_throughput_bonus_level_2_desc:0 "20% throughput bonus for Logging & Mining & Oil Extraction: Coal Mines, Gold Fields, Gold Mines, Iron Mines, Lead Mines, Logging Camps, Oil Rigs, and Sulfur Mines"
+ building_logging_mining_oil_throughput_bonus_level_3:0 "Logging & Mining & Oil Extraction Throughput Bonus Level 3"
+ building_logging_mining_oil_throughput_bonus_level_3_desc:0 "30% throughput bonus for Logging & Mining & Oil Extraction: Coal Mines, Gold Fields, Gold Mines, Iron Mines, Lead Mines, Logging Camps, Oil Rigs, and Sulfur Mines"
+ building_logging_mining_oil_throughput_bonus_level_4:0 "Logging & Mining & Oil Extraction Throughput Bonus Level 4"
+ building_logging_mining_oil_throughput_bonus_level_4_desc:0 "40% throughput bonus for Logging & Mining & Oil Extraction: Coal Mines, Gold Fields, Gold Mines, Iron Mines, Lead Mines, Logging Camps, Oil Rigs, and Sulfur Mines"
+
+  ## Building Group Light Industry Throughput Bonus Levels 1 --> 4
+ building_light_industry_throughput_bonus_level_1:0 "Light Industry Throughput Bonus Level 1"
+ building_light_industry_throughput_bonus_level_1_desc:0 "10% throughput bonus for Light Industry: Arms Industries, Artillery Foundaries, Food Industries, Furniture Manufacturies, Glassworks, Paper Mills, Shipyards, Textile Mills, and Tooling Workshops"
+ building_light_industry_throughput_bonus_level_2:0 "Light Industry Throughput Bonus Level 2"
+ building_light_industry_throughput_bonus_level_2_desc:0 "20% throughput bonus for Light Industry: Arms Industries, Artillery Foundaries, Food Industries, Furniture Manufacturies, Glassworks, Paper Mills, Shipyards, Textile Mills, and Tooling Workshops"
+ building_light_industry_throughput_bonus_level_3:0 "Light Industry Throughput Bonus Level 3"
+ building_light_industry_throughput_bonus_level_3_desc:0 "30% throughput bonus for Light Industry: Arms Industries, Artillery Foundaries, Food Industries, Furniture Manufacturies, Glassworks, Paper Mills, Shipyards, Textile Mills, and Tooling Workshops"
+ building_light_industry_throughput_bonus_level_4:0 "Light Industry Throughput Bonus Level 4"
+ building_light_industry_throughput_bonus_level_4_desc:0 "40% throughput bonus for Light Industry: Arms Industries, Artillery Foundaries, Food Industries, Furniture Manufacturies, Glassworks, Paper Mills, Shipyards, Textile Mills, and Tooling Workshops"
+
+  ## Building Group Heavy Industry Throughput Bonus Levels 1 --> 4
+ building_heavy_industry_throughput_bonus_level_1:0 "Heavy Industry Throughput Bonus Level 1"
+ building_heavy_industry_throughput_bonus_level_1_desc:0 "10% throughput bonus for Heavy Industry: Coal-Liquefaction Plants, Electrics Industries, Explosives Factories, Fertilizer Plants, Military Shipyards, Motor Industries, Munition Plants, Steel Mills, Synthetics Plants, and War Machine Industries"
+ building_heavy_industry_throughput_bonus_level_2:0 "Heavy Industry Throughput Bonus Level 2"
+ building_heavy_industry_throughput_bonus_level_2_desc:0 "20% throughput bonus for Heavy Industry: Coal-Liquefaction Plants, Electrics Industries, Explosives Factories, Fertilizer Plants, Military Shipyards, Motor Industries, Munition Plants, Steel Mills, Synthetics Plants, and War Machine Industries"
+ building_heavy_industry_throughput_bonus_level_3:0 "Heavy Industry Throughput Bonus Level 3"
+ building_heavy_industry_throughput_bonus_level_3_desc:0 "30% throughput bonus for Heavy Industry: Coal-Liquefaction Plants, Electrics Industries, Explosives Factories, Fertilizer Plants, Military Shipyards, Motor Industries, Munition Plants, Steel Mills, Synthetics Plants, and War Machine Industries"
+ building_heavy_industry_throughput_bonus_level_4:0 "Heavy Industry Throughput Bonus Level 4"
+ building_heavy_industry_throughput_bonus_level_4_desc:0 "40% throughput bonus for Heavy Industry: Coal-Liquefaction Plants, Electrics Industries, Explosives Factories, Fertilizer Plants, Military Shipyards, Motor Industries, Munition Plants, Steel Mills, Synthetics Plants, and War Machine Industries"
+
+  ## Army Offense & Defense Bonus Levels 1 --> 4
+ army_offense_defense_bonus_level_1:0 "Army Offense & Defense Bonus Level 1"
+ army_offense_defense_bonus_level_1_desc:0 "5% bonus to the Offense & Defense of Armies"
+ army_offense_defense_bonus_level_2:0 "Army Offense & Defense Bonus Level 2"
+ army_offense_defense_bonus_level_2_desc:0 "10% bonus to the Offense & Defense of Armies"
+ army_offense_defense_bonus_level_3:0 "Army Offense & Defense Bonus Level 3"
+ army_offense_defense_bonus_level_3_desc:0 "15% bonus to the Offense & Defense of Armies"
+ army_offense_defense_bonus_level_4:0 "Army Offense & Defense Bonus Level 4"
+ army_offense_defense_bonus_level_4_desc:0 "20% bonus to the Offense & Defense of Armies"
+
+  ## Army Kill Rate & Recovery Rate Bonus Levels 1 --> 4
+ army_kill_recovery_bonus_level_1:0 "Army Kill Rate & Recovery Rate Bonus Level 1"
+ army_kill_recovery_bonus_level_1_desc:0 "2.5% bonus to the Kill Rate and Recovery Rate of Armies"
+ army_kill_recovery_bonus_level_2:0 "Army Kill Rate & Recovery Rate Bonus Level 2"
+ army_kill_recovery_bonus_level_2_desc:0 "5% bonus to the Kill Rate and Recovery Rate of Armies"
+ army_kill_recovery_bonus_level_3:0 "Army Kill Rate & Recovery Rate Bonus Level 3"
+ army_kill_recovery_bonus_level_3_desc:0 "7.5% bonus to the Kill Rate and Recovery Rate of Armies"
+ army_kill_recovery_bonus_level_4:0 "Army Kill Rate & Recovery Rate Bonus Level 4"
+ army_kill_recovery_bonus_level_4_desc:0 "10% bonus to the Kill Rate and Recovery Rate of Armies"
+
+  ## Navy Offense & Defense Bonus Levels 1 --> 4
+ navy_offense_defense_bonus_level_1:0 "Navy Offense & Defense Bonus Level 1"
+ navy_offense_defense_bonus_level_1_desc:0 "5% bonus to the Offense & Defense of Navies"
+ navy_offense_defense_bonus_level_2:0 "Navy Offense & Defense Bonus Level 2"
+ navy_offense_defense_bonus_level_2_desc:0 "10% bonus to the Offense & Defense of Navies"
+ navy_offense_defense_bonus_level_3:0 "Navy Offense & Defense Bonus Level 3"
+ navy_offense_defense_bonus_level_3_desc:0 "15% bonus to the Offense & Defense of Navies"
+ navy_offense_defense_bonus_level_4:0 "Navy Offense & Defense Bonus Level 4"
+ navy_offense_defense_bonus_level_4_desc:0 "20% bonus to the Offense & Defense of Navies"
+
+  ## Military Formation Organization Gain & Morale Loss Bonus Levels 1 --> 4
+ military_organization_morale_bonus_level_1:0 "Organization Gain & Morale Loss Reduction Bonus Level 1"
+ military_organization_morale_bonus_level_1_desc:0 "5% bonus to the Organization Gain & 5% reduction to the Morale Loss  of Armies"
+ military_organization_morale_bonus_level_2:0 "Organization Gain & Morale Loss Reduction Bonus Level 2"
+ military_organization_morale_bonus_level_2_desc:0 "10% bonus to the Organization Gain & 10% reduction to the Morale Loss of Armies"
+ military_organization_morale_bonus_level_3:0 "Organization Gain & Morale Loss Reduction Bonus Level 3"
+ military_organization_morale_bonus_level_3_desc:0 "15% bonus to the Organization Gain & 15% reduction to the Morale Loss of Armies"
+ military_organization_morale_bonus_level_4:0 "Organization Gain & Morale Loss Reduction Bonus Level 4"
+ military_organization_morale_bonus_level_4_desc:0 "20% bonus to the Organization Gain & 20% reduction to the Morale Loss of Armies"
+
+  ## Military Goods Cost Reduction Bonus Levels 1 --> 4
+ military_goods_cost_reduction_bonus_level_1:0 "Military Goods Cost Reduction Bonus Level 1"
+ military_goods_cost_reduction_bonus_level_1_desc:0 "2.5% reduction to military goods cost"
+ military_goods_cost_reduction_bonus_level_2:0 "Military Goods Cost Reduction Bonus Level 2"
+ military_goods_cost_reduction_bonus_level_2_desc:0 "5% reduction to military goods cost"
+ military_goods_cost_reduction_bonus_level_3:0 "Military Goods Cost Reduction Bonus Level 3"
+ military_goods_cost_reduction_bonus_level_3_desc:0 "7.5% reduction to military goods cost"
+ military_goods_cost_reduction_bonus_level_4:0 "Military Goods Cost Reduction Bonus Level 4"
+ military_goods_cost_reduction_bonus_level_4_desc:0 "10% reduction to military goods cost"
+
+  ## Army Buildings Bonus Levels 1 --> 4
+ army_buildings_bonus_level_1:0 "Barrack Limit & Conscription Limit & Training Rate Bonus Level 1"
+ army_buildings_bonus_level_1_desc:0 "State building limit for Barracks & Conscription Centers increased by 10, and a 25% bonus to the training rate"
+ army_buildings_bonus_level_2:0 "Barrack Limit & Conscription Limit & Training Rate Bonus Level 2"
+ army_buildings_bonus_level_2_desc:0 "State building limit for Barracks & Conscription Centers increased by 20, and a 25% bonus to the training rate"
+ army_buildings_bonus_level_3:0 "Barrack Limit & Conscription Limit & Training Rate Bonus Level 3"
+ army_buildings_bonus_level_3_desc:0 "State building limit for Barracks & Conscription Centers increased by 30, and a 25% bonus to the training rate"
+ army_buildings_bonus_level_4:0 "Barrack Limit & Conscription Limit & Training Rate Bonus Level 4"
+ army_buildings_bonus_level_4_desc:0 "State building limit for Barracks & Conscription Centers increased by 40, and a 25% bonus to the training rate"
+
+  ## Navy Buildings Bonus Levels 1 --> 4
+ navy_buildings_bonus_level_1:0 "Port Limit & Naval Base Limit & Convoys Bonus Level 1"
+ navy_buildings_bonus_level_1_desc:0 "State port limit increased by 5 & State naval base limit increased by 10 & Convoy bonus of 5%"
+ navy_buildings_bonus_level_2:0 "Port Limit & Naval Base Limit & Convoys Bonus Level 2"
+ navy_buildings_bonus_level_2_desc:0 "State port limit increased by 5 & State naval base limit increased by 10 & Convoy bonus of 10%"
+ navy_buildings_bonus_level_3:0 "Port Limit & Naval Base Limit & Convoys Bonus Level 3"
+ navy_buildings_bonus_level_3_desc:0 "State port limit increased by 5 & State naval base limit increased by 20 & Convoy bonus of 15%"
+ navy_buildings_bonus_level_4:0 "Port Limit & Naval Base Limit & Convoys Bonus Level 4"
+ navy_buildings_bonus_level_4_desc:0 "State port limit increased by 5 & State naval base limit increased by 20 & Convoy bonus of 20%"
+
+  ## Market Access Price Impact & Building Economy of Scale Bonus Levels 1 --> 4
+ mapi_scale_bonus_level_1:0 "MAPI & Building Economy of Scale Bonus Level 1"
+ mapi_scale_bonus_level_1_desc:0 "Market Access Price Index increased by 2.5% & Building economy of scale increased by 5"
+ mapi_scale_bonus_level_2:0 "MAPI & Building Economy of Scale Bonus Level 2"
+ mapi_scale_bonus_level_2_desc:0 "Market Access Price Index increased by 2.5% & Building economy of scale increased by 10"
+ mapi_scale_bonus_level_3:0 "MAPI & Building Economy of Scale Bonus Level 3"
+ mapi_scale_bonus_level_3_desc:0 "Market Access Price Index increased by 2.5% & Building economy of scale increased by 15"
+ mapi_scale_bonus_level_4:0 "MAPI & Building Economy of Scale Bonus Level 4"
+ mapi_scale_bonus_level_4_desc:0 "Market Access Price Index increased by 2.5% & Building economy of scale increased by 20"
+
+  ## Authority & Influence & Bureaucracy Base Cost Population Multiplier Bonus Levels 1 --> 4
+ authority_influence_bureaucracy_bonus_level_1:0 "Authority & Influence & Bureaucracy Bonus Level 1"
+ authority_influence_bureaucracy_bonus_level_1_desc:0 "5% bonus to Authority, Influence, and Bureaucracy"
+ authority_influence_bureaucracy_bonus_level_2:0 "Authority & Influence & Bureaucracy Bonus Level 2"
+ authority_influence_bureaucracy_bonus_level_2_desc:0 "10% bonus to Authority, Influence, and Bureaucracy"
+ authority_influence_bureaucracy_bonus_level_3:0 "Authority & Influence & Bureaucracy Bonus Level 3"
+ authority_influence_bureaucracy_bonus_level_3_desc:0 "15% bonus to Authority, Influence, and Bureaucracy"
+ authority_influence_bureaucracy_bonus_level_4:0 "Authority & Influence & Bureaucracy Bonus Level 4"
+ authority_influence_bureaucracy_bonus_level_4_desc:0 "20% bonus to Authority, Influence, and Bureaucracy"
+
+  ## Prestige Bonus Levels 1 --> 4
+ prestige_bonus_level_1:0 "Prestige Bonus Level 1"
+ prestige_bonus_level_1_desc:0 "5% bonus to Prestige"
+ prestige_bonus_level_2:0 "Prestige Bonus Level 2"
+ prestige_bonus_level_2_desc:0 "10% bonus to Prestige"
+ prestige_bonus_level_3:0 "Prestige Bonus Level 3"
+ prestige_bonus_level_3_desc:0 "15% bonus to Prestige"
+ prestige_bonus_level_4:0 "Prestige Bonus Level 4"
+ prestige_bonus_level_4_desc:0 "20% bonus to Prestige"
+
+  ## Minting & Loan Interest & Taxation Capacity Bonus Levels 1 --> 4
+ minting_interest_taxation_bonus_level_1:0 "Minting & Loan Interest & Taxation Capacity Bonus Level 1"
+ minting_interest_taxation_bonus_level_1_desc:0 "5% bonus to Minting & 1% reduction in the Loan Interest Rate & Taxation capacity increase of 25"
+ minting_interest_taxation_bonus_level_2:0 "Minting & Loan Interest & Taxation Capacity Bonus Level 2"
+ minting_interest_taxation_bonus_level_2_desc:0 "10% bonus to Minting & 2% reduction in the Loan Interest Rate & Taxation capacity increase of 25"
+ minting_interest_taxation_bonus_level_3:0 "Minting & Loan Interest & Taxation Capacity Bonus Level 3"
+ minting_interest_taxation_bonus_level_3_desc:0 "15% bonus to Minting & 3% reduction in the Loan Interest Rate & Taxation capacity increase of 25"
+ minting_interest_taxation_bonus_level_4:0 "Minting & Loan Interest & Taxation Capacity Bonus Level 4"
+ minting_interest_taxation_bonus_level_4_desc:0 "20% bonus to Minting & 4% reduction in the Loan Interest Rate & Taxation capacity increase of 25"
+
+  ## Max Weekly Construction Progress & Infrastructure from Population & Max Infrastructure from Population Bonus Levels 1 --> 4
+ construction_infrastructure_population_bonus_level_1:0 "Max Weekly Construction & Infrastructure from Population Bonus Level 1"
+ construction_infrastructure_population_bonus_level_1_desc:0 "Increase in the maximum weekly construction progress of 10 & Increase of 1 in infrastructure from each 100k population & Increase of 10 in maximum total amount of instrastructure from each 100k population"
+ construction_infrastructure_population_bonus_level_2:0 "Max Weekly Construction & Infrastructure from Population Bonus Level 2"
+ construction_infrastructure_population_bonus_level_2_desc:0 "Increase in the maximum weekly construction progress of 10 & Increase of 2 in infrastructure from each 100k population & Increase of 20 in maximum total amount of instrastructure from each 100k population"
+ construction_infrastructure_population_bonus_level_3:0 "Max Weekly Construction & Infrastructure from Population Bonus Level 3"
+ construction_infrastructure_population_bonus_level_3_desc:0 "Increase in the maximum weekly construction progress of 10 & Increase of 3 in infrastructure from each 100k population & Increase of 30 in maximum total amount of instrastructure from each 100k population"
+ construction_infrastructure_population_bonus_level_4:0 "Max Weekly Construction & Infrastructure from Population Bonus Level 4"
+ construction_infrastructure_population_bonus_level_4_desc:0 "Increase in the maximum weekly construction progress of 10 & Increase of 4 in infrastructure from each 100k population & Increase of 40 in maximum total amount of instrastructure from each 100k population"
+
+  ## Land Trade Capacity & Trade Route Competitiveness & Trade Route Quantity Bonus Levels 1 --> 4
+ trade_bonus_level_1:0 "Land Trade Capacity & Trade Route Competitiveness and Quantity Bonus Level 1"
+ trade_bonus_level_1_desc:0 "Land trade route capacity increased by 90 & Trade route competitiveness increased by 5% & Trade route quantity increased by 5%"
+ trade_bonus_level_2:0 "Land Trade Capacity & Trade Route Competitiveness and Quantity Bonus Level 2"
+ trade_bonus_level_2_desc:0 "Land trade route capacity increased by 100 & Trade route competitiveness increased by 10% & Trade route quantity increased by 10%"
+ trade_bonus_level_3:0 "Land Trade Capacity & Trade Route Competitiveness and Quantity Bonus Level 3"
+ trade_bonus_level_3_desc:0 "Land trade route capacity increased by 200 & Trade route competitiveness increased by 15% & Trade route quantity increased by 15%"
+ trade_bonus_level_4:0 "Land Trade Capacity & Trade Route Competitiveness and Quantity Bonus Level 4"
+ trade_bonus_level_4_desc:0 "Land trade route capacity increased by 300 & Trade route competitiveness increased by 20% & Trade route quantity increased by 20%"
+
+  ## Assimilation & Conversion & Qualifications & Workforce Ratio Bonus Levels 1 --> 4
+ assimilation_conversion_qualifications_workforce_bonus_level_1:0 "Assimilation Rate & Conversion Rate & Qualificationss Rate & Workforce Ratio Bonus Level 1"
+ assimilation_conversion_qualifications_workforce_bonus_level_1_desc:0 "5% bonus to the culture Assimilation rate & 5% bonus to the religion Conversion rate & 2.5% bonus to the Qualifications rate & 1.5% bonus to the Workforce Ratio"
+ assimilation_conversion_qualifications_workforce_bonus_level_2:0 "Assimilation Rate & Conversion Rate & Qualificationss Rate & Workforce Ratio Bonus Level 2"
+ assimilation_conversion_qualifications_workforce_bonus_level_2_desc:0 "5% bonus to the culture Assimilation rate & 5% bonus to the religion Conversion rate & 5% bonus to the Qualifications rate & 3% bonus to the Workforce Ratio"
+ assimilation_conversion_qualifications_workforce_bonus_level_3:0 "Assimilation Rate & Conversion Rate & Qualificationss Rate & Workforce Ratio Bonus Level 3"
+ assimilation_conversion_qualifications_workforce_bonus_level_3_desc:0 "10% bonus to the culture Assimilation rate & 10% bonus to the religion Conversion rate & 7.5% bonus to the Qualifications rate & 4.5% bonus to the Workforce Ratio"
+ assimilation_conversion_qualifications_workforce_bonus_level_4:0 "Assimilation Rate & Conversion Rate & Qualificationss Rate & Workforce Ratio Bonus Level 4"
+ assimilation_conversion_qualifications_workforce_bonus_level_4_desc:0 "10% bonus to the culture Assimilation rate & 10% bonus to the religion Conversion rate & 10% bonus to the Qualifications rate & 6% bonus to the Workforce Ratio"
+

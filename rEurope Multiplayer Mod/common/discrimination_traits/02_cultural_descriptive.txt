@@ -1,0 +1,97 @@
+﻿# List of changes:
+#   Added:
+#       - Japonic
+#       - Japanese Islander
+
+#sausage_eater = {
+#}
+
+african_settler = {
+}
+
+finnic = {
+}
+
+francophone = {
+}
+
+hispanophone = {
+}
+
+lusophone = {
+}
+
+anglophone = {
+}
+
+german_speaking = {
+}
+
+italophone = {
+}
+
+slavic = {
+}
+
+jugoslav = {
+}
+
+jewish_group = {
+}
+
+han_chinese = {
+}
+
+arab_speaking = {
+}
+
+turkic = {
+}
+
+sinosphere = {
+}
+
+tai = {
+}
+
+yamato = {
+}
+
+japonic = {
+}
+
+himalayan = {
+}
+
+bantu = {
+}
+
+ethiopian = {
+}
+
+caucasus_group = {
+}
+
+polynesian_group = {
+}
+
+rumelian = {
+}
+
+celtic_people = {
+}
+
+west_slavic = {
+}
+
+east_slavic = {
+}
+
+greek_culture = {
+}
+
+swiss = {
+}
+
+japanese_islander = {
+}
