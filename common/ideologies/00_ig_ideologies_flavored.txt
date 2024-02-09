@@ -759,7 +759,7 @@ ideology_constitutionalist = {
 }
 # Japan Industrialist IG Ideology - Zaibatsu
 ideology_zaibatsu = {
-	icon = "gfx/interface/icons/ideology_icons/unused/reformer.dds"
+	icon = "gfx/interface/icons/ideology_icons/modernizer.dds"
 
 	lawgroup_economic_system = {	
 		law_interventionism = strongly_approve
@@ -801,7 +801,7 @@ ideology_zaibatsu = {
 
 # China Intelligentsia IG Ideology - Educators
 ideology_chinese_educators = {
-	icon = "gfx/interface/icons/ideology_icons/ideology_theocrat.dds"
+	icon = "gfx/interface/icons/ideology_icons/unused/theocrat.dds"
 
 	lawgroup_church_and_state = {
 		law_state_atheism = neutral
