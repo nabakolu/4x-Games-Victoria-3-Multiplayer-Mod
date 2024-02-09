@@ -18,8 +18,7 @@ pm_market_stalls = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -44,8 +43,7 @@ pm_market_squares = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -70,8 +68,7 @@ pm_covered_markets = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -98,8 +95,7 @@ pm_arcades = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -107,8 +103,7 @@ pm_no_street_lighting = {
 	texture = "gfx/interface/icons/production_method_icons/no_street_lighting.dds"
 	city_lights_color_index = 0	# Needs to match city_graphics_data.settings color array
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -132,8 +127,7 @@ pm_gas_streetlights = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -160,8 +154,7 @@ pm_electric_streetlights = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -173,8 +166,7 @@ pm_no_public_transport = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -200,8 +192,7 @@ pm_public_trams = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -227,8 +218,7 @@ pm_public_motor_carriages = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -291,8 +281,7 @@ pm_traditional_art = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -309,8 +298,7 @@ pm_realist_art = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -328,8 +316,7 @@ pm_photographic_art = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -349,8 +336,7 @@ pm_film_art = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -434,8 +420,7 @@ pm_hydroelectric_plant = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -462,8 +447,7 @@ pm_coal-fired_plant = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -490,8 +474,7 @@ pm_oil-fired_plant = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 

@@ -17,8 +17,7 @@ default_building_coffee_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -47,8 +46,7 @@ automatic_irrigation_building_coffee_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -72,8 +70,7 @@ pm_steam_rail_transport = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -161,8 +158,7 @@ default_building_cotton_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -191,8 +187,7 @@ automatic_irrigation_building_cotton_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -211,8 +206,7 @@ default_building_dye_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -241,8 +235,7 @@ automatic_irrigation_building_dye_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -261,8 +254,7 @@ default_building_opium_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -291,8 +283,7 @@ automatic_irrigation_building_opium_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -311,8 +302,7 @@ default_building_tea_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -341,8 +331,7 @@ automatic_irrigation_building_tea_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -361,8 +350,7 @@ default_building_tobacco_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -391,8 +379,7 @@ automatic_irrigation_building_tobacco_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -411,8 +398,7 @@ default_building_sugar_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -441,8 +427,7 @@ automatic_irrigation_building_sugar_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -459,8 +444,7 @@ default_building_banana_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -489,8 +473,7 @@ automatic_irrigation_building_banana_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -509,8 +492,7 @@ default_building_silk_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -539,8 +521,7 @@ automatic_irrigation_building_silk_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -559,8 +540,7 @@ default_building_vineyard_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -589,7 +569,6 @@ automatic_irrigation_building_vineyard_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }

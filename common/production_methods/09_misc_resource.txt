@@ -14,8 +14,7 @@ pm_simple_forestry = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -38,8 +37,7 @@ pm_saw_mills = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -65,16 +63,14 @@ pm_electric_saw_mills = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_hardwood = {
 	texture = "gfx/interface/icons/production_method_icons/no_hardwood_selection.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -88,8 +84,7 @@ pm_hardwood = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -107,16 +102,14 @@ pm_increased_hardwood = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
 pm_no_equipment = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -140,8 +133,7 @@ pm_steam_donkey_building_logging_camp = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -167,8 +159,7 @@ pm_chainsaws = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -191,8 +182,7 @@ pm_rail_transport_building_logging_camp = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -215,8 +205,7 @@ pm_log_carts = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -329,8 +318,7 @@ default_building_rubber_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -357,8 +345,7 @@ automatic_irrigation_building_rubber_plantation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -375,8 +362,7 @@ pm_simple_fishing = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -396,8 +382,7 @@ pm_fishing_trawlers = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -427,8 +412,7 @@ pm_steam_trawlers = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -449,8 +433,7 @@ pm_refrigerated_storage_building_fishing_wharf = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -477,8 +460,7 @@ pm_refrigerated_rail_cars_building_fishing_wharf = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -500,8 +482,7 @@ pm_flash_freezing_building_fishing_wharf = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -616,8 +597,7 @@ pm_simple_whaling = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -638,8 +618,7 @@ pm_wooden_whaling_ships = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -669,8 +648,7 @@ pm_steam_whaling_ships = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -691,8 +669,7 @@ pm_refrigerated_storage_building_whaling_station = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -719,8 +696,7 @@ pm_refrigerated_rail_cars_building_whaling_station = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -742,8 +718,7 @@ pm_flash_freezing_building_whaling_station = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -865,8 +840,7 @@ pm_steam_derricks = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -894,8 +868,7 @@ pm_combustion_derricks = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -918,8 +891,7 @@ pm_rail_transport_building_oil_rig = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -942,8 +914,7 @@ pm_tanker_cars = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 

@@ -23,8 +23,7 @@ pm_early_trains = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -52,8 +51,7 @@ pm_steam_trains = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -81,8 +79,7 @@ pm_electric_trains = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -110,16 +107,14 @@ pm_diesel_trains = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_passenger_trains = {
 	texture = "gfx/interface/icons/production_method_icons/no_passenger_trains.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -135,8 +130,7 @@ pm_wooden_passenger_carriages = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -155,8 +149,7 @@ pm_steel_passenger_carriages = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -235,8 +228,7 @@ pm_trade_center = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 

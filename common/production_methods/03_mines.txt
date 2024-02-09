@@ -16,8 +16,7 @@ pm_picks_and_shovels_building_coal_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -44,8 +43,7 @@ pm_atmospheric_engine_pump_building_coal_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -73,8 +71,7 @@ pm_condensing_engine_pump_building_coal_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -103,16 +100,14 @@ pm_diesel_pump_building_coal_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_explosives = {
 	texture = "gfx/interface/icons/production_method_icons/no_explosives.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -143,8 +138,7 @@ pm_nitroglycerin_building_coal_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -169,16 +163,14 @@ pm_dynamite_building_coal_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
 pm_no_steam_automation = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -206,16 +198,14 @@ pm_steam_donkey_building_coal_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
 pm_road_carts = {
 	texture = "gfx/interface/icons/production_method_icons/no_rail_transport.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -733,8 +723,7 @@ pm_picks_and_shovels_building_iron_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -762,8 +751,7 @@ pm_atmospheric_engine_pump_building_iron_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -792,8 +780,7 @@ pm_condensing_engine_pump_building_iron_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -822,8 +809,7 @@ pm_diesel_pump_building_iron_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -854,8 +840,7 @@ pm_nitroglycerin_building_iron_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -880,8 +865,7 @@ pm_dynamite_building_iron_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -909,8 +893,7 @@ pm_steam_donkey_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -934,8 +917,7 @@ pm_rail_transport_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -953,8 +935,7 @@ pm_picks_and_shovels_building_lead_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -982,8 +963,7 @@ pm_atmospheric_engine_pump_building_lead_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1012,8 +992,7 @@ pm_condensing_engine_pump_building_lead_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1042,8 +1021,7 @@ pm_diesel_pump_building_lead_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1074,8 +1052,7 @@ pm_nitroglycerin_building_lead_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1100,8 +1077,7 @@ pm_dynamite_building_lead_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1119,8 +1095,7 @@ pm_picks_and_shovels_building_sulfur_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1148,8 +1123,7 @@ pm_atmospheric_engine_pump_building_sulfur_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1178,8 +1152,7 @@ pm_condensing_engine_pump_building_sulfur_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1208,8 +1181,7 @@ pm_diesel_pump_building_sulfur_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1240,8 +1212,7 @@ pm_nitroglycerin_building_sulfur_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1266,8 +1237,7 @@ pm_dynamite_building_sulfur_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1290,8 +1260,7 @@ pm_picks_and_shovels_building_gold_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1324,8 +1293,7 @@ pm_atmospheric_engine_pump_building_gold_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1359,8 +1327,7 @@ pm_condensing_engine_pump_building_gold_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1394,8 +1361,7 @@ pm_diesel_pump_building_gold_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1431,8 +1397,7 @@ pm_nitroglycerin_building_gold_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1462,8 +1427,7 @@ pm_dynamite_building_gold_mine = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 

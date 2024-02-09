@@ -29,8 +29,7 @@ pm_bakery = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -54,8 +53,7 @@ pm_sweeteners = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -80,16 +78,14 @@ pm_baking_powder = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_disabled_canning = {
 	texture = "gfx/interface/icons/production_method_icons/no_canning.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -114,8 +110,7 @@ pm_cannery = {
 	}
 	texture = "gfx/interface/icons/production_method_icons/no_canning.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -142,16 +137,14 @@ pm_vacuum_canning = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
 pm_disabled_distillery = {
 	texture = "gfx/interface/icons/production_method_icons/no_distillery.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -175,8 +168,7 @@ pm_pot_stills = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -202,16 +194,14 @@ pm_patent_stills = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
 pm_manual_dough_processing = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -234,8 +224,7 @@ pm_automated_bakery = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -349,8 +338,7 @@ pm_handsewn_clothes = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -374,8 +362,7 @@ pm_dye_workshops = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -401,8 +388,7 @@ pm_sewing_machines = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -430,16 +416,14 @@ pm_electric_sewing_machines = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_luxury_clothes = {
 	texture = "gfx/interface/icons/production_method_icons/no_luxury_clothes.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -460,8 +444,7 @@ pm_craftsman_sewing = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -490,16 +473,14 @@ pm_elastics = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
 pm_traditional_looms = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -522,8 +503,7 @@ pm_mechanized_looms = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -548,8 +528,7 @@ pm_automatic_power_looms = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -668,8 +647,7 @@ pm_handcrafted_furniture = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -695,8 +673,7 @@ pm_lathe = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -726,16 +703,14 @@ pm_mechanized_workshops = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_luxuries = {
 	texture = "gfx/interface/icons/production_method_icons/no_luxury_furniture.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -755,8 +730,7 @@ pm_luxury_furniture = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -784,16 +758,14 @@ pm_precision_tools = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
 pm_automation_disabled = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -821,8 +793,7 @@ pm_watertube_boiler_building_furniture_manufacturies = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -850,8 +821,7 @@ pm_rotary_valve_engine_building_furniture_manufacturies = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -881,8 +851,7 @@ pm_assembly_lines_building_furniture_manufacturies = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -996,8 +965,7 @@ pm_forest_glass = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1025,8 +993,7 @@ pm_leaded_glass = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1054,8 +1021,7 @@ pm_crystal_glass = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1084,16 +1050,14 @@ pm_houseware_plastics = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_disabled_ceramics = {
 	texture = "gfx/interface/icons/production_method_icons/no_ceramics.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1112,8 +1076,7 @@ pm_ceramics = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1139,16 +1102,14 @@ pm_bone_china = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
 pm_manual_glassblowing = {
 	texture = "gfx/interface/icons/production_method_icons/glassworks_handicraft.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1176,8 +1137,7 @@ pm_automatic_bottle_blowers = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1294,8 +1254,7 @@ pm_crude_tools = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1318,8 +1277,7 @@ pm_pig_iron = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1343,8 +1301,7 @@ pm_steel = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1368,8 +1325,7 @@ pm_rubber_grips = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1395,8 +1351,7 @@ pm_watertube_boiler_building_tooling_workshops = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1422,8 +1377,7 @@ pm_rotary_valve_engine_building_tooling_workshops = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1451,8 +1405,7 @@ pm_assembly_lines_building_tooling_workshops = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1569,8 +1522,7 @@ pm_pulp_pressing = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1598,8 +1550,7 @@ pm_sulfite_pulping = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1629,8 +1580,7 @@ pm_bleached_paper = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1658,8 +1608,7 @@ pm_watertube_boiler_building_paper_mills = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1687,8 +1636,7 @@ pm_rotary_valve_engine_building_paper_mills = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -1811,8 +1759,7 @@ pm_artificial_fertilizers = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1841,8 +1788,7 @@ pm_improved_fertilizer = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1873,16 +1819,14 @@ pm_nitrogen_fixation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_explosives_production = {
 	texture = "gfx/interface/icons/production_method_icons/no_explosives.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1909,8 +1853,7 @@ pm_leblanc_process = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1941,8 +1884,7 @@ pm_ammonia-soda_process = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -1973,8 +1915,7 @@ pm_vacuum_evaporation = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2007,8 +1948,7 @@ pm_brine_electrolysis = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2085,8 +2025,7 @@ pm_dye_production = {
 pm_no_artificial_fibers = {
 	texture = "gfx/interface/icons/production_method_icons/no_artificial_silk.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -2111,8 +2050,7 @@ pm_rayon = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -2139,8 +2077,7 @@ pm_blister_steel_process = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2170,8 +2107,7 @@ pm_bessemer_process = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2201,8 +2137,7 @@ pm_open_hearth_process = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2234,8 +2169,7 @@ pm_electric_arc_process = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2260,8 +2194,7 @@ pm_watertube_boiler_building_steel_mills = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -2286,8 +2219,7 @@ pm_rotary_valve_engine_building_steel_mills = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -2310,8 +2242,7 @@ pm_steam_engines = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2341,8 +2272,7 @@ pm_electric_engines = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2371,16 +2301,14 @@ pm_diesel_engines = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_automobiles_disabled = {
 	texture = "gfx/interface/icons/production_method_icons/no_automobiles.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -2410,8 +2338,7 @@ pm_automobile_production = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -2437,8 +2364,7 @@ pm_watertube_boiler_building_motor_industry = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -2464,8 +2390,7 @@ pm_rotary_valve_engine_building_motor_industry = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -2493,8 +2418,7 @@ pm_assembly_lines_building_motor_industry = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -2516,8 +2440,7 @@ pm_basic_shipbuilding = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2544,8 +2467,7 @@ pm_complex_shipbuilding = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2576,8 +2498,7 @@ pm_metal_shipbuilding = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2609,16 +2530,14 @@ pm_arc_welding_shipbuilding = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_military_shipbuilding = {
 	texture = "gfx/interface/icons/production_method_icons/no_military_shipbuilding.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2641,8 +2560,7 @@ pm_military_shipbuilding_wooden = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2670,8 +2588,7 @@ pm_military_shipbuilding_wooden_2 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2697,8 +2614,7 @@ pm_military_shipbuilding_steam = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2725,8 +2641,7 @@ pm_military_shipbuilding_steam_2 = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -2948,16 +2863,14 @@ pm_aeroplane_production = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_tank_production = {
 	texture = "gfx/interface/icons/production_method_icons/no_tanks.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -2982,8 +2895,7 @@ pm_tank_production = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -3004,16 +2916,14 @@ pm_telephones = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_radios = {
 	texture = "gfx/interface/icons/production_method_icons/no_radios.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -3034,8 +2944,7 @@ pm_radios = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -3056,12 +2965,10 @@ pm_muskets = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3086,8 +2993,7 @@ pm_rifles = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3113,8 +3019,7 @@ pm_repeaters = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3141,16 +3046,14 @@ pm_bolt_action_rifles = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_artillery_production = {
 	texture = "gfx/interface/icons/production_method_icons/no_artillery_production.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3173,8 +3076,7 @@ pm_cannons = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3198,8 +3100,7 @@ pm_smoothbores = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3224,8 +3125,7 @@ pm_breech_loaders = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3250,8 +3150,7 @@ pm_recoiled_barrels = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3274,8 +3173,7 @@ pm_rotary_valve_engine_building_arms_industry = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -3300,8 +3198,7 @@ pm_assembly_lines_building_arms_industry = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -3510,8 +3407,7 @@ pm_percussion_caps = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3540,8 +3436,7 @@ pm_explosive_shells = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3564,8 +3459,7 @@ pm_rotary_valve_engine_building_munition_plants = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -3590,8 +3484,7 @@ pm_assembly_lines_building_munition_plants = {
 	}
 	required_input_goods = electricity
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -3772,8 +3665,7 @@ pm_publicly_traded_building_munition_plants = {
 pm_no_coal_liquefaction = {
 	texture = "gfx/interface/icons/production_method_icons/no_canning.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3801,8 +3693,7 @@ pm_coal_liquefaction_lvl_1 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3830,8 +3721,7 @@ pm_coal_liquefaction_lvl_2 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3859,8 +3749,7 @@ pm_coal_liquefaction_lvl_3 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3888,8 +3777,7 @@ pm_coal_liquefaction_lvl_4 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -3917,16 +3805,14 @@ pm_coal_liquefaction_lvl_5 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_primary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
 pm_no_synthetic_rubber = {
 	texture = "gfx/interface/icons/production_method_icons/no_artificial_silk.dds"
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -3954,8 +3840,7 @@ pm_synthetic_rubber_lvl_1 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -3983,8 +3868,7 @@ pm_synthetic_rubber_lvl_2 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -4012,8 +3896,7 @@ pm_synthetic_rubber_lvl_3 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -4041,8 +3924,7 @@ pm_synthetic_rubber_lvl_4 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }
 
@@ -4070,7 +3952,6 @@ pm_synthetic_rubber_lvl_5 = {
 		}
 	}
 	timed_modifiers = {
-		name = modifier_recently_adjusted_secondary_PM
-		is_decaying = yes
+		modifier_recently_adjusted_secondary_PM
 	}
 }

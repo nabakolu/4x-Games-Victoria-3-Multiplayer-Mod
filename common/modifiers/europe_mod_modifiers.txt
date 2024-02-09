@@ -10,11 +10,11 @@ modifier_buddhist_syncretism = {
 }
 
 modifier_recently_adjusted_primary_PM = {
-    icon = gfx\interface\icons\timed_modifier_icons\modifier_gear_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	building_throughput_add = -0.2
 }
 
 modifier_recently_adjusted_secondary_PM = {
-    icon = gfx\interface\icons\timed_modifier_icons\modifier_gear_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	building_throughput_add = -0.1
 }
