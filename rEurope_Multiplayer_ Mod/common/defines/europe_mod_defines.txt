@@ -8,17 +8,24 @@
 #		-- Diplomatic play opening phase ends after 8 days (1 week) instead of 21 days (3 weeks)
 #		-- Diplomatic play closing phase starts after 21 days (3 weeks) instead of 80 days (+11 weeks)
 #		-- War breaks out after 28 days (4 weeks) instead of 100 days (+14 weeks)
-
+#	- NEconomy:
+#		-- Maximum Trade Route level increased to 250
+#		-- Economy of Scale Cap increased to 61
 NGame = {
-    MAX_NUMBER_OF_AUTOSAVES = 24
+	MAX_NUMBER_OF_AUTOSAVES = 24
 }
 
 NDiplomacy = {
-    DIPLOMATIC_PLAY_ABANDON_SUPPORT_RELATIONS_IMPACT = 0
-    DIPLOMATIC_PLAY_ESCALATION_DAILY = 1
-	DIPLOMATIC_PLAY_ESCALATION_PAUSE_FROM_ACTION = 2 # Number of days that escalation pauses when either side takes an action
-	DIPLOMATIC_PLAY_ESCALATION_PAUSE_MAX = 10 # Escalation pause can't be longer than this no matter how many actions are taken at once
+	DIPLOMATIC_PLAY_ABANDON_SUPPORT_RELATIONS_IMPACT = 0
+	DIPLOMATIC_PLAY_ESCALATION_DAILY = 1
+	DIPLOMATIC_PLAY_ESCALATION_PAUSE_FROM_ACTION = 2	# Number of days that escalation pauses when either side takes an action
+	DIPLOMATIC_PLAY_ESCALATION_PAUSE_MAX = 10	# Escalation pause can't be longer than this no matter how many actions are taken at once
 	DIPLOMATIC_PLAY_OPENING_PHASE_END = 8	# Before this, defender needs to set their wargoal and you can't join/sway
-	DIPLOMATIC_PLAY_CLOSING_PHASE_START = 21 # After this, it isn't possible to join/sway further countries
+	DIPLOMATIC_PLAY_CLOSING_PHASE_START = 21	# After this, it isn't possible to join/sway further countries
 	DIPLOMATIC_PLAY_ESCALATION_WAR_BREAKOUT = 28
+}
+
+NEconomy = {
+	TRADE_ROUTE_MAX_LEVEL = 250
+	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 61
 }
