@@ -384,6 +384,10 @@ FodyWeavers.xsd
 !.vscode/extensions.json
 *.code-workspace
 
+# Files used by CWTools for Visual Studio Code
+*.cwt
+.cwtools/*
+
 # Local History for Visual Studio Code
 .history/
 
