@@ -1,4 +1,4 @@
-modifier_sakoku_rangaku = {
+﻿modifier_sakoku_rangaku = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_tech_spread_mult = 0.15
 	country_max_declared_interests_mult = -0.5
