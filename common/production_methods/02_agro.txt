@@ -1,5 +1,7 @@
 ﻿# List of changes:
-# 	Test: Added timed modifiers for PM switches
+# 	Added timed modifiers for PM Changes:
+#	Change in primary PM grants a decaying -20% throughput
+#	Change in secondary PM grants a decaying -10% throughput
 pm_simple_farming = {
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
