@@ -1,4 +1,8 @@
-﻿pm_simple_forestry = {
+﻿# List of changes:
+# 	Added timed modifiers for PM Changes:
+#	Change in primary PM grants a decaying -20% throughput
+#	Change in secondary PM grants a decaying -10% throughput
+pm_simple_forestry = {
 	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
 	building_modifiers = {
 		workforce_scaled = {
