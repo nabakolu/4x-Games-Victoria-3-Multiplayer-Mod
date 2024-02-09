@@ -4,6 +4,7 @@
 # pm_modern_port:
 #	-- Amount of Convoys increased to 300 from 200
 #
+# 	Added timed modifiers for PM Changes:
 #	Change in primary PM grants a decaying -20% throughput
 #	Change in secondary PM grants a decaying -10% throughput
 pm_anchorage = {
