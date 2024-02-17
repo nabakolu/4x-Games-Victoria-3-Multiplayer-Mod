@@ -1,6 +1,6 @@
 # List of changes:
-#	- Kyushu State:
-#		-- Netherlands Treaty Port: xAE5874
+#	- Ryukyu Islands State:
+#		-- Added homeland for Ryukyuan culture
 
 # "Why do some state entries have quote marks around them, when others don't?"
 # "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
@@ -5793,13 +5793,7 @@ STATES = {
 	s:STATE_KYUSHU = {
 		create_state = {
 			country = c:JAP
-			owned_provinces = { x70CF00 xF0D000 x73414A xE16F98 x705080 x906F1E xEF5080 xCEA020 x1F0D2C x5C7980 x70D080 x800111 xEF50C0 }
-		}
-        create_state = {
-			country = c:NET
-			owned_provinces = { xAE5874 }
-			state_type = unincorporated
-			state_type = treaty_port
+			owned_provinces = { x70CF00 xF0D000 x73414A xAE5874 xE16F98 x705080 x906F1E xEF5080 xCEA020 x1F0D2C x5C7980 x70D080 x800111 xEF50C0 }
 		}
 		
 		add_homeland = cu:japanese
@@ -5812,6 +5806,7 @@ STATES = {
 		}
 			
 		add_homeland = cu:japanese
+		add_homeland = cu:ryukyuan
 	}
 
 

@@ -1,7 +1,7 @@
 ﻿# List of changes:
 #	- Agitators added:
-#		- Heihachiro Oshio
-#		- Koan Ogata 
+#		- Heihachiro Oshio (used to be leader of the Devout, now Devout Land Reformer agitator)
+#		- Koan Ogata (used to be leader of the Intelligentsia, now Intelligentsia Reformer agitator)
 
 agitator_heihachiro_oshio = {
 	first_name = Heihachiro
@@ -13,7 +13,7 @@ agitator_heihachiro_oshio = {
 	birth_date = 1793.3.4
 	is_agitator = yes
 	interest_group = ig_devout
-	ideology = ideology_social_democrat
+	ideology = ideology_land_reformer
 	traits = {
 		charismatic
 		inspirational_orator
@@ -23,8 +23,8 @@ agitator_heihachiro_oshio = {
 		country_trigger = {
 			c:JAP ?= this
 		}
-		earliest_usage_date = 1838.1.1
-		latest_usage_date = 1863.7.25
+		earliest_usage_date = 1833.1.1 # Start of the Tenpo Famine
+		latest_usage_date = 1837.5.1 # Commits suicide after a failed rebellion attempt to try to overthrow the shogunate
 		chance = 100
 	}
 }
@@ -48,7 +48,7 @@ agitator_koan_ogata = {
 		country_trigger = {
 			c:JAP ?= this
 		}
-		earliest_usage_date = 1838.1.1
+		earliest_usage_date = 1838.1.1 # Established Tekijuku, whose students became major figures in the Meiji Restoration
 		latest_usage_date = 1863.7.25
 		chance = 100
 	}

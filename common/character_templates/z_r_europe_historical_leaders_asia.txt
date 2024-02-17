@@ -4,6 +4,13 @@
 #           -- Made leader of the landowers interest group
 #           -- Arrogant trait removed
 #           -- Hedonist trait added
+#       - Komei Yamato
+#           -- Reserved trait removed
+#           -- Wrathful trait added
+#           -- Brave trait added
+#           -- Bigoted trait added
+#       - Meiji Yamato
+#           -- Reserved trait added
 
 # Japan - JAP
 jap_ienari_tokugawa_template = {
@@ -19,5 +26,34 @@ jap_ienari_tokugawa_template = {
     traits = {
         hedonist
         expensive_tastes # bit of corruption
+    }
+}
+jap_meiji_yamato_template = {
+    first_name = "Meiji"
+    last_name = "Yamato"
+    historical = yes
+    heir = yes
+    birth_date = 1852.1.1
+    dna = dna_emperor_meiji
+    interest_group = ig_industrialists
+    ideology = ideology_traditionalist
+    traits = {
+        innovative
+        charismatic
+        reserved
+    }
+}
+jap_komei_yamato_template = {
+    first_name = "Komei"
+    last_name = "Yamato"
+    historical = yes
+    ruler = yes
+    birth_date = 1831.1.1
+    dna = dna_emperor_komei
+    interest_group = ig_armed_forces
+    traits = {
+        brave
+        wrathful
+        bigoted
     }
 }

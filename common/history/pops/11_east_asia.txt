@@ -3,6 +3,7 @@
 #		-- Population of Kanto State assigned to Chubu State
 #		-- Population of Chubu State assigned to Kansai State
 #		-- Population of Kansai State assigned to Kanto State
+#		-- Population of Ryukyu Islands State changed from Japanese culture to Ryukyuan culture
 
 POPS = {
 	s:STATE_DZUNGARIA = {

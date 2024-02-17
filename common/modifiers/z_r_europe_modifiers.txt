@@ -4,11 +4,6 @@
 	country_max_declared_interests_mult = -0.5
 }
 
-modifier_buddhist_syncretism = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	state_conversion_mult = -0.5
-}
-
 modifier_recently_adjusted_primary_PM = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	building_throughput_add = -0.2

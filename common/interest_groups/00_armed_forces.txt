@@ -1,6 +1,6 @@
 ﻿# List of changes:
 #	- Samurai:
-#		- Removed Jingoist Ideology
+#		-- Removed Jingoist ideology (stances have been folded into Bakufu ideology)
 
 ig_armed_forces = {
 	color = hsv{ 0.09 0.29 0.39 }
