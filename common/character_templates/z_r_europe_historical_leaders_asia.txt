@@ -1,0 +1,23 @@
+﻿# List of changes:
+#   Leaders modified:
+#       - Ienari Tokugawa
+#           -- Made leader of the landowers interest group
+#           -- Arrogant trait removed
+#           -- Hedonist trait added
+
+# Japan - JAP
+jap_ienari_tokugawa_template = {
+    ruler = yes
+    first_name = Ienari
+    last_name = Tokugawa
+    historical = yes
+    birth_date = 1773.11.18
+    dna = dna_shogun_tokugawa_ienari
+    interest_group = ig_landowners
+    ig_leader = yes
+    ideology = ideology_traditionalist
+    traits = {
+        hedonist
+        expensive_tastes # bit of corruption
+    }
+}

@@ -50,6 +50,43 @@
 #	Companies removed:
 #		- Mantetsu (South Manchuria Railway)
 
+# South Manchuria Railway - Disabled (softly via potential, attainable, and possible blocks)
+company_mantetsu = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/japanese_mantetsu.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_railway
+		building_coal_mine
+		building_glassworks
+	}
+	
+	potential = {
+		always = no
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			always = no
+		}
+	}
+	
+	possible = { 
+		always = no
+	}
+	
+	prosperity_modifier = {
+		interest_group_ig_industrialists_pol_str_mult = 0.2
+		building_iron_mine_throughput_add = 0.1
+	}	
+	
+	ai_weight = {
+		value = 0
+	}
+}
+
 # Mitsui
 company_mitsui = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/japanese_mitsui.dds"
@@ -104,7 +141,7 @@ company_mitsui = {
 	}
 }
 
-# Sumitomo
+# Sumitomo - New
 company_sumitomo = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/japan/sumitomo.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"

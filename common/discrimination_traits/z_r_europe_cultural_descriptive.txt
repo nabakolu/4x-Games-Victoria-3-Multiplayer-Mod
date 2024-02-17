@@ -1,0 +1,10 @@
+﻿# List of changes:
+#   Added:
+#       - Japonic
+#       - Japanese Islander
+
+japonic = {
+}
+
+japanese_islander = {
+}

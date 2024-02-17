@@ -1,0 +1,437 @@
+﻿# List of changes:
+#	Cultures modified:
+#		- Japanese:
+#			-- Yamoto trait removed
+#			-- Japonic trait added
+#			-- Japanese Islander trait added
+#		- Ainu:
+#			-- Japanese Islander trait added
+#		- Yuanzhumin:
+#			-- Sinosphere trait added
+#	Cultures added:
+#		- Ryukyuan:
+#			-- Japonic trait added
+#			-- Japanese Islander trait added
+#			-- East Asian Heritage trait added
+#	Cultures removed:
+#
+
+japanese={
+	color= hsv{ 0 0 90 }
+	religion = mahayana
+	traits = { japonic japanese_islander east_asian_heritage }
+	male_common_first_names={
+		Aritomo
+		Gentaro
+		Gonnohyoe
+		Goro
+		Hayao
+		Heihachiro
+		Hikonojo
+		Hiroshi
+		Hyoe
+		Iwao
+		Jinzaburo
+		Jiro
+		Kageaki
+		Kagenori
+		Kantaro
+		Kazushige
+		Keisuke
+		Kenkichi
+		Kiyotaka
+		Koichiro
+		Kotohito
+		Kozo
+		Kuranosuke
+		Maresuke
+		Masatake
+		Masujiro
+		Michisura
+		Mineo
+		Mitsue
+		Mitsuomi
+		Nariaki
+		Nobuyoshi
+		Rokuro
+		Sadao
+		Samata
+		Shichiro
+		Shigeru
+		Shigeto
+		Shinsaku
+		Shoin
+		Soroku
+		Sotokichi
+		Sukenori
+		Sukeyuki
+		Sumiyoshi
+		Tadakuni
+		Takamori
+		Takayoshi
+		Takeaki
+		Tamemoto
+		Taro
+		Taruhito
+		Tetsutaro
+		Tomasaburo
+		Tomonosuke
+		Toshimichi
+		Toshiyoshi
+		Tsugumichi
+		Yahachi
+		Yasukata
+		Yasuyoshi
+		Yoshida
+		Yoshifuru
+		Yoshika
+		Yoshimichi
+		Yoshinobu
+		Yoshinori
+		Yusaku
+	}
+	female_common_first_names = {
+		Asako
+		Chikako
+		Ginko
+		Gyokuran
+		Kaho
+		Kei
+		Kin
+		Kumehachi
+		Masako
+		Miki
+		Natsu
+		Nobu
+		Oi
+		Rengetsu
+		Sayoko
+		Teru
+		Toyoko
+		Tsuneko
+	}	
+	noble_last_names = {
+		Hayashi
+		Ito
+		Jutoku
+		Kujo
+		Matsudaira
+		Mitsune
+		Nabeshima
+		Togo
+		Tokugawa
+	}
+	common_last_names={
+		Akiyama
+		Araki
+		Arichi
+		Arisugawa
+		Dewa
+		Enomoto
+		Hasegawa
+		Honjo
+		Ichinohe
+		Inoue
+		Itagaki
+		Kabayama
+		Kamimura
+		Kamio
+		Kanin
+		Kataoka
+		Kato
+		Katsu
+		Katsura
+		Kawakami
+		Kawamura
+		Kido
+		Kodama
+		Kuroda
+		Kuroki
+		Makino
+		Masaki
+		Minami
+		Muto
+		Nakamuta
+		Nire
+		Nogi
+		Nozu
+		Okada
+		Oku
+		Okubo
+		Omura
+		Osumi
+		Oyama
+		Saigo
+		Sakura
+		Sato
+		Shibayama
+		Shimamura
+		Shirakawa
+		Suzuki
+		Tachibana
+		Takashima
+		Takasugi
+		Tamon
+		Terauchi
+		Tsuboi
+		Ueda
+		Uehara
+		Ugaki
+		Uryu
+		Yamagata
+		Yamakawa
+		Yamamoto
+		Yamashita
+		Yamaya
+		Yashiro
+		Yui
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+
+ryukyuan={
+	color= hsv{ 0 0 90 }
+	religion = mahayana
+	traits = { japonic japanese_islander east_asian_heritage }
+	male_common_first_names={
+		Aritomo
+		Gentaro
+		Gonnohyoe
+		Goro
+		Hayao
+		Heihachiro
+		Hikonojo
+		Hiroshi
+		Hyoe
+		Iwao
+		Jinzaburo
+		Jiro
+		Kageaki
+		Kagenori
+		Kantaro
+		Kazushige
+		Keisuke
+		Kenkichi
+		Kiyotaka
+		Koichiro
+		Kotohito
+		Kozo
+		Kuranosuke
+		Maresuke
+		Masatake
+		Masujiro
+		Michisura
+		Mineo
+		Mitsue
+		Mitsuomi
+		Nariaki
+		Nobuyoshi
+		Rokuro
+		Sadao
+		Samata
+		Shichiro
+		Shigeru
+		Shigeto
+		Shinsaku
+		Shoin
+		Soroku
+		Sotokichi
+		Sukenori
+		Sukeyuki
+		Sumiyoshi
+		Tadakuni
+		Takamori
+		Takayoshi
+		Takeaki
+		Tamemoto
+		Taro
+		Taruhito
+		Tetsutaro
+		Tomasaburo
+		Tomonosuke
+		Toshimichi
+		Toshiyoshi
+		Tsugumichi
+		Yahachi
+		Yasukata
+		Yasuyoshi
+		Yoshida
+		Yoshifuru
+		Yoshika
+		Yoshimichi
+		Yoshinobu
+		Yoshinori
+		Yusaku
+	}
+	female_common_first_names = {
+		Asako
+		Chikako
+		Ginko
+		Gyokuran
+		Kaho
+		Kei
+		Kin
+		Kumehachi
+		Masako
+		Miki
+		Natsu
+		Nobu
+		Oi
+		Rengetsu
+		Sayoko
+		Teru
+		Toyoko
+		Tsuneko
+	}	
+	noble_last_names = {
+		Hayashi
+		Ito
+		Jutoku
+		Kujo
+		Matsudaira
+		Mitsune
+		Nabeshima
+		Togo
+		Tokugawa
+	}
+	common_last_names={
+		Akiyama
+		Araki
+		Arichi
+		Arisugawa
+		Dewa
+		Enomoto
+		Hasegawa
+		Honjo
+		Ichinohe
+		Inoue
+		Itagaki
+		Kabayama
+		Kamimura
+		Kamio
+		Kanin
+		Kataoka
+		Kato
+		Katsu
+		Katsura
+		Kawakami
+		Kawamura
+		Kido
+		Kodama
+		Kuroda
+		Kuroki
+		Makino
+		Masaki
+		Minami
+		Muto
+		Nakamuta
+		Nire
+		Nogi
+		Nozu
+		Okada
+		Oku
+		Okubo
+		Omura
+		Osumi
+		Oyama
+		Saigo
+		Sakura
+		Sato
+		Shibayama
+		Shimamura
+		Shirakawa
+		Suzuki
+		Tachibana
+		Takashima
+		Takasugi
+		Tamon
+		Terauchi
+		Tsuboi
+		Ueda
+		Uehara
+		Ugaki
+		Uryu
+		Yamagata
+		Yamakawa
+		Yamamoto
+		Yamashita
+		Yamaya
+		Yashiro
+		Yui
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+
+ainu={
+	color= hsv{ 0 0 0.5 }
+	religion = animist
+	traits = { ainu_language japanese_islander north_asian_heritage }
+	male_common_first_names={
+		Akihi
+		Apniainu
+		Menkakush
+		Munkeke
+		Pasekur
+		Petennouk
+		Resaak
+		Seimei
+		Shinriki
+		Shiratekka
+		Shiromainu
+		Shitekka
+		Unayanke
+	}
+	female_common_first_names = {
+		Haru
+		Imekanu
+		Shizue
+		Tahkonanna
+		Umeko
+		Yaeko
+	}	
+	noble_last_names = {
+		Nakamura
+		Peramonkoro
+		Sunazawa
+	}
+	common_last_names={
+		Ando
+		Aterui
+		Harukor
+		Isonash
+		Keutoranke
+		Koshamine
+		Shakushine
+		Turushno
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+
+yuanzhumin={
+	color= hsv { 0.272 0.75 0.54 }
+	religion = animist
+	traits = { sinosphere polynesian_group indigenous_oceanic_heritage }
+	male_common_first_names={
+		Alizu Attun Suniuo Baqah Bokeh Kilash Maraos Mona Paelabang Pelin Rapongan Sorong Tahas Taiban Uyongu Walis WaLiSsu Yohani YuKan Yungai Toril Botel Tawu Kanas Difang
+	}
+	female_common_first_names = {
+		Giwas Mavivo Sorong Mona Tain Hulijun Sumay Kacaw Mayaw Biho Peishan Xinyi Panai Kusui Ado Kalitiang Pacidal Jiahui Gewas Mevevo Iami Igay
+	}
+	common_last_names={
+		Shiqatafu Hayung Rudao Kosang Pacidal Tuwana Ciro Kaybaybaw Isqaqavut Yatauyungana Siqeya Qaljupayare Sasala Danapan SiNan
+		SiApenKotan SiAman Ryuzo Tao Thao Palalin Kociang
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = decentralised_americas
+}
