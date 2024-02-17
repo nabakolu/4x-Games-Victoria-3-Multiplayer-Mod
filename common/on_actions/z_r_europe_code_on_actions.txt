@@ -1,0 +1,115 @@
+﻿# List of changes:
+#	- On Law Activated:
+#		-- Japan:
+#			--- If Japan has the Sakoku Rangaku modifier and Japan no longer has the Isolationism Trade Law, the Sakoku Rangaku modifier is removed
+
+# For on_actions launched by the code itself.
+
+# Root = owner Country of the Law
+# executed when enactment stops for any reason. Could be because the law has
+# been enacted, or because the enactment has been stopped by the player.
+#
+# NOTE: at the point in time when this on-action is triggered, the law
+# is still considered being enacted, therefore the `currently_enacting_law` link
+# will work as expected, even though the enactment is _just_ about to end
+on_law_enactment_ended = {
+}
+
+# Root owner Country of the Law
+# executed when the law is activated for any reason. It's usually because it
+# has been enacted, but script can activate laws directly without going through
+# the enactment process. Normally, it's immediately preceded by
+# on_law_enactment_ended, but if a law is directly set by script, thus
+# bypassing the enactment process, this will execute while
+# on_law_enactment_ended will not
+#
+# NOTE: unlike the other on_law_<something> on-actions, at the point in time
+# when this is triggered the law that was enacted is no longer considered being
+# enacted. Therefore using the `currently_enacting_law` link will return the
+# null law
+on_law_activated = {
+	effect = {
+		if = {
+			limit = {
+				c:BRZ ?= {
+					has_journal_entry = je_matter_of_slavery
+					OR = {
+						has_modifier = unrestricted_slave_trade_modifier
+						has_modifier = restricted_slave_trade_modifier
+						has_modifier = slave_shipments_intercepted_small
+						has_modifier = slave_shipments_intercepted_large
+					}
+					OR = {
+						has_law = law_type:law_debt_slavery
+						has_law = law_type:law_legacy_slavery
+					}
+				}
+			}
+			c:BRZ ?= {
+				if = {
+					limit = {
+						has_modifier = unrestricted_slave_trade_modifier
+					}
+					remove_modifier = unrestricted_slave_trade_modifier
+				}
+				if = {
+					limit = {
+						has_modifier = restricted_slave_trade_modifier
+					}
+					remove_modifier = restricted_slave_trade_modifier
+				}
+				if = {
+					limit = {
+						has_modifier = slave_shipments_intercepted_small
+					}
+					remove_modifier = slave_shipments_intercepted_small
+				}
+				if = {
+					limit = {
+						has_modifier = slave_shipments_intercepted_large
+					}
+					remove_modifier = slave_shipments_intercepted_large
+				}
+				if = {
+					limit = {
+						has_variable = var_slave_trade_suppression_var
+					}
+					remove_variable = var_slave_trade_suppression_var
+				}
+			}
+		}
+		if = {
+			limit = {
+                c:JAP ?= {
+                    has_modifier = modifier_sakoku_rangaku
+                    NOT = { has_law = law_type:law_isolationism }
+                }
+            }
+            c:JAP ?= {
+                remove_modifier = modifier_sakoku_rangaku
+            }
+        }
+		if = {
+			limit = {
+				c:BRZ = {
+					has_journal_entry = je_matter_of_slavery
+					OR = {
+						has_law = law_type:law_debt_slavery
+						has_law = law_type:law_legacy_slavery
+					}
+					any_interest_group = {
+						has_modifier = restricted_slave_trade_ig_modifier
+					}
+				}
+			}
+			c:BRZ ?= {
+				every_interest_group = {
+					limit = {
+						has_modifier = restricted_slave_trade_ig_modifier
+					}
+					remove_modifier = restricted_slave_trade_ig_modifier
+				}
+			}
+		}
+	}
+}
