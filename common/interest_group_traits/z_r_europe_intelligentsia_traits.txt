@@ -1,0 +1,12 @@
+﻿# List of changes:
+#	- Restoration:
+#		-- Changed bonus from +10% Authority to +10% Influence
+
+ig_trait_restoration = {
+	icon = "gfx/interface/icons/ig_trait_icons/patriotic_fervor.dds"
+	min_approval = loyal
+	
+	modifier = {
+		country_influence_mult = 0.1
+	}
+}

@@ -1,0 +1,24 @@
+﻿# List of changes:
+#	- New Traits Added:
+#		-- Informal Taxation (China-specific Landowner Happy trait):
+#			-- +10% Aristocrats investment pool contribution efficiency
+#		-- Bureaucratic Legalism (China-specific Landowner Loyal trait):
+#			-- +10 base Legitimacy
+
+ig_trait_informal_taxation = {
+	icon = "gfx/interface/icons/ig_trait_icons/informal_taxation.dds"
+	min_approval = happy
+	
+	modifier = {
+		state_aristocrats_investment_pool_efficiency_mult = 0.1
+	}
+}
+
+ig_trait_bureaucratic_legalism = {
+	icon = "gfx/interface/icons/ig_trait_icons/treasury_bonds.dds"
+	min_approval = loyal
+	
+	modifier = {
+		country_legitimacy_base_add = 10
+	}
+}

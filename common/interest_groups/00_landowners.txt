@@ -1,5 +1,8 @@
 ﻿# List of changes:
-#	- Chinese Landowners have a separate check to add or remove IG Traits
+#	- Chinese Landowners:
+#		-- Have a separate check to add or remove IG Traits
+#		-- Happy trait changed from generic Family Ties (+10% Influence) to country-specific Informal Taxation (+10% Aristocrats Investment Pool Contribution Efficiency)
+#		-- Loyal trait changed from generic Noblesse Oblige (+10% Aristocrats Investment Pool Contribution Efficiency) to country-specific Bureaucratic Legalism (+10 Government Legitimacy)
 
 ig_landowners = {
 	color = hsv{ 0.63 0.40 0.69 }
@@ -48,8 +51,8 @@ ig_landowners = {
 					owner = { c:CHI ?= this }
 				}
 				set_ig_trait = ig_trait:ig_trait_noble_privileges
-				set_ig_trait = ig_trait:ig_trait_family_ties
-				set_ig_trait = ig_trait:ig_trait_noblesse_oblige
+				set_ig_trait = ig_trait:ig_trait_informal_taxation
+				set_ig_trait = ig_trait:ig_trait_bureaucratic_legalism
 			}
 			else_if = {
 				limit = {

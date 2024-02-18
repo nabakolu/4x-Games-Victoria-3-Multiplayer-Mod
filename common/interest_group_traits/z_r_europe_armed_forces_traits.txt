@@ -1,0 +1,12 @@
+﻿# List of changes:
+#	- Newly Created Army:
+#		-- Changed bonus from -15% Military Goods Cost to +10% Authority
+
+ig_trait_newly_created_army = {
+	icon = "gfx/interface/icons/ig_trait_icons/veteran_consultation.dds"
+	min_approval = happy
+	
+	modifier = {
+		country_authority_mult = 0.1
+	}
+}
