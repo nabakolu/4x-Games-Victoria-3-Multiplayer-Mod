@@ -80,17 +80,6 @@ on_law_activated = {
 		}
 		if = {
 			limit = {
-                c:JAP ?= {
-                    has_modifier = modifier_sakoku_rangaku
-                    NOT = { has_law = law_type:law_isolationism }
-                }
-            }
-            c:JAP ?= {
-                remove_modifier = modifier_sakoku_rangaku
-            }
-        }
-		if = {
-			limit = {
 				c:BRZ = {
 					has_journal_entry = je_matter_of_slavery
 					OR = {

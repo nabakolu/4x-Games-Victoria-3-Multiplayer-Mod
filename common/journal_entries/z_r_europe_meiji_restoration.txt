@@ -1,44 +1,6 @@
 ﻿# List of changes:
-#	- Terakoya Journal Entry removed
 #	- Meiji Economy Journal Entry:
 #		-- Complete requirement has "> 0.7" changed to ">= 0.7" to allow 70.0% (7 out of 10 states) to meet the requirements 
-
-# Soft-disabled via possible, complete, and invalid blocks
-je_terakoya = {
-	icon = "gfx/interface/icons/institution_icons/schools.dds"
-	
-	group = je_group_historical_content
-
-	possible = {
-		always = no
-	}
-
-	modifiers_while_active = {
-		modifier_jap_terakoya
-	}
-
-	complete = {
-		always = no
-		institution_investment_level = {
-			institution = institution_schools
-			value >= 3
-		}
-	}
-
-	invalid = {
-		always = yes
-	}
-
-	on_complete = {
-		add_modifier = {
-			name = modifier_legacy_of_terakoya
-			months = long_modifier_time
-			is_decaying = yes
-		}
-	}
-
-	weight = 0
-}
 
 je_meiji_economy = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
