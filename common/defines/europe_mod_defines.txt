@@ -1,6 +1,6 @@
 ﻿# List of changes:
 #	- NGame:
-#		-- Number of autosaves increased from 5 to 24
+#		-- Number of autosaves increased from 5 to 12
 #	- NDiplomacy:
 #		-- Abandon support relations impact reduced from 50 to 0
 #		-- Diplomatic play escalation pause from actions reduced from 5 down to 2
@@ -12,7 +12,7 @@
 #		-- Maximum Trade Route level increased to 250
 #		-- Economy of Scale Cap increased to 61
 NGame = {
-	MAX_NUMBER_OF_AUTOSAVES = 24
+	MAX_NUMBER_OF_AUTOSAVES = 12
 }
 
 NDiplomacy = {
