@@ -6,3 +6,4 @@ Current Feature List:
 - Higher Limits for Trade routes
 - Decaying throughput debuff after switching PMs
 - Coal Liquefication Plants (Can convert Coal to Oil and Oil to Rubber)
+- Some diplomatic pacts do not automatically break when the relations drop under a threshold
