@@ -1,4 +1,4 @@
-# List of changes:
+﻿# List of changes:
 #	- Coal-Liquefaction Plant:
 #		-- Coal to Oil PMs added (Level 1 --> Level 5)
 #			--- Level 1 (10 Coal --> 2 Oil)
