@@ -1,4 +1,4 @@
-﻿# List of changes:
+# List of changes:
 # 	Added timed modifiers for PM Changes:
 #	Change in primary PM grants a decaying -20% throughput
 #	Change in secondary PM grants a decaying -10% throughput
@@ -23,9 +23,9 @@ pm_market_stalls = {
 
 pm_market_squares = {
 	texture = "gfx/interface/icons/production_method_icons/market_squares.dds"
-
-	unlocking_technologies = { urban_planning }
-
+	unlocking_technologies = {
+		urban_planning
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_wood_add = 1
@@ -458,6 +458,9 @@ pm_hydroelectric_plant = {
 			building_employment_engineers_add = 1200
 		}
 	}
+	timed_modifiers = {
+		modifier_recently_adjusted_primary_PM
+	}
 }
 
 pm_coal-fired_plant = {
@@ -485,6 +488,9 @@ pm_coal-fired_plant = {
 			building_employment_machinists_add = 1500
 			building_employment_engineers_add = 1400
 		}
+	}
+	timed_modifiers = {
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -515,6 +521,6 @@ pm_oil-fired_plant = {
 		}
 	}
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }
