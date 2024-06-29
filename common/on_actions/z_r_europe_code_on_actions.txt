@@ -1,19 +1,4 @@
-﻿# List of changes:
-#	- On Law Activated:
-#		-- Japan:
-#			--- If Japan has the Sakoku Rangaku modifier and Japan no longer has the Isolationism Trade Law, the Sakoku Rangaku modifier is removed
-
-# For on_actions launched by the code itself.
-
-# Root = owner Country of the Law
-# executed when enactment stops for any reason. Could be because the law has
-# been enacted, or because the enactment has been stopped by the player.
-#
-# NOTE: at the point in time when this on-action is triggered, the law
-# is still considered being enacted, therefore the `currently_enacting_law` link
-# will work as expected, even though the enactment is _just_ about to end
-on_law_enactment_ended = {
-}
+﻿# For on_actions launched by the code itself.
 
 # Root owner Country of the Law
 # executed when the law is activated for any reason. It's usually because it
