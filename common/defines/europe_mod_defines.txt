@@ -3,11 +3,6 @@
 #		-- Number of autosaves increased from 5 to 12
 #	- NDiplomacy:
 #		-- Abandon support relations impact reduced from 50 to 0
-#		-- Diplomatic play escalation pause from actions reduced from 5 down to 2
-#		-- Diplomatic play escalation pause maximum reduced from 20 down to 10
-#		-- Diplomatic play opening phase ends after 8 days (1 week) instead of 21 days (3 weeks)
-#		-- Diplomatic play closing phase starts after 21 days (3 weeks) instead of 80 days (+11 weeks)
-#		-- War breaks out after 28 days (4 weeks) instead of 100 days (+14 weeks)
 #	- NEconomy:
 #		-- Maximum Trade Route level increased to 250
 #		-- Economy of Scale Cap increased to 61
