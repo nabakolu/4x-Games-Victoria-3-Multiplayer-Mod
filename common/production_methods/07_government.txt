@@ -1,4 +1,4 @@
-# List of changes:
+﻿# List of changes:
 # pm_anchorage:
 #	-- Amount of Convoys increased from 20 to 50
 # pm_industrial_port:

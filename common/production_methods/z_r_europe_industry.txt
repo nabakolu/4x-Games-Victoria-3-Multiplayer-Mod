@@ -1,4 +1,4 @@
-# Coal-Liquefaction Plant (Coal into Oil)
+﻿# Coal-Liquefaction Plant (Coal into Oil)
 pm_no_coal_liquefaction = {
 	texture = "gfx/interface/icons/production_method_icons/no_canning.dds"
 	timed_modifiers = {
