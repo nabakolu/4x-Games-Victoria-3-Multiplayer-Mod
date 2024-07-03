@@ -1,5 +1,5 @@
 # 4x-Games-Victoria-3-Multiplayer-Mod
-Victoria 3 mod for use in the 4x Games Discord community for Victoria 3 multiplayer games &amp; campaigns.
+Victoria 3 mod for use in the 4x Games Discord community for Victoria 3 multiplayer games & campaigns. Invite link: https://discord.gg/8CNwKHpHWh
 
 Current Feature List:
 - Convoy List has been increased
