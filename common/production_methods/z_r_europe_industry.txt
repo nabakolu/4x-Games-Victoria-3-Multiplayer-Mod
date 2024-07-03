@@ -149,7 +149,7 @@ pm_coal_liquefaction_lvl_5 = {
 pm_no_synthetic_rubber = {
 	texture = "gfx/interface/icons/production_method_icons/no_artificial_silk.dds"
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -177,7 +177,7 @@ pm_synthetic_rubber_lvl_1 = {
 		}
 	}
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -205,7 +205,7 @@ pm_synthetic_rubber_lvl_2 = {
 		}
 	}
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -233,7 +233,7 @@ pm_synthetic_rubber_lvl_3 = {
 		}
 	}
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -261,7 +261,7 @@ pm_synthetic_rubber_lvl_4 = {
 		}
 	}
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -289,6 +289,6 @@ pm_synthetic_rubber_lvl_5 = {
 		}
 	}
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }

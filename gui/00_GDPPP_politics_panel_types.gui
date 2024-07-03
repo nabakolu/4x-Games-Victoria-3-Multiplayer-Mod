@@ -17,7 +17,7 @@ types information_panels_types
 			text = "GDP"
 		}
 		blockoverride "size" {
-			size = { 840 200 }
+			size = { 1400 500 } # Used to be { 280 100 }
 		}
 		blockoverride "line_color" {
 			color = { .2 .9 .2 .9 }
@@ -42,43 +42,6 @@ types information_panels_types
 
 		blockoverride "empty_state_visibility" {
 			visible = "[EqualTo_string(GetOldestDate(Country.GetGDPTrend), GetLatestDate(Country.GetGDPTrend))]"
-		}
-		blockoverride "empty_state_text" {
-			text = "GRAPH_NOT_INITIALIZED"
-		}
-	}
-
-	type v3_plotline_prestigeX = v3_plotline {
-		using = default_list_position
-		blockoverride "header" {
-			text = "PRESTIGE"
-		}
-		blockoverride "size" {
-			size = { 840 100 }
-		}
-		blockoverride "line_color" {
-			color = { .3 .3 .9 .9 }
-		}
-		blockoverride "line_plotpoints" {
-			visible = "[Not(IsEmpty(Country.GetPrestigeTrend))]"
-			plotpoints = "[GetTrendPlotPointsNormalized(Country.GetPrestigeTrend, GetMin(Country.GetPrestigeTrend), GetMax(Country.GetPrestigeTrend))]"
-		}
-		blockoverride "maxvalue" {
-			text = "[GetMax(Country.GetPrestigeTrend)]"
-		}
-		blockoverride "minvalue" {
-			raw_text = "[GetMin(Country.GetPrestigeTrend)]"
-		}
-		blockoverride "startdate" {
-			text = "[GetOldestDate(Country.GetPrestigeTrend)]"
-		}
-		blockoverride "enddate" {
-			text = "[GetLatestDate(Country.GetPrestigeTrend)]"
-		}
-		blockoverride "multiitem" {}
-
-		blockoverride "empty_state_visibility" {
-			visible = "[EqualTo_string(GetOldestDate(Country.GetPrestigeTrend), GetLatestDate(Country.GetPrestigeTrend))]"
 		}
 		blockoverride "empty_state_text" {
 			text = "GRAPH_NOT_INITIALIZED"

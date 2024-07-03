@@ -5,7 +5,6 @@
 		TooltipWidgetType = {
 			blockoverride "tooltip_content_after" {
 				v3_plotline_gdp = {}
-				v3_plotline_prestigeX = {}
 			}
 		}
 	}

@@ -1,8 +1,8 @@
 {
-  "name": "r/europe Victoria 3 Multiplayer mod",
+  "name": "4x Games Victoria 3 Multiplayer mod",
   "id": "",
   "version": "v0.2",
-  "supported_game_version": "1.7.1",
+  "supported_game_version": "1.7.x",
   "short_description": "This mod implements tweaks that optimize the Multiplayer experience.",
   "tags": [],
   "relationships": [],
