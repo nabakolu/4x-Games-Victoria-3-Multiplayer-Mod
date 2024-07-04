@@ -17,4 +17,6 @@ NDiplomacy = {
 NEconomy = {
 	TRADE_ROUTE_MAX_LEVEL = 250
 	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 61
+
+	ECONOMY_OF_SCALE_NATIONALIZED_FRACTION_MULT = 0		# Non-government building economy of scale modifier if multiplied by (1 - the fraction of nationalized levels * this)
 }
