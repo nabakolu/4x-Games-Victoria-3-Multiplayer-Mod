@@ -8,6 +8,12 @@ mobilization_option_rifling = {
 				market_goods_sell_orders > 0
 			}
 		}
+        scope:military_formation = {
+			NOR = {
+				has_mobilization_option = mobilization_option:mobilization_option_repeaters
+				has_mobilization_option = mobilization_option:mobilization_option_bolt_action_rifles
+			}
+		}
 	}
 	
 	on_activate_while_mobilized = {
@@ -58,6 +64,12 @@ mobilization_option_repeaters = {
 				market_goods_sell_orders > 0
 			}
 		}
+        scope:military_formation = {
+			NOR = {
+				has_mobilization_option = mobilization_option:mobilization_option_rifling
+				has_mobilization_option = mobilization_option:mobilization_option_bolt_action_rifles
+			}
+		}
 	}
 	
 	on_activate_while_mobilized = {
@@ -89,7 +101,7 @@ mobilization_option_repeaters = {
 	}
 
 	unit_modifier = {
-		unit_offense_add = 5
+		unit_offense_add = 10
 	}
 
 	ai_weight = {
@@ -107,6 +119,12 @@ mobilization_option_bolt_action_rifles = {
 		market ?= {
 			mg:ammunition ?= {
 				market_goods_sell_orders > 0
+			}
+		}
+        scope:military_formation = {
+			NOR = {
+				has_mobilization_option = mobilization_option:mobilization_option_rifling
+				has_mobilization_option = mobilization_option:mobilization_option_repeaters
 			}
 		}
 	}
@@ -136,12 +154,12 @@ mobilization_option_bolt_action_rifles = {
 	}
 
 	upkeep_modifier = {
-		goods_input_small_arms_add = 1
+		goods_input_small_arms_add = 2
 		goods_input_ammunition_add = 1
 	}
 
 	unit_modifier = {
-		unit_offense_add = 5
+		unit_offense_add = 15
 	}
 
 	ai_weight = {
