@@ -725,6 +725,7 @@ pm_refrigerated_rail_cars_building_livestock_ranch = {
 	}
 
 	required_input_goods = electricity
+	required_input_goods = transportation
 	
 	timed_modifiers = {
 		modifier_recently_adjusted_secondary_PM

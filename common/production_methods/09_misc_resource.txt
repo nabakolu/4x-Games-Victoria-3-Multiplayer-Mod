@@ -217,6 +217,8 @@ pm_rail_transport_building_logging_camp = {
 		}
 	}
 
+	required_input_goods = transportation
+
 	timed_modifiers = {
 		modifier_recently_adjusted_secondary_PM
 	}
@@ -243,6 +245,8 @@ pm_log_carts = {
 			building_employment_laborers_add = -1500
 		}
 	}
+
+	required_input_goods = transportation
 
 	timed_modifiers = {
 		modifier_recently_adjusted_secondary_PM
@@ -435,6 +439,7 @@ pm_refrigerated_rail_cars_building_fishing_wharf = {
 	}
 
 	required_input_goods = electricity
+	required_input_goods = transportation
 
 	timed_modifiers = {
 		modifier_recently_adjusted_secondary_PM
@@ -462,6 +467,7 @@ pm_flash_freezing_building_fishing_wharf = {
 	}
 
 	required_input_goods = electricity
+	required_input_goods = transportation
 
 	timed_modifiers = {
 		modifier_recently_adjusted_secondary_PM
@@ -607,6 +613,7 @@ pm_refrigerated_rail_cars_building_whaling_station = {
 	}
 
 	required_input_goods = electricity
+	required_input_goods = transportation
 
 	timed_modifiers = {
 		modifier_recently_adjusted_secondary_PM
@@ -634,6 +641,7 @@ pm_flash_freezing_building_whaling_station = {
 	}
 
 	required_input_goods = electricity
+	required_input_goods = transportation
 
 	timed_modifiers = {
 		modifier_recently_adjusted_secondary_PM
@@ -730,6 +738,8 @@ pm_rail_transport_building_oil_rig = {
 		}
 	}
 
+	required_input_goods = transportation
+
 	timed_modifiers = {
 		modifier_recently_adjusted_secondary_PM
 	}
@@ -757,6 +767,8 @@ pm_tanker_cars = {
 			building_employment_laborers_add = -2000
 		}
 	}
+
+	required_input_goods = transportation
 	
 	timed_modifiers = {
 		modifier_recently_adjusted_secondary_PM

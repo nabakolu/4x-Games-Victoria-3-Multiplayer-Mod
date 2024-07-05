@@ -507,6 +507,8 @@ pm_rail_transport_mine = {
 			building_employment_laborers_add = -1000
 		}
 	}
+
+	required_input_goods = transportation
 	
 	timed_modifiers = {
 		modifier_recently_adjusted_secondary_PM

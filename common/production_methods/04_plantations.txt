@@ -17,6 +17,7 @@ default_building_coffee_plantation = {
 			building_employment_farmers_add = 1000
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -49,6 +50,7 @@ automatic_irrigation_building_coffee_plantation = {
 			building_employment_machinists_add = 500
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -77,6 +79,9 @@ pm_steam_rail_transport = {
 			building_employment_laborers_add = -1000	
 		}
 	}
+
+	required_input_goods = transportation
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -98,6 +103,7 @@ default_building_cotton_plantation = {
 			building_employment_clergymen_add = 100
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -130,6 +136,7 @@ automatic_irrigation_building_cotton_plantation = {
 			building_employment_machinists_add = 500
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -150,6 +157,7 @@ default_building_dye_plantation = {
 			building_employment_farmers_add = 1000
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -182,6 +190,7 @@ automatic_irrigation_building_dye_plantation = {
 			building_employment_machinists_add = 500
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -202,6 +211,7 @@ default_building_opium_plantation = {
 			building_employment_farmers_add = 1000
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -234,6 +244,7 @@ automatic_irrigation_building_opium_plantation = {
 			building_employment_machinists_add = 500
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -254,6 +265,7 @@ default_building_tea_plantation = {
 			building_employment_farmers_add = 1000
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -286,6 +298,7 @@ automatic_irrigation_building_tea_plantation = {
 			building_employment_machinists_add = 500
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -306,6 +319,7 @@ default_building_tobacco_plantation = {
 			building_employment_farmers_add = 1000
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -338,6 +352,7 @@ automatic_irrigation_building_tobacco_plantation = {
 			building_employment_machinists_add = 500
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -358,6 +373,7 @@ default_building_sugar_plantation = {
 			building_employment_farmers_add = 1000
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -390,6 +406,7 @@ automatic_irrigation_building_sugar_plantation = {
 			building_employment_machinists_add = 500
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -408,6 +425,7 @@ default_building_banana_plantation = {
 			building_employment_farmers_add = 1000
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -440,6 +458,7 @@ automatic_irrigation_building_banana_plantation = {
 			building_employment_machinists_add = 500
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -460,6 +479,7 @@ default_building_silk_plantation = {
 			building_employment_farmers_add = 1000
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -492,6 +512,7 @@ automatic_irrigation_building_silk_plantation = {
 			building_employment_machinists_add = 500
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -512,6 +533,7 @@ default_building_vineyard_plantation = {
 			building_employment_farmers_add = 1000
 		}
 	}
+
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
@@ -544,6 +566,7 @@ automatic_irrigation_building_vineyard_plantation = {
 			building_employment_machinists_add = 500
 		}
 	}
+	
 	timed_modifiers = {
 		modifier_recently_adjusted_primary_PM
 	}
