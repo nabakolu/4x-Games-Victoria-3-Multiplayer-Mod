@@ -49,9 +49,9 @@ Invite link: https://discord.gg/8CNwKHpHWh
 
 #### Mobilization Options ####
 - Main Rifles added:
-    - Rifles: +5 offense
-    - Repeaters: +10 offense, +1 small arms upkeep
-    - Bolt-Action: +15 offense, +2 small arms & +1 ammunition upkeep
+    - Rifles: +5 offense, +5 defense
+    - Repeaters: +10 offense, +10 defense, +1 small arms upkeep
+    - Bolt-Action: +15 offense, +15 defense +2 small arms & +1 ammunition upkeep
 
 #### Production Method Groups ####
 - Coal-Liquefaction Plant:
