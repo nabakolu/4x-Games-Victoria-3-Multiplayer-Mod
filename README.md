@@ -21,8 +21,7 @@ Invite link: https://discord.gg/8CNwKHpHWh
 - NDiplomacy: Abandon support relations impact reduced from 50 to 0
 - NEconomy:
     - Maximum Trade Route level increased to 250
-    - Economy of Scale Cap increased to 61
-    - Nationalised building throughput malus removed
+    - Trade route economy of scale Cap increased to 61
 
 #### Diplomatic Actions ####
 - All diplomatic actions between players have no relations requirement
