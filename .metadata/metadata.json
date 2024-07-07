@@ -2,7 +2,7 @@
   "name": "4x Games Victoria 3 Multiplayer mod",
   "id": "",
   "version": "v0.2",
-  "supported_game_version": "1.7.x",
+  "supported_game_version": "1.7.*",
   "short_description": "This mod implements tweaks that optimize the Multiplayer experience.",
   "tags": [],
   "relationships": [],
