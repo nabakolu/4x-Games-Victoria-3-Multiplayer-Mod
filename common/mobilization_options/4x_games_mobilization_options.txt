@@ -45,6 +45,7 @@ mobilization_option_rifling = {
 
 	unit_modifier = {
 		unit_offense_add = 5
+		unit_defense_add = 5
 	}
 
 	ai_weight = {
@@ -102,6 +103,7 @@ mobilization_option_repeaters = {
 
 	unit_modifier = {
 		unit_offense_add = 10
+		unit_defense_add = 10
 	}
 
 	ai_weight = {
@@ -160,6 +162,7 @@ mobilization_option_bolt_action_rifles = {
 
 	unit_modifier = {
 		unit_offense_add = 15
+		unit_defense_add = 15
 	}
 
 	ai_weight = {
