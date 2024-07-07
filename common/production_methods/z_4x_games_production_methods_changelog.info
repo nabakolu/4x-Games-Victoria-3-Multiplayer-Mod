@@ -1,0 +1,16 @@
+﻿# List of changes:
+# 	- Added timed modifiers for PM Changes:
+#	    - Change in primary PM grants a decaying -20% throughput
+#	    - Change in secondary PM grants a decaying -10% throughput
+#   - Added production methods for Coal-Liquefaction Plant
+#       - Coal to Oil: 5 Coal --> 1 Oil
+#       - Oil to Rubber: 5 Oil --> 1 Rubber
+#   - Convoys supplied by Ports have been increased:
+#       - Anchorages:
+#	        - Amount of Convoys increased from 20 to 50
+#       - Industrial Ports:
+#	        - Amount of Convoys increased from 175 to 250
+#       - Modern Ports:
+#           - Amount of Convoys increased from 200 to 400
+#   - Influence provided by Power Block Principle External Trade II & III reduced from 2 down to 1
+#   - Production methods that use Transportation as an input good are blocked until the building has access to Transportation

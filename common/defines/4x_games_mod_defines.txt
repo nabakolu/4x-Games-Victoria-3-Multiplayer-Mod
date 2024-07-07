@@ -1,12 +1,4 @@
-﻿# List of changes:
-#	- NGame:
-#		-- Number of autosaves increased from 5 to 12
-#	- NDiplomacy:
-#		-- Abandon support relations impact reduced from 50 to 0
-#	- NEconomy:
-#		-- Maximum Trade Route level increased to 250
-#		-- Economy of Scale Cap increased to 61
-NGame = {
+﻿NGame = {
 	MAX_NUMBER_OF_AUTOSAVES = 12
 }
 

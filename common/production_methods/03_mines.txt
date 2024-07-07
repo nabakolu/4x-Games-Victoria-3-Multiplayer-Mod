@@ -1,9 +1,4 @@
-﻿# List of changes:
-# 	Added timed modifiers for PM Changes:
-#	Change in primary PM grants a decaying -20% throughput
-#	Change in secondary PM grants a decaying -10% throughput
-
-pm_picks_and_shovels_building_coal_mine = {
+﻿pm_picks_and_shovels_building_coal_mine = {
 	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
 	building_modifiers = {
 		workforce_scaled = {

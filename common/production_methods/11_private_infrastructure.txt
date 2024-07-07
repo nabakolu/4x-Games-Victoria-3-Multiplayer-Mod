@@ -319,7 +319,7 @@ pm_trade_center_principle_external_trade_2 = {
 	
 	country_modifiers = {
 		workforce_scaled = {
-			country_influence_add = 2
+			country_influence_add = 1
 		}
 	}	
 	

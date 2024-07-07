@@ -181,6 +181,33 @@
 				}
 			}
 		}			
+
+		requirement_to_maintain = {
+			trigger = {
+				OR = {
+					custom_tooltip = {
+						text = DIPLO_ACTION_RELATIONS_CORDIAL_OR_GREATER
+						scope:target_country.relations:root >= relations_threshold:cordial
+					}	
+					custom_tooltip = {
+						text = DIPLO_ACTION_PLAYER_TO_PLAYER
+						AND = {
+							scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+							root = { is_player = yes }					# Is the initiator country controlled by a human player?
+						}
+					}
+				}
+			}
+			
+			show_about_to_break_warning = {
+				scope:target_country.relations:root < 23 # this is: cordial + 3
+				scope:target_country.relations_change_rate:root < 0
+				NAND = {
+					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+        			root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				}
+			}		
+		}	
 		
 		requirement_to_maintain = {
 			trigger = {

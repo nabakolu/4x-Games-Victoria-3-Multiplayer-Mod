@@ -1,21 +1,4 @@
-﻿# List of changes:
-#	- Coal-Liquefaction Plant:
-#		-- Coal to Oil PMs added (Level 1 --> Level 5)
-#			--- Level 1 (10 Coal --> 2 Oil)
-#			--- Level 2 (20 Coal --> 4 Oil)
-#			--- Level 3 (30 Coal --> 6 Oil)
-#			--- Level 4 (40 Coal --> 8 Oil)
-#			--- Level 5 (50 Coal --> 10 Oil)
-#		-- Oil to Rubber PMs added (Level 1 --> Level 5)
-#			--- Level 1 (10 Oil --> 2 Rubber)
-#			--- Level 2 (20 Oil --> 4 Rubber)
-#			--- Level 3 (30 Oil --> 6 Rubber)
-#			--- Level 4 (40 Oil --> 8 Rubber)
-#			--- Level 5 (50 Oil --> 10 Rubber)
-#	Change in primary PM grants a decaying -20% throughput
-#	Change in secondary PM grants a decaying -10% throughput
-
-pm_bakery = {
+﻿pm_bakery = {
 	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
 	
 	building_modifiers = {

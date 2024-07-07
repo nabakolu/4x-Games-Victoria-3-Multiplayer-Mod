@@ -1,8 +1,4 @@
-﻿# List of changes:
-# 	Added timed modifiers for PM Changes:
-#	Change in primary PM grants a decaying -20% throughput
-#	Change in secondary PM grants a decaying -10% throughput
-default_building_coffee_plantation = {
+﻿default_building_coffee_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
 
 	building_modifiers = {

@@ -1,0 +1,33 @@
+﻿l_english:
+  
+  # Leader Ideologies
+ # ideology_moderate:0 "Moderate"
+ # ideology_moderate_desc:0 "#lore This leader is considered a moderate in their Interest Group, with no particular ideology of their own.#!"
+ 
+  # Interest Group Ideologies
+
+ ideology_colonial_government:0 "Colonial Government"
+ ideology_colonial_government_desc:0 "#lore This group's main purpose is to oversee the governance of the colonial government in the interest of the overlord.#!"
+
+  # flavor ideologies
+
+ # ideology_republican_paternalistic:0 "Elitist"
+ # ideology_republican_paternalistic_desc:0 "#lore This group favors rule by the landed elite, but still supports a republican form of government.#!"
+
+  # Government Principles group
+ # lawgroup_governance_principles:0 "Governance Principles"
+ # lawgroup_governance_principles_desc:0 "The foundational principles and authority by which your country is governed. Determines who the Head of State is." 
+ 
+ # law_chiefdom:0 "Chiefdom"
+ # law_chiefdom_desc:0 "A hierarchical pre-industrial political system based on kinship, with a warlord or elder of a prominent family at the head. It is incapable of efficient centralized control over entire states."
+ # law_monarchy:0 "Monarchy"
+ # law_monarchy_desc:0 "A form of governance where an aristocratic dynasty represents the country's national identity and yields executive powers to the royal head of the dynasty."
+ # law_presidential_republic:0 "Presidential Republic"
+ # law_presidential_republic_desc:0 "A political system where power is held by the people and their elected representatives. Republics have an elected or nominated $RULER_TITLE_PRESIDENT$ as Head of State."
+ # law_parliamentary_republic:0 "Parliamentary Republic"
+ # law_parliamentary_republic_desc:0 "A political system where power is held by the people and their elected representatives. The leader of the legislature acts as the Head of State and is referred to as $RULER_TITLE_CHANCELLOR$."
+ # law_theocracy:0 "Theocracy"
+ # law_theocracy_desc:0 "The government is ruled by a clergy and their interpretation of holy scripture. The Head of State is nominally the person of worship, though in practice a worldly representative selected by merit, status, or birth."
+ # law_council_republic:0 "Council Republic"
+ # law_council_republic_desc:0 "A political system where workers elect delegates to local councils. Extends concepts of workplace organization to general governance."
+ 

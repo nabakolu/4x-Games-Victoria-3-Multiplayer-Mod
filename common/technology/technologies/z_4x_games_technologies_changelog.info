@@ -1,0 +1,15 @@
+﻿# List of Changes:
+#   - Production:
+#       - Synthetic Strategic Resources
+#           - Era 5
+#           - Unlocks Coal-Liquefaction Plant
+#           - Unlocks the Coal --> Oil Production Methods
+#           - Unlocks the Oil --> Rubber Production Methods
+#
+#   - Society:
+#       - Pan-Nationalism
+#           - Added Identification Documents as an unlocking technology requirement
+#       - Great War Diplomacy
+#           - Era 5
+#           - Adds 1375 maneuvers to diplomatic plays
+#           - Reduces war exhaustion from casualties by 65%
