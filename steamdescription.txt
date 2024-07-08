@@ -1,0 +1,127 @@
+[h1]4x-Games-Victoria-3-Multiplayer-Mod [/h1]
+
+Victoria 3 mod for use in the 4x Games Discord community for Victoria 3 multiplayer games & campaigns.
+
+Invite link: https://discord.gg/8CNwKHpHWh
+Source code: https://github.com/Matti-96/4x-Games-Victoria-3-Multiplayer-Mod
+
+[h2]Features List [/h2]
+[b]Building Groups[/b]
+[list]
+    [*]Shipyards: Parent group changed from heavy industry to light industry
+    [*]Ports: Economy of Scale enabled
+[/list]
+
+[b]Buildings[/b]
+[list]
+    [*]Coal Liquefaction Plant added: Converts coal into oil and oil into rubber
+    [*]Port: Building Group changed from Public Infrastructure to Port
+[/list]
+[b]Character Templates[/b]
+    [*]Sweden: Oscar Bernadotte's culture changed from French to Swedish
+[b]Defines[/b]
+[list]
+    [*]NGame: Number of autosaves increased from 5 to 12
+    [*]NDiplomacy: Abandon support relations impact reduced from 50 to 0
+    [*]NEconomy:
+        Maximum Trade Route level increased to 250
+        Trade route economy of scale Cap increased to 61
+[/list]
+[b]Diplomatic Actions[/b]
+[list]
+    [*]All diplomatic actions between players have no relations requirement
+[/list]
+[b]Diplomatic Plays[/b]
+[list]
+    [*]All diplomatic plays between players have no relations requirement
+[/list]
+[b]Ideologies[/b]
+	[list]
+    [*]New Ideologies added:
+		[list]
+        [*]Colonial Government: Has opinions on Governance Principles, Distribution of Power, Bureaucracy, Policing, Economic System, Trade Policy, Taxation
+		[/list]
+	[/list]
+[b]Interest Groups[/b]
+[list]
+    [*]Landowners:
+	[list]
+        [*]British East India Company: Paternalistic ideology replaced with Colonial Government ideology
+        [*]Dutch East Indies: Paternalistic ideology replaced with Colonial Government ideology
+	[/list]
+    [*]Rural Folk:
+	[list]
+        [*]British East India Company: Agrarian ideology replaced with Colonial Government ideology
+        [*]Dutch East Indies: Agrarian ideology replaced with Colonial Government ideology
+	[/list]
+[/list]
+
+[b]Journal Entries[/b]
+[list]
+    [*]Meiji Economy Journal Entry: Complete requirement now requires having 70% or more states with railways built
+[/list]
+[b]Mobilization Options Groups[/b]
+[list]
+    [*]Added option for rifles used to make use of military techs, called Main Rifles
+[/list]
+[b]Mobilization Options[/b]
+[list]
+    [*]Main Rifles added:
+	[list]
+        [*]Rifles: +5 offense, +5 defense
+        [*]Repeaters: +10 offense, +10 defense, +1 small arms upkeep
+        [*]Bolt-Action: +15 offense, +15 defense +2 small arms & +1 ammunition upkeep
+	[/list]
+[/list]
+
+[b]Production Method Groups[/b]
+[list]
+    [*]Coal-Liquefaction Plant:
+	[list]
+        [*]Coal to Oil PMs added (Levels 1-5)
+        [*]Oil to Rubber PMs added (Levels 1-5)
+	[/list]
+[/list]
+[b]Production Methods[/b]
+[list]
+    [*]Added timed modifiers for PM Changes:
+	[list]
+        [*]Change in primary PM grants a decaying -20% throughput
+        [*]Change in secondary PM grants a decaying -10% throughput
+	[/list]
+    [*]Added production methods for Coal-Liquefaction Plant
+	[list]
+        [*]Coal to Oil: 5 Coal --> 1 Oil
+        [*]Oil to Rubber: 5 Oil --> 1 Rubber
+	[/list]
+    [*]Convoys supplied by Ports increased:
+	[list]
+        [*]Anchorages: Amount of Convoys increased from 20 to 50
+        [*]Industrial Ports: Amount of Convoys increased from 175 to 250
+        [*]Modern Ports: Amount of Convoys increased from 200 to 400
+	[/list]
+    [*]Influence provided by Power Block Principle External Trade II & III reduced from 2 to 1
+    [*]Production methods using Transportation as an input good are blocked until the building has access to Transportation
+[/list]
+[b]Static Modifiers[/b]
+[list]
+    [*]Base Government Dividends efficiency increased from 25% to 35%
+    [*]Recently adjusted primary production method timed modifier added
+    [*]Recently adjusted secondary production method timed modifier added
+[/list]
+[b]Technologies[/b]
+[list]
+    [*]Production:
+	[list]
+        [*]Synthetic Strategic Resources (Era 5): Unlocks Coal-Liquefaction Plant, Coal --> Oil Production Methods, Oil --> Rubber Production Methods
+	[/list]
+    [*]Society:
+	[list]
+        [*]Pan-Nationalism: Added Identification Documents as an unlocking technology requirement
+        [*]Great War Diplomacy (Era 5): Adds 1375 maneuvers to diplomatic plays, reduces war exhaustion from casualties by 65%
+	[/list]
+[/list]
+[b]GUI[/b]
+[list]
+    [*]GDP Graph: Size increased from 280 x 100 to 1400 x 500
+[/list]
