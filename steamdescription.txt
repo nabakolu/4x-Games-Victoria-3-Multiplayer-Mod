@@ -18,14 +18,23 @@ Source code: https://github.com/Matti-96/4x-Games-Victoria-3-Multiplayer-Mod
     [*]Port: Building Group changed from Public Infrastructure to Port
 [/list]
 [b]Character Templates[/b]
+[list]
     [*]Sweden: Oscar Bernadotte's culture changed from French to Swedish
+[/list]
 [b]Defines[/b]
 [list]
-    [*]NGame: Number of autosaves increased from 5 to 12
-    [*]NDiplomacy: Abandon support relations impact reduced from 50 to 0
+    [*]NGame: [list]
+        [*]Number of autosaves increased from 5 to 12
+    [/list]
+    [*]NDiplomacy: 
+    [list]
+        [*]Abandon support relations impact reduced from 50 to 0
+    [/list]
     [*]NEconomy:
-        Maximum Trade Route level increased to 250
-        Trade route economy of scale Cap increased to 61
+    [list]
+        [*]Maximum Trade Route level increased to 250
+        [*]Trade route economy of scale Cap increased to 61
+    [/list]
 [/list]
 [b]Diplomatic Actions[/b]
 [list]
