@@ -113,9 +113,9 @@ dp_conquer_state = {
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
-		}
+		}	
 		OR = {
-			diplomatic_play_has_no_relations_blockers = yes
+			diplomatic_play_has_no_relations_blockers = yes		
 			custom_tooltip = {
 				text = DIPLO_ACTION_PLAYER_TO_PLAYER
 				AND = {
@@ -186,7 +186,7 @@ dp_liberate_subject = {
 			NOT = { is_subject_of = root }
 		}
 		OR = {
-			diplomatic_play_has_no_relations_blockers = yes
+			diplomatic_play_has_no_relations_blocker_with_overlord = yes
 			custom_tooltip = {
 				text = DIPLO_ACTION_PLAYER_TO_PLAYER
 				AND = {
@@ -286,7 +286,7 @@ dp_leave_power_bloc = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		OR = {
-			diplomatic_play_has_no_relations_blockers = yes
+			diplomatic_play_has_no_relations_blockers = yes	
 			custom_tooltip = {
 				text = DIPLO_ACTION_PLAYER_TO_PLAYER
 				AND = {
@@ -331,6 +331,20 @@ dp_increase_autonomy = {
 	on_war_end = {}
 }
 
+dp_reduce_autonomy = {
+	war_goal = reduce_autonomy
+	
+	requires_interest_marker = no
+	
+	texture = "gfx/interface/icons/war_goals/reduce_autonomy.dds"
+	
+	on_weekly_pulse = {}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
 dp_take_treaty_port = {
 	
 	war_goal = take_treaty_port
@@ -346,7 +360,7 @@ dp_take_treaty_port = {
 			NOT = { is_subject_of = root }
 		}
 		OR = {
-			diplomatic_play_has_no_relations_blockers = yes
+			diplomatic_play_has_no_relations_blockers = yes	
 			custom_tooltip = {
 				text = DIPLO_ACTION_PLAYER_TO_PLAYER
 				AND = {
@@ -417,7 +431,7 @@ dp_transfer_subject = {
 			NOT = { is_subject_of = root }
 		}
 		OR = {
-			diplomatic_play_has_no_relations_blockers = yes
+			diplomatic_play_has_no_relations_blocker_with_overlord = yes
 			custom_tooltip = {
 				text = DIPLO_ACTION_PLAYER_TO_PLAYER
 				AND = {
@@ -448,7 +462,6 @@ dp_annex_subject = {
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			is_direct_subject_of = root
-			liberty_desire < 25
 			OR = {
 				has_diplomatic_pact = { who = root type = puppet }
 				has_diplomatic_pact = { who = root type = vassal }
@@ -942,7 +955,7 @@ dp_unify_china = {
 	selectable_in_lens = {
 		OR = {
 			has_government_type = gov_warlord_state
-			has_variable = chinese_central_government
+			global_var:chinese_central_government ?= THIS
 		}
 	}
 	
@@ -952,7 +965,7 @@ dp_unify_china = {
 		is_subject = no
 		OR = {
 			has_government_type = gov_warlord_state
-			has_variable = chinese_central_government
+			global_var:chinese_central_government ?= THIS
 		}
 		
 		scope:target_country = {
@@ -960,7 +973,7 @@ dp_unify_china = {
 			aggressive_diplomatic_plays_permitted = yes
 			OR = {
 				has_government_type = gov_warlord_state
-				has_variable = chinese_central_government
+				global_var:chinese_central_government ?= THIS
 			}
 		}
 	}
