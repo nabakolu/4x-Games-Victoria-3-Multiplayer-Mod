@@ -14,3 +14,6 @@
 #           - Amount of Convoys increased from 200 to 400
 #   - Influence provided by Power Block Principle External Trade II & III reduced from 2 down to 1
 #   - Production methods that use Transportation as an input good are blocked until the building has access to Transportation
+#   - The Fertilization Building PM has fertilizer input reduced from 30 down to 20
+#   - Gold output from using nitroglycerin in gold mines reduced from 5 down to 2.5
+#   - Homesteading subsistence building PM can now also be unlocked by having the collectivised agriculture law so they aren't forced to stay on serfdom if someone switches to collectivised agriculture from serfdom directly

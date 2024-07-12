@@ -1,0 +1,2 @@
+﻿#   - Grant Command to Agitator:
+#       - Any_scope_general check in ai_chance is changed from using { exists = yes } to { exists = this } to remove error
