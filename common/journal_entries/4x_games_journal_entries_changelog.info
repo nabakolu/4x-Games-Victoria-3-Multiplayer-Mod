@@ -1,5 +1,3 @@
 ﻿# List of changes:
 #	- Meiji Economy Journal Entry:
-#		- Complete requirement has "> 0.7" changed to ">= 0.7" to allow 70.0% (7 out of 10 states) to meet the requirements 
-#   - Prohibition Journal Entry:
-#       - Market check is changed from using { exists = yes } to { exists = this } to remove error
+#		-- Complete requirement has "> 0.7" changed to ">= 0.7" to allow 70.0% (7 out of 10 states) to meet the requirements 
