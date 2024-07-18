@@ -1,3 +1,5 @@
 ﻿# List of changes:
 #	- Meiji Economy Journal Entry:
 #		-- Complete requirement has "> 0.7" changed to ">= 0.7" to allow 70.0% (7 out of 10 states) to meet the requirements 
+#   - Sick Man of Europe (Literacy)
+#       -- Required goal changed to require the player to just add 20% to the Ottoman's starting literacy rate 
