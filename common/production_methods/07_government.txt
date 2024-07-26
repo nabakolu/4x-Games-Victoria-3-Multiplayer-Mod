@@ -1,15 +1,4 @@
-﻿# List of changes:
-# pm_anchorage:
-#	-- Amount of Convoys increased from 20 to 50
-# pm_industrial_port:
-#	-- Amount of Convoys increased from 175 to 250
-# pm_modern_port:
-#	-- Amount of Convoys increased from 200 to 400
-#
-# 	Added timed modifiers for PM Changes:
-#	Change in primary PM grants a decaying -20% throughput
-#	Change in secondary PM grants a decaying -10% throughput
-
+﻿# Ports
 pm_anchorage = {
 	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
 	

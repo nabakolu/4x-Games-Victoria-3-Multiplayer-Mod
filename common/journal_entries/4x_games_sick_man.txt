@@ -10,10 +10,7 @@ je_sick_man_education = {
 			occupancy > 0.9
 			level >= 5
 		}
-		scope:journal_entry = {
-			is_goal_complete = yes
-		}
-		literacy_rate >= 0.2
+		literacy_rate >= 0.32
 	}
 
 	on_complete = {
@@ -30,7 +27,6 @@ je_sick_man_education = {
 	}
 
 	goal_add_value = {
-		value = 0.2
 	}
 
 	invalid = {
