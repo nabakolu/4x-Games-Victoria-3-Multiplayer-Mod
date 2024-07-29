@@ -23,9 +23,15 @@ Invite link: https://discord.gg/8CNwKHpHWh
 - NEconomy:
     - Maximum Trade Route level increased to 250
     - Trade route economy of scale Cap increased to 61
+- NPops:
+    - Migration pull from available arable land employment increased from 0.5 to 0.75
+    - Migration pull from available arable land employment cap increased from 30 to 100
 
 #### Diplomatic Actions ####
 - All diplomatic actions between players have no relations requirement
+- Foreign Investment Agreement Opportunity System bug fixed
+- Bug where Overlords couldn't give their own states to their own subjects unless the state in question is both not incorporated and not primary homeland. Changed to be that primary homeland states can't be given away unless they are incorporated
+- Bug where Overlords could erroneously enforce military access on their own subjects who are at war with said Overlord
 
 #### Diplomatic Plays ####
 - All diplomatic plays between players have no relations requirement
@@ -44,6 +50,7 @@ Invite link: https://discord.gg/8CNwKHpHWh
 
 #### Journal Entries ####
 - Meiji Economy Journal Entry: Complete requirement now requires having 70% or more states with railways built
+- Sick Man of Europe (Education): Required goal removed and the Literacy rate requirement changed from 20% to 32%, to take into account the 20% increase originally required by the journal's required goal
 
 #### Mobilization Options Groups ####
 - Added option for rifles used to make use of military techs, called Main Rifles
@@ -53,6 +60,12 @@ Invite link: https://discord.gg/8CNwKHpHWh
     - Rifles: +5 offense, +5 defense
     - Repeaters: +10 offense, +10 defense, +1 small arms upkeep
     - Bolt-Action: +15 offense, +15 defense +2 small arms & +1 ammunition upkeep
+
+### Power Blocs ###
+- Leverage Threshold to invite reduced to 100 for power blocs lead by any country that doesn't have the Great Power rank. Leverage Threshold to invite remains at 200 for Great Powers
+
+### Power Bloc Principles ###
+- Freedom of Movement: All bonuses reduced by 50%
 
 #### Production Method Groups ####
 - Coal-Liquefaction Plant:
@@ -72,11 +85,15 @@ Invite link: https://discord.gg/8CNwKHpHWh
     - Modern Ports: Amount of Convoys increased from 200 to 400
 - Influence provided by Power Block Principle External Trade II & III reduced from 2 to 1
 - Production methods using Transportation as an input good are blocked until the building has access to Transportation
+- Freedom of Movement Principle Production Method migration bonus reduced from 20% down to 10%
+- Gold output from using the nitroglycerin production method in gold mines reduced from 5 to 2.5. This brings it inline with the dynamite production method which outputs 5 gold, as the nitroglycerin production method should output half the gold output of the dynamite production method
+- Canals now emply 500 bureaucrats instead of 500 capitalists, so the capitalists don't end up starving as they were before.
 
 #### Static Modifiers ####
 - Base Government Dividends efficiency increased from 25% to 35%
 - Recently adjusted primary production method timed modifier added
 - Recently adjusted secondary production method timed modifier added
+- Power bloc cohesion penalty for power blocs lead by countries that don't have the Great Power rank is reduced from 50% down to 25%
 
 #### Technologies ####
 - Production:
@@ -87,3 +104,4 @@ Invite link: https://discord.gg/8CNwKHpHWh
 
 #### GUI ####
 - GDP Graph: Size increased from 280 x 100 to 1400 x 500
+
