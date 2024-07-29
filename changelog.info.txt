@@ -40,14 +40,14 @@
 ### Diplomatic Actions ###
 ##########################
 - All diplomatic actions between players have no relations requirement
-- Foreign Investment Agreement bugs fixed
+- Foreign Investment Agreement Opportunity System bug fixed
 - Bug where Overlords couldn't give their own states to their own subjects unless the state in question is both not incorporated and not primary homeland. Changed to be that primary homeland states can't be given away unless they are incorporated
 - Bug where Overlords could erroneously enforce military access on their own subjects who are at war with said Overlord
 
 ########################
 ### Diplomatic Plays ###
 ########################
-- All diplomatic plays between players have no relations requirement
+- All diplomatic plays between players have no relations requirement when starting them. Relation requirements still apply in joining an active diplomatic play
 
 ##################
 ### Ideologies ###
@@ -136,8 +136,8 @@
 - Production methods that use Transportation as an input good are blocked until the building has access to Transportation
 - Freedom of Movement Principle Production Method migration bonus reduced from 20% down to 10%
 - Gold Mines:
-    - Gold output from using the nitroglycerin production method reduced from 5 to 2.5. This brings it inline with the dynamite production method which outputs 5 gold, as the nitroglycerin production method should output half the gold output of the dynamite production method
-- Canals now emply 500 bureaucrats instead of 500 capitalists, so the capitalists don't end up starving as they were before.
+    - Gold output from using the nitroglycerin production method in gold mines reduced from 5 to 2.5. This brings it inline with the dynamite production method which outputs 5 gold, as the nitroglycerin production method should output half the gold output of the dynamite production method
+- Canals now employ 500 bureaucrats instead of 500 capitalists, so the capitalists don't end up starving as they were before.
 
 ########################
 ### Static Modifiers ###
