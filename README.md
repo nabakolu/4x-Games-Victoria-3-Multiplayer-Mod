@@ -34,7 +34,7 @@ Invite link: https://discord.gg/8CNwKHpHWh
 - Bug where Overlords could erroneously enforce military access on their own subjects who are at war with said Overlord
 
 #### Diplomatic Plays ####
-- All diplomatic plays between players have no relations requirement
+- All diplomatic plays between players have no relations requirement. Relation requirements still apply in joining an active diplomatic play
 
 #### Ideologies ####
 - New Ideologies added:
