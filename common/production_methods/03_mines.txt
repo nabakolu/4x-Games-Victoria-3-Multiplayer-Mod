@@ -1071,7 +1071,7 @@ pm_nitroglycerin_building_gold_mine = {
 			goods_input_explosives_add = 5
 			
 			# output goods
-			goods_output_gold_add = 5
+			goods_output_gold_add = 2.5
 		}
 
 		level_scaled = {
@@ -1113,7 +1113,7 @@ pm_dynamite_building_gold_mine = {
 			goods_input_explosives_add = 10
 			
 			# output goods
-			goods_output_gold_add = 10
+			goods_output_gold_add = 5
 		}
 
 		level_scaled = {

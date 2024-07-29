@@ -89,13 +89,23 @@
 
 		requirement_to_maintain = {
 			trigger = {
-				is_subject = no
+				custom_tooltip = {
+					text = "DIPLOMATIC_PACT_REQUIREMENT_NO_SUBJECT_RELATION"
+					NOT = {
+						is_subject_of = scope:target_country
+						scope:target_country = { is_subject_of = root }
+					}
+				}
 			}
 		}
-
+		
 		requirement_to_maintain = {
 			trigger = {
-				scope:target_country = { is_subject = no }
+				custom_tooltip = {
+					text = "DIPLOMATIC_PACT_REQUIREMENT_DIPLOMATIC_AUTONOMY"
+					aggressive_diplomatic_plays_permitted = yes
+					scope:target_country = { aggressive_diplomatic_plays_permitted = yes }					
+				}
 			}
 		}
 
@@ -127,7 +137,6 @@
 					}
 				}
 			}
-
 			show_about_to_break_warning = {
 				scope:target_country.relations:root <= -17 # this is: poor + 3
 				scope:target_country.relations_change_rate:root < 0
@@ -471,7 +480,7 @@
 			if = {
 				limit = {
 					scope:actor = {
-						has_variable = pro_lobby_proposal_investment_agreement
+						has_variable = anti_lobby_proposal_investment_agreement
 						var:anti_lobby_opportunity_target ?= scope:target_country
 					}
 				}
