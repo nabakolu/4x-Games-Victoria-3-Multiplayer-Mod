@@ -87,7 +87,7 @@ Invite link: https://discord.gg/8CNwKHpHWh
 - Production methods using Transportation as an input good are blocked until the building has access to Transportation
 - Freedom of Movement Principle Production Method migration bonus reduced from 20% down to 10%
 - Gold output from using the nitroglycerin production method in gold mines reduced from 5 to 2.5. This brings it inline with the dynamite production method which outputs 5 gold, as the nitroglycerin production method should output half the gold output of the dynamite production method
-- Canals now emply 500 bureaucrats instead of 500 capitalists, so the capitalists don't end up starving as they were before.
+- Canals now employ 500 bureaucrats instead of 500 capitalists, so the capitalists don't end up starving as they were before.
 
 #### Static Modifiers ####
 - Base Government Dividends efficiency increased from 25% to 35%
