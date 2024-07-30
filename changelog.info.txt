@@ -22,6 +22,12 @@
     - Oscar Bernadotte
         - Culture changed from French to Swedish
 
+#####################
+### Country Ranks ###
+#####################
+- All migration attraction buffs and debuffs removed from all country ranks
+- Prestige average threshold for Major Powers reduced from 2.5 down to 2
+
 ###############
 ### Defines ###
 ###############
