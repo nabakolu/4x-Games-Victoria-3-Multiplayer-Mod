@@ -13,5 +13,5 @@ NEconomy = {
 
 NPops = {
 	MIGRATION_PULL_FROM_AVAILABLE_ARABLE_LAND_EMPLOYMENT = 0.75					# Migration pull is increased by for each 10k available subsistence jobs
-	MIGRATION_PULL_FROM_AVAILABLE_ARABLE_LAND_EMPLOYMENT_MAX = 100				# Migration pull from available subsistence jobs cannot exceed this
+	MIGRATION_PULL_FROM_AVAILABLE_ARABLE_LAND_EMPLOYMENT_MAX = 60				# Migration pull from available subsistence jobs cannot exceed this
 }

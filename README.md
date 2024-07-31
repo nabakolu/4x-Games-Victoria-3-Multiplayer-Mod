@@ -29,7 +29,7 @@ Invite link: https://discord.gg/8CNwKHpHWh
     - Trade route economy of scale Cap increased to 61
 - NPops:
     - Migration pull from available arable land employment increased from 0.5 to 0.75
-    - Migration pull from available arable land employment cap increased from 30 to 100
+    - Migration pull from available arable land employment cap increased from 30 to 60
 
 #### Diplomatic Actions ####
 - All diplomatic actions between players have no relations requirement
