@@ -17,7 +17,7 @@ types information_panels_types
 			text = "GDP"
 		}
 		blockoverride "size" {
-			size = { 1400 500 } # Used to be { 280 100 }
+			size = { 560 200 } # Used to be { 280 100 }
 		}
 		blockoverride "line_color" {
 			color = { .2 .9 .2 .9 }

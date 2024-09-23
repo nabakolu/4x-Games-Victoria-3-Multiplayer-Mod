@@ -1,0 +1,9 @@
+﻿leverage_threshold_to_invite = {
+	value = 100
+	if = {
+		limit = {
+			root = { country_rank > rank_value:major_power }					# Is the initiator country at a higher rank than a major power?
+		}
+		add = 100
+	}
+}
