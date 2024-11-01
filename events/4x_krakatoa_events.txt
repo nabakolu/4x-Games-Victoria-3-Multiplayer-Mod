@@ -27,10 +27,17 @@ krakatoa.1 = { #krakatoa erupts and you're the owner
 
 	immediate = {	
 		set_global_variable = krakatoa_var
-		c:DEI = {
-            save_scope_as = krakatoa_country
-			set_variable = krakatoa_country_var
-        }
+		krakatoa_tsunami_effect = yes
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WEST_JAVA
+			}
+			save_scope_as = krakatoa_state
+			owner = {
+				save_scope_as = krakatoa_country
+				set_variable = krakatoa_country_var
+			}
+		}
 		every_country = {
 			limit = {
 				is_player = yes
@@ -177,7 +184,6 @@ krakatoa.2 = { #global tsunamis
 			}
 			save_scope_as = tsunami_state
 		}
-		krakatoa_tsunami_effect = no
 	}
 
 	duration = 3

@@ -54,7 +54,7 @@
 			}
 		}
 		
-	 	requirement_to_maintain = {
+		requirement_to_maintain = {
 			trigger = {
 				OR = {
 					custom_tooltip = {
@@ -284,4 +284,3 @@
 		}			
 	}
 }
-
