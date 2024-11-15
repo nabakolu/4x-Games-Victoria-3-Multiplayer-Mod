@@ -289,7 +289,7 @@ pm_traditional_art = {
 		}
 	}
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -308,7 +308,7 @@ pm_realist_art = {
 		}
 	}
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -329,7 +329,7 @@ pm_photographic_art = {
 		}
 	}
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
@@ -353,7 +353,7 @@ pm_film_art = {
 
 	required_input_goods = electricity
 	timed_modifiers = {
-		modifier_recently_adjusted_secondary_PM
+		modifier_recently_adjusted_primary_PM
 	}
 }
 
