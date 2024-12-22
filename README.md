@@ -15,7 +15,7 @@ Invite link: https://discord.gg/8CNwKHpHWh
 #### Character Templates ####
 - Sweden: Oscar Bernadotte's culture changed from French to Swedish
 
-### Country Ranks ###
+#### Country Ranks ####
 - Migration attraction buffs and debuffs removed from all country ranks
 - Prestige average threshold for Major Powers reduced from 2.5 down to 2
 
