@@ -4,8 +4,6 @@ Victoria 3 mod for use in the 4x Games Discord community for Victoria 3 multipla
 Invite link: https://discord.gg/8CNwKHpHWh
 
 ### Features List ###
-#### AI Strategies ####
-- Bugfix: AI countries will not actively befriend other larger nations (Confirmed by Paradox and planned for patch 1.7.4: https://forum.paradoxplaza.com/forum/threads/mistakes-found-in-ai_default_strategies.1694358/)
 #### Building Groups ####
 - Shipyards: Parent group changed from heavy industry to light industry
 - Ports: Economy of Scale enabled
@@ -17,7 +15,7 @@ Invite link: https://discord.gg/8CNwKHpHWh
 #### Character Templates ####
 - Sweden: Oscar Bernadotte's culture changed from French to Swedish
 
-### Country Ranks ###
+#### Country Ranks ####
 - Migration attraction buffs and debuffs removed from all country ranks
 - Prestige average threshold for Major Powers reduced from 2.5 down to 2
 
