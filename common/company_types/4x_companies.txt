@@ -1,0 +1,216 @@
+﻿# Egyptian National Railways
+company_egyptian_rail = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/egyptian_rail.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
+	
+	flavored_company = yes
+	
+	building_types = { 
+		building_railway
+	}
+	
+	potential = {
+		country_has_primary_culture = cu:misri
+	}		
+
+	possible = { 
+		any_scope_state = {
+			region = sr:region_nile_basin
+			is_incorporated = yes
+			has_building = building_railway
+			count >= 4
+		}
+		has_technology_researched = corporate_charters			
+	}
+	
+	prosperity_modifier = {
+		state_infrastructure_from_population_max_add = 20
+		market_land_trade_capacity_add = 100
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# São Paulo Railway Co. Ltd.
+company_sao_paulo_railway = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/brazil_sao_paulo_railway.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
+	
+	building_types = {  
+		building_railway
+	}
+	
+	potential = {
+		has_dlc_feature = rp1_content
+		has_interest_marker_in_region = region_brazil
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_SAO_PAULO
+			}
+		}
+	}		
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_SAO_PAULO
+			is_incorporated = yes
+			has_building = building_railway
+			any_scope_building = {
+				is_building_type = building_coffee_plantation
+				level >= 3
+			}
+		}
+		any_scope_state = {
+			region = sr:region_brazil
+			is_incorporated = yes
+			has_building = building_railway
+			count >= 4
+		}
+	}
+	
+	prosperity_modifier = {
+		building_group_bg_coffee_plantations_throughput_add = 0.15
+		market_land_trade_capacity_add = 10
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Căile Ferate Române
+company_cfr = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/romania_cfr.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_railway
+	}
+	
+	potential = {
+		country_has_primary_culture = cu:romanian
+	}
+	
+	possible = {
+		any_scope_state = {
+			state_region = {
+				is_homeland = cu:romanian
+			}
+			is_incorporated = yes
+			has_building = building_railway
+			count >= 2
+		}
+	}
+	
+	prosperity_modifier = {
+		state_infrastructure_mult = 0.05
+		market_land_trade_capacity_add = 150
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Də Afḡān Nasājī Šerkat
+company_da_afghan_nassaji_sherkat = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/da_afghan_nassaji_sherkat.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufactering_light.dds"
+
+	building_types = {
+		building_textile_mills
+	}
+
+	potential = {
+		has_dlc_feature = ep1_content
+		has_interest_marker_in_region = region_persia
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_BALKH
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_BALKH
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_textile_mills
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		market_land_trade_capacity_add = 50
+		building_cotton_plantation_throughput_add = 0.1
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Turkish Petroleum Company
+company_turkish_petroleum = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/turkish_petroleum_company.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_oil_rig
+	}
+
+	potential = {
+		has_interest_marker_in_region = region_arabic
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				OR = {
+					state_region = s:STATE_BAGHDAD
+					state_region = s:STATE_BASRA
+					state_region = s:STATE_MOSUL
+				}
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_BAGHDAD
+				state_region = s:STATE_BASRA
+				state_region = s:STATE_MOSUL
+			}
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_oil_rig
+				level >= 7
+			}
+		}
+		has_technology_researched = pumpjacks
+	}
+
+	prosperity_modifier = {
+		market_land_trade_capacity_add = 5
+		building_railway_throughput_add = 0.05
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}

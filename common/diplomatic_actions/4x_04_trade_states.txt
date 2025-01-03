@@ -30,12 +30,14 @@
 	}
 	
 	possible = {
-		is_diplomatic_play_committed_participant = no
-		scope:target_country = { is_diplomatic_play_committed_participant = no }
 		OR = {
-			custom_tooltip = {
-				text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS_NOT
-				scope:target_country.relations:root > relations_threshold:poor
+			AND = {
+				custom_tooltip = {
+					text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS_NOT
+					scope:target_country.relations:root > relations_threshold:poor
+				}
+				is_diplomatic_play_committed_participant = no
+				scope:target_country = { is_diplomatic_play_committed_participant = no }
 			}
 			custom_tooltip = {
 				text = DIPLO_ACTION_PLAYER_TO_PLAYER

@@ -1,6 +1,6 @@
 types confirmation_widgets 
 {
-	### Confirmation widget - Imperia
+	### Confirmation widget for sending money to another country
     type money_transfer_send_money_confirmation = default_confirmation_widget {
         name = "money_transfer_send_money_confirmation"
 		parentanchor = top|center
@@ -23,7 +23,7 @@ types confirmation_widgets
             onclick = "[GetVariableSystem.Clear('money_transfer_send_money_confirmation')]"
             tooltip = "CANT_SEND_MONEY_EXPLANATION"
         }
-        blockoverride "answer_ho_handler" {
+        blockoverride "answer_no_handler" {
             onclick = "[GetVariableSystem.Clear('money_transfer_send_money_confirmation')]"
             onclick = "[PopupManager.AnswerNo(ConfirmationWindow.Self)]"
         }

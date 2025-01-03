@@ -71,7 +71,29 @@ modifier_recently_adjusted_secondary_PM = {
 	building_throughput_add = -0.1
 }
 
-weak_power_bloc = {
+modifier_failed_schleswig_holstein_question = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	power_bloc_cohesion_mult = -0.25
+	country_prestige_mult = -0.15
+}
+
+modifier_moderator_controlled_switzerland = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_gold_reserve_limit_mult = 1000		# +10000% gold reserve limit modifier
+}
+
+# Reworked Migration Button modifier
+sa_migration_cost = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_influence_mult = -0.25
+	country_authority_mult = -0.10
+}
+
+sa_migration_cost_money = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 1
+}
+
+country_authority_per_subject = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = 1
 }

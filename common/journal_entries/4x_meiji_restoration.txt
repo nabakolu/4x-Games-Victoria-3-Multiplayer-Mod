@@ -23,6 +23,7 @@
 			name = meiji_var
 			add = 1
 		}
+		set_variable = completed_je_meiji_economy
 	}
 
 	on_monthly_pulse = {
@@ -34,6 +35,7 @@
 	}
 
 	transferable = no
+	should_be_pinned_by_default = yes
 
 	weight = 5000
 }

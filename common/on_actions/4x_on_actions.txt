@@ -1,0 +1,15 @@
+﻿UHM_on_action = {
+	effect = {
+		random_political_movement = {
+			limit = {
+				is_secessionist = yes
+				political_movement_support = 0
+			}
+			add_modifier = {
+				name = placated_rally_ig
+				months = 2
+				multiplier = 10
+			}
+		}
+	}
+}

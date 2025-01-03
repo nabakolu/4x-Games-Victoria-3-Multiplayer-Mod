@@ -3,7 +3,7 @@
     make_strategic_region_list = yes
 	every_country = {
 		set_variable = {
-			name = imperia_money_transfer_amount
+			name = country_money_transfer_amount
 			value = 0
 		}
 	}

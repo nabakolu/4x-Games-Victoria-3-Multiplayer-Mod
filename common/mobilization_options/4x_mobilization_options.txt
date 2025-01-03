@@ -171,3 +171,54 @@ mobilization_option_bolt_action_rifles = {
 
     group = main_weapons
 }
+
+# Chemical Weapons Reworked
+mobilization_option_chemical_weapons = {
+	texture = "gfx/interface/icons/mobilization_options/chemical_weapons.dds"
+
+	possible = {
+		market ?= {
+			mg:fertilizer ?= {
+				market_goods_sell_orders > 0
+			}
+		}
+	}
+	
+	on_activate_while_mobilized = {
+		custom_tooltip = {
+			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+			add_organization = {
+				value = organization
+				multiply = -0.5
+			}
+		}
+	}
+	
+	on_deactivate = {
+		custom_tooltip = {
+			text = mobilization_option_it_hurts_organization_when_you_adjust_equipment_tt
+			add_organization = {
+				value = organization
+				multiply = -0.5
+			}
+		}
+	}
+	
+	unlocking_technologies = {
+		chemical_warfare
+	}
+	upkeep_modifier = {
+		goods_input_fertilizer_add = 2
+	}
+	unit_modifier = {
+		unit_offense_add = 20
+		unit_kill_rate_add = 1.0	# Was 0.5. Now 1.0
+		unit_recovery_rate_add = -0.2
+		unit_devastation_mult = 2.0		# +200% devastation
+	}
+	ai_weight = {
+		value = 1
+	}
+
+    group = special_weapons
+}

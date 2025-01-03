@@ -1,3 +1,4 @@
-﻿# List of Changes
-#   - All diplomatic actions between players have no relations requirement
-#   - Fixed bug where Overlords couldn't give its own states to its subjects unless the state in question is both NOT INCORPORATED and NOT PRIMARY HOMELAND. Instead, it should be that primary homelands can't be given away unless it is incorporated.
+﻿List of Changes
+    All diplomatic actions between players have no relations requirement
+    Fixed bug where Overlords couldn't give its own states to its subjects unless the state in question is both NOT INCORPORATED and NOT PRIMARY HOMELAND. Instead, it should be that primary homelands can't be given away unless it is incorporated.
+    AI no longer erroneously desires to reduce the autonomy of charter companies

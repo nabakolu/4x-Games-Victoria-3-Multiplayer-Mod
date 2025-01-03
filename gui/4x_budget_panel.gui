@@ -1340,7 +1340,7 @@ types budget
 						flowcontainer = {
 							spacing = 30
 							textbox = {
-                                raw_text = "#v [FixedPointToFloat(GetMetaPlayer.GetPlayedOrObservedCountry.MakeScope.ScriptValue('imperia_money_transfer_ten_million_counter'))]#!"
+                                raw_text = "#v [FixedPointToFloat(GetMetaPlayer.GetPlayedOrObservedCountry.MakeScope.ScriptValue('country_money_transfer_ten_million_counter'))]#!"
 								align = center
 								fontsize = 45
 								autoresize = yes
@@ -1388,7 +1388,7 @@ types budget
 						flowcontainer = {
 							spacing = 30
 							textbox = {
-                                raw_text = "#v [FixedPointToFloat(GetMetaPlayer.GetPlayedOrObservedCountry.MakeScope.ScriptValue('imperia_money_transfer_one_million_counter'))]#!"
+                                raw_text = "#v [FixedPointToFloat(GetMetaPlayer.GetPlayedOrObservedCountry.MakeScope.ScriptValue('country_money_transfer_one_million_counter'))]#!"
 								align = center
 								fontsize = 45
 								autoresize = yes
@@ -1452,7 +1452,7 @@ types budget
 						flowcontainer = {
 							spacing = 30
 							textbox = {
-                                raw_text = "#v [FixedPointToFloat(GetMetaPlayer.GetPlayedOrObservedCountry.MakeScope.ScriptValue('imperia_money_transfer_one_hundred_k_counter'))]#!"
+                                raw_text = "#v [FixedPointToFloat(GetMetaPlayer.GetPlayedOrObservedCountry.MakeScope.ScriptValue('country_money_transfer_one_hundred_k_counter'))]#!"
 								align = center
 								fontsize = 45
 								autoresize = yes
@@ -1500,7 +1500,7 @@ types budget
 						flowcontainer = {
 							spacing = 30
 							textbox = {
-                                raw_text = "#v [FixedPointToFloat(GetMetaPlayer.GetPlayedOrObservedCountry.MakeScope.ScriptValue('imperia_money_transfer_ten_k_counter'))]#!"
+                                raw_text = "#v [FixedPointToFloat(GetMetaPlayer.GetPlayedOrObservedCountry.MakeScope.ScriptValue('country_money_transfer_ten_k_counter'))]#!"
 								align = center
 								fontsize = 45
 								autoresize = yes
@@ -1548,7 +1548,7 @@ types budget
 						flowcontainer = {
 							spacing = 30
 							textbox = {
-                                raw_text = "#v [FixedPointToFloat(GetMetaPlayer.GetPlayedOrObservedCountry.MakeScope.ScriptValue('imperia_money_transfer_one_k_counter'))]#!"
+                                raw_text = "#v [FixedPointToFloat(GetMetaPlayer.GetPlayedOrObservedCountry.MakeScope.ScriptValue('country_money_transfer_one_k_counter'))]#!"
 								align = center
 								fontsize = 45
 								autoresize = yes

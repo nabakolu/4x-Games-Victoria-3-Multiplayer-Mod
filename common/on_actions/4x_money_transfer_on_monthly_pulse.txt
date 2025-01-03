@@ -4,11 +4,11 @@
 		if = {
 			limit = {
 				NOT = {
-					has_variable = imperia_money_transfer_amount
+					has_variable = country_money_transfer_amount
 				}
 			}
 			set_variable = {
-				name = imperia_money_transfer_amount
+				name = country_money_transfer_amount
 				value = 0
 			}
 		}

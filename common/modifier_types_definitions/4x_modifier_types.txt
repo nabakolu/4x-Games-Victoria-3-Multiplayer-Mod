@@ -1,0 +1,50 @@
+﻿state_mortality_wealth_mult = {
+	decimals=2 # Was 1
+	color=bad
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+country_authority_per_subject_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+country_can_impose_same_lawgroup_trade_policy_in_power_bloc_bool = {
+	color = good
+	boolean=yes
+}
+
+country_can_impose_same_lawgroup_economic_system_in_power_bloc_bool = {
+	color = good
+	boolean=yes
+}
+
+country_can_impose_same_lawgroup_free_speech_in_power_bloc_bool = {
+	color = good
+	boolean=yes
+}
+
+country_can_impose_same_lawgroup_land_reform_in_power_bloc_bool = {
+	color = good
+	boolean=yes
+}
+
+country_can_impose_same_lawgroup_slavery_in_power_bloc_bool = {
+	color = good
+	boolean=yes
+}
+
+power_bloc_mandate_progress_per_major_power_member_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
