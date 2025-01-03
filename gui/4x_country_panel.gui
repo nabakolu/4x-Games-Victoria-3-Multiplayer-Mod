@@ -100,7 +100,7 @@ types country_panel_types
 											texture = "gfx/interface/backgrounds/round_button_bg.dds"
 
 											icon = {
-												parentanchor = center
+												parentanchor = hcenter
 												size = { 75% 75% }
 												texture = "[ContextualDiplomaticActionType.GetDiplomaticActionType.GetTexture]"
 												tooltip = "[ContextualDiplomaticPact.GetTooltip]"
@@ -934,7 +934,7 @@ types country_panel_types
 									icon = {
 										size = { 75% 75% }
 										texture = "[AIStrategy.GetTexture]"
-										parentanchor = center
+										parentanchor = hcenter
 									}
 								}
 

@@ -2,5 +2,6 @@
 	on_actions = {
 		on_money_transfer_monthly_pulse_country
 		UHM_on_action
+		vassalization_principle_authority_refresh
 	}
 }

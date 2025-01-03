@@ -1,4 +1,4 @@
-﻿namespace = moderator_events
+﻿namespace = moderator_event
 
 moderator_event.1 = {
 	type = country

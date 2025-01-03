@@ -1066,7 +1066,7 @@ types budget
 										
 										align = right|nobaseline
 										raw_text = "#variable @money![State.GetGovernmentExpenses|+d]#!"
-										tooltip = "[State.GetGovernmentExpensesTooltip]"
+										using = state_government_expenses_with_table
 										alpha = "[TransparentIfZero(State.GetGovernmentExpenses)]"
 									}
 
@@ -1077,7 +1077,7 @@ types budget
 										
 										align = right|nobaseline
 										raw_text = "#variable @money![State.GetTaxationRevenue|=+D]#!"
-										tooltip = "[State.GetTaxationRevenueTooltip]"
+										using = state_taxation_revenue_with_table
 										alpha = "[TransparentIfZero(State.GetTaxationRevenue)]"
 									}
 								}
@@ -1345,7 +1345,6 @@ types budget
 								fontsize = 45
 								autoresize = yes
 								margin = { 10 10 }
-								align = center
 								parentanchor = center
 							}
 						}
@@ -1393,7 +1392,6 @@ types budget
 								fontsize = 45
 								autoresize = yes
 								margin = { 10 10 }
-								align = center
 								parentanchor = center
 							}
 						}
@@ -1457,7 +1455,6 @@ types budget
 								fontsize = 45
 								autoresize = yes
 								margin = { 10 10 }
-								align = center
 								parentanchor = center
 							}
 						}
@@ -1505,7 +1502,6 @@ types budget
 								fontsize = 45
 								autoresize = yes
 								margin = { 10 10 }
-								align = center
 								parentanchor = center
 							}
 						}
@@ -1553,7 +1549,6 @@ types budget
 								fontsize = 45
 								autoresize = yes
 								margin = { 10 10 }
-								align = center
 								parentanchor = center
 							}
 						}
@@ -1593,18 +1588,18 @@ types budget
                 divider_clean = {}
 				flowcontainer = {
 					direction = vertical
-					align = center
+					align = center|nobaseline
 					parentanchor = hcenter
 					spacing = 20
 					flowcontainer = {
 						direction = horizontal
-						align = center
+						align = center|nobaseline
 						parentanchor = top|hcenter
 						textbox = {
 							raw_text = "#b Select Strategic Region of Recipient#!"
 							using = fontsize_large
 							autoresize = yes
-							align = center
+							align = center|center
 							parentanchor = left
 							visible = "[IsDataModelEmpty(AccessPlayer.MakeScope.GetList('countries_in_selected_strategic_region_money_transfer'))]"
 						}
@@ -1628,7 +1623,7 @@ types budget
 					money_transfer_send_money_confirmation = {}
 					# Strategic Region listing
 					flowcontainer = {
-						align = center
+						align = center|nobaseline
 						parentanchor = hcenter
 						visible = "[IsDataModelEmpty(AccessPlayer.MakeScope.GetList('countries_in_selected_strategic_region_money_transfer'))]"
 						dynamicgridbox = {
@@ -1655,7 +1650,7 @@ types budget
 					}
 					# Countries in selected strategic region listing
 					flowcontainer = {
-						align = center
+						align = center|nobaseline
 						parentanchor = hcenter
 						visible = "[Not(IsDataModelEmpty(AccessPlayer.MakeScope.GetList('countries_in_selected_strategic_region_money_transfer')))]"
 						dynamicgridbox = {

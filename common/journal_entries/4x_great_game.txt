@@ -390,7 +390,6 @@ je_great_game_control = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 ### Russia
@@ -436,7 +435,6 @@ je_secure_persian_border = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 je_pacify_kazakh_steppes = {
@@ -480,7 +478,6 @@ je_pacify_kazakh_steppes = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 je_codify_chinese_border = {
@@ -545,7 +542,7 @@ je_codify_chinese_border = {
 	}
 
 	weight = 1000
-	transferable = yes
+
 }
 
 je_consolidate_central_asia = {
@@ -614,7 +611,6 @@ je_consolidate_central_asia = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 je_chinese_concessions = {
@@ -687,7 +683,6 @@ je_chinese_concessions = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 je_acquire_korean_protectorate = {
@@ -738,7 +733,6 @@ je_acquire_korean_protectorate = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 ### Britain
@@ -778,7 +772,6 @@ je_disrupt_russian_caucasus = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 je_counter_russian_pacific_influence = {
@@ -842,7 +835,6 @@ je_counter_russian_pacific_influence = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 je_consolidate_british_india = {
@@ -951,7 +943,6 @@ je_consolidate_british_india = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 je_pamir_expedition_objective = {
@@ -1047,7 +1038,6 @@ je_pamir_expedition_objective = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 ### Generic GP objectives
@@ -1310,7 +1300,6 @@ je_maintain_afghan_protectorate = {
 
 
 	weight = 1000
-	transferable = yes
 }
 
 je_consolidate_afghanistan_objective = {
@@ -1364,7 +1353,6 @@ je_consolidate_afghanistan_objective = {
 	}
 
 	weight = 1001
-	transferable = yes
 }
 
 je_secure_influence_over_persia = {
@@ -1473,7 +1461,6 @@ je_secure_influence_over_persia = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 ### Minor objectives
@@ -1507,7 +1494,6 @@ je_unify_afghanistan_objective = {
 	}
 
 	weight = 1002
-	transferable = yes
 }
 
 je_consolidate_persia = {
@@ -1550,7 +1536,6 @@ je_consolidate_persia = {
 	}
 
 	weight = 1000
-	transferable = yes
 }
 
 je_achieve_sovereignty = {
@@ -1628,5 +1613,4 @@ je_achieve_sovereignty = {
 	}
 
 	weight = 1000
-	transferable = yes
 }

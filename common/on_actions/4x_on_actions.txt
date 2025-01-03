@@ -13,3 +13,22 @@
 		}
 	}
 }
+
+vassalization_principle_authority_refresh = {
+	effect = {
+		remove_modifier = modifier_vassalization_authority_per_subject_bonus
+		every_power_bloc = {
+			limit = {
+				has_identity = identity:identity_sovereign_empire
+				has_principle_group = principle_group:principle_group_vassalization
+			}
+			every_power_bloc_member = {	
+				limit = { NOT = { has_modifier = modifier_vassalization_authority_per_subject_bonus } }
+				add_modifier = {
+					name = modifier_vassalization_authority_per_subject_bonus
+					multiplier = number_of_subjects_counter
+				}
+			}
+		}
+	}
+}

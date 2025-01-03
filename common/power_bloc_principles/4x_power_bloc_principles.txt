@@ -14,8 +14,7 @@ principle_vassalization_1 = {
 	}
 
 	member_modifier = {
-		# Each subject increases authority by 2%
-		country_authority_per_subject = 0.02
+		# Each subject increases authority by 2%, done by an on_action
 	}
 	
 	ai_weight = {
@@ -41,8 +40,7 @@ principle_vassalization_2 = {
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 	
 	member_modifier = {
-		# Each subject increases authority by 2%
-		country_authority_per_subject_mult = 0.02
+		# Each subject increases authority by 2%, done by an on_action
 		
 		# Subjects pay more to overlord
 		country_subject_income_transfer_mult = 0.25
@@ -58,8 +56,9 @@ principle_vassalization_3 = {
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
-		# Each subject increases authority by 2%
-		country_authority_per_subject_mult = 0.02
+		# Each subject increases authority by 2%, done by an on_action
+
+		# Subjects pay more to overlord
 		country_subject_income_transfer_mult = 0.25
 		
 		# Can use decrees on subjects
