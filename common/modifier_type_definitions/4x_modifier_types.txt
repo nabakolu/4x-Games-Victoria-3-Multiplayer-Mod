@@ -14,3 +14,51 @@ power_bloc_mandate_progress_per_major_power_member_add={
 		ai_value=0
 	}
 }
+
+state_building_coal_mine_zw_max_level_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_building_iron_mine_zw_max_level_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_building_lead_mine_zw_max_level_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_building_sulfur_mine_zw_max_level_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_building_oil_rig_zw_max_level_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_building_fishing_wharf_zw_max_level_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}

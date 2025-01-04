@@ -1,0 +1,179 @@
+﻿je_zw_resource_management_status_cl = {
+	type = country
+	random_valid = no	
+	text = {
+		trigger = {
+			has_variable = zw_var_add_resource_progress
+		}
+		localization_key = je_zw_resource_management_status_cl_1
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = je_zw_resource_management_status_cl_2
+	}
+}
+
+je_zw_resource_management_reason_coal_sulfur_cl = {
+	type = country
+	random_valid = no	
+	text = {
+		trigger = {
+			has_technology_researched = zw_tech_coal_sulfur
+		}
+		localization_key = je_zw_resource_management_reason_coal_sulfur_cl_1
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = je_zw_resource_management_reason_coal_sulfur_cl_2
+	}
+}
+
+je_zw_resource_management_reason_iron_lead_cl = {
+	type = country
+	random_valid = no	
+	text = {
+		trigger = {
+			has_technology_researched = zw_tech_iron_lead
+		}
+		localization_key = je_zw_resource_management_reason_iron_lead_cl_1
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = je_zw_resource_management_reason_iron_lead_cl_2
+	}
+}
+
+je_zw_resource_management_reason_oil_cl = {
+	type = country
+	random_valid = no	
+	text = {
+		trigger = {
+			has_technology_researched = zw_tech_oil
+		}
+		localization_key = je_zw_resource_management_reason_oil_cl_1
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = je_zw_resource_management_reason_oil_cl_2
+	}
+}
+
+je_zw_resource_management_reason_fish_cl = {
+	type = country
+	random_valid = no	
+	text = {
+		trigger = {
+			has_technology_researched = zw_tech_fish
+		}
+		localization_key = je_zw_resource_management_reason_fish_cl_1
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = je_zw_resource_management_reason_fish_cl_2
+	}
+}
+
+je_zw_resource_management_reason_arable_land_cl = {
+	type = country
+	random_valid = no	
+	text = {
+		trigger = {
+			has_technology_researched = zw_tech_arable_land
+		}
+		localization_key = je_zw_resource_management_reason_arable_land_cl_1
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = je_zw_resource_management_reason_arable_land_cl_2
+	}
+}
+
+zw_add_arable_land_budget_cl = {
+	type = country
+	random_valid = no	
+	text = {
+		trigger = {
+			has_variable = zw_var_add_arable_land_budget
+		}
+		localization_key = zw_add_arable_land_budget_cl_1
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = zw_add_arable_land_budget_cl_2
+	}
+}
+
+zw_add_arable_land_budget_num_cl = {
+	type = country
+	random_valid = no	
+	text = {
+		trigger = {
+			has_variable = zw_var_add_arable_land_budget_num
+		}
+		localization_key = zw_add_arable_land_budget_num_cl_1
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = zw_add_arable_land_budget_num_cl_2
+	}
+}
+
+zw_add_arable_land_budget_subjects_cl = {
+	type = country
+	random_valid = no	
+	text = {
+		trigger = {
+			has_variable = zw_var_add_arable_land_budget_subjects
+		}
+		localization_key = zw_add_arable_land_budget_subjects_cl_1
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = zw_add_arable_land_budget_subjects_cl_2
+	}
+}
+
+zw_add_arable_land_budget_num_subjects_cl = {
+	type = country
+	random_valid = no	
+	text = {
+		trigger = {
+			has_variable = zw_var_add_arable_land_budget_num_subjects
+		}
+		localization_key = zw_add_arable_land_budget_num_subjects_cl_1
+	}
+	text = {
+		trigger = {
+			always = no
+		}
+		fallback = yes
+		localization_key = zw_add_arable_land_budget_num_subjects_cl_2
+	}
+}

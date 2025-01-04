@@ -4,8 +4,7 @@
 	}
 	requires_approval = yes
 	should_notify_third_parties = yes
-	can_use_obligations = yes
-		confirmation_sound = "event:/SFX/UI/MapInteraction/diplomatic_action_foreign_investment_rights_request"
+	confirmation_sound = "event:/SFX/UI/MapInteraction/diplomatic_action_foreign_investment_rights_request"
 
 	unlocking_technologies = {
 		stock_exchange
@@ -785,19 +784,10 @@ grant_foreign_investment_rights = {
 			has_technology_researched = stock_exchange
 		}
 
-		OR = {
-			custom_tooltip = {
-				text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS_NOT
-				scope:target_country.relations:root > relations_threshold:poor
-			}
-			custom_tooltip = {
-				text = DIPLO_ACTION_PLAYER_TO_PLAYER
-				AND = {
-					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
-					root = { is_player = yes }					# Is the initiator country controlled by a human player?
-				}
-			}
-		}			
+		custom_tooltip = {
+			text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS_NOT
+			scope:target_country.relations:root > relations_threshold:poor
+		}					
 	}
 
 
