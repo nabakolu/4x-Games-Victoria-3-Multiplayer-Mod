@@ -1,0 +1,457 @@
+﻿l_english:
+
+# JEs
+
+	je_zw_coal_sulfur_research: "$zw_tech_coal_sulfur$"
+	je_zw_coal_sulfur_research_reason: "$je_zw_resource_research_general_reason$\n1. $zw_coal_sulfur_research_progress_bar_sell_orders_tt$\n2. $zw_coal_sulfur_research_progress_bar_innovation_tt$\n3. $zw_coal_sulfur_research_progress_bar_goods_pricier_tt$"
+
+	je_zw_iron_lead_research: "$zw_tech_iron_lead$"
+	je_zw_iron_lead_research_reason: "$je_zw_resource_research_general_reason$\n1. $zw_iron_lead_research_progress_bar_sell_orders_tt$\n2. $zw_iron_lead_research_progress_bar_innovation_tt$\n3. $zw_iron_lead_research_progress_bar_goods_pricier_tt$"
+
+	je_zw_oil_research: "$zw_tech_oil$"
+	je_zw_oil_research_reason: "$je_zw_resource_research_general_reason$\n1. $zw_oil_research_progress_bar_sell_orders_tt$\n2. $zw_oil_research_progress_bar_innovation_tt$\n3. $zw_oil_research_progress_bar_goods_pricier_tt$"
+
+	je_zw_fish_research: "$zw_tech_fish$"
+	je_zw_fish_research_reason: "$je_zw_resource_research_general_reason$\n1. $zw_fish_research_progress_bar_sell_orders_tt$\n2. $zw_fish_research_progress_bar_innovation_tt$\n3. $zw_fish_research_progress_bar_goods_pricier_tt$"
+
+	je_zw_wood_rubber_research: "$zw_tech_wood_rubber$"
+	je_zw_wood_rubber_research_reason: "$je_zw_resource_research_general_reason$\n1. $zw_wood_rubber_research_progress_bar_sell_orders_tt$\n2. $zw_wood_rubber_research_progress_bar_innovation_tt$\n3. $zw_wood_rubber_research_progress_bar_goods_pricier_tt$"
+
+	je_zw_arable_land_research: "$zw_tech_arable_land$"
+	je_zw_arable_land_research_reason: "$je_zw_resource_research_general_reason$\n1. $zw_arable_land_research_progress_bar_sell_orders_tt$\n2. $zw_arable_land_research_progress_bar_innovation_tt$\n3. $zw_arable_land_research_progress_bar_goods_pricier_tt$"
+
+	je_zw_resource_management: "Resource Industries Research"
+	je_zw_resource_management_reason: "$je_zw_resource_management_reason_general$$je_zw_resource_management_reason_coal_sulfur$$je_zw_resource_management_reason_iron_lead$$je_zw_resource_management_reason_oil$$je_zw_resource_management_reason_fish$$je_zw_resource_management_reason_arable_land$"
+
+	je_zw_resource_management_status: "[GetPlayer.GetCustom('je_zw_resource_management_status_cl')]"
+
+	je_zw_resource_management_status_cl_1: "#green Some progress was made last month.#!"
+	je_zw_resource_management_status_cl_2: "No progress was made last month."
+
+# JE Complete conditions custom tooltip
+
+	zw_research_bar_finished_tt: "Research progress has reached 100%."
+
+# JEs reason breakdown
+
+	# resource research
+
+	je_zw_resource_research_general_reason: "With the rapid growth of our industry, the traditional way of resources extraction can no longer support the further growth of our market. It is time to increase the investment in technology research for new materials and intensive resources extraction.\n\nThe status of the progress bar will advance when any of the following conditions are met:"
+
+	# resources management: general reason
+
+	je_zw_resource_management_reason_general: "Our ability to utilize natural resources has been greatly improved thanks to our investment in technologies.\n\n"
+
+	# resources management: coal_sulfur
+
+	je_zw_resource_management_reason_coal_sulfur: "[ROOT.GetCountry.GetCustom('je_zw_resource_management_reason_coal_sulfur_cl')]"
+
+	je_zw_resource_management_reason_coal_sulfur_cl_1: "@zw_texticon_tech_coal_sulfur! #yellow #b $zw_tech_coal_sulfur$#!#!:\nThe max level of #yellow $building_coal_mine_zw$#! has increased by #blue #b [Country.MakeScope.Var('zw_var_count_1_coal_sulfur').GetValue]#!#!.\nThe max level of #yellow $building_sulfur_mine_zw$#! has increased by #blue #b [Country.MakeScope.Var('zw_var_count_1_coal_sulfur').GetValue]#!#!.\nTheir max levels in our subjects have also increased by #blue #b [Country.MakeScope.Var('zw_var_count_2_coal_sulfur').GetValue]#!#!.\n\n"
+
+	je_zw_resource_management_reason_coal_sulfur_cl_2: ""
+
+	# resources management: iron_lead
+
+	je_zw_resource_management_reason_iron_lead: "[ROOT.GetCountry.GetCustom('je_zw_resource_management_reason_iron_lead_cl')]"
+
+	je_zw_resource_management_reason_iron_lead_cl_1: "@zw_texticon_tech_iron_lead! #yellow #b $zw_tech_iron_lead$#!#!:\nThe max level of #yellow $building_iron_mine_zw$#! has increased by #blue #b [Country.MakeScope.Var('zw_var_count_1_iron_lead').GetValue]#!#!.\nThe max level of #yellow $building_lead_mine_zw$#! has increased by #blue #b [Country.MakeScope.Var('zw_var_count_1_iron_lead').GetValue]#!#!.\nTheir max levels in our subjects have also increased by #blue #b [Country.MakeScope.Var('zw_var_count_2_iron_lead').GetValue]#!#!.\n\n"
+
+	je_zw_resource_management_reason_iron_lead_cl_2: ""
+
+	# resources management: oil
+
+	je_zw_resource_management_reason_oil: "[ROOT.GetCountry.GetCustom('je_zw_resource_management_reason_oil_cl')]"
+
+	je_zw_resource_management_reason_oil_cl_1: "@zw_texticon_tech_oil! #yellow #b $zw_tech_oil$#!#!:\nThe max level of #yellow $building_oil_rig_zw$#! has increased by #blue #b [Country.MakeScope.Var('zw_var_count_1_oil').GetValue]#!#!.\nIts max level in our subjects has also increased by #blue #b [Country.MakeScope.Var('zw_var_count_2_oil').GetValue]#!#!.\n\n"
+
+	je_zw_resource_management_reason_oil_cl_2: ""
+
+	# resources management: fish
+
+	je_zw_resource_management_reason_fish: "[ROOT.GetCountry.GetCustom('je_zw_resource_management_reason_fish_cl')]"
+
+	je_zw_resource_management_reason_fish_cl_1: "@zw_texticon_tech_fish! #yellow #b $zw_tech_fish$#!#!:\nThe max level of #yellow $building_fishing_wharf_zw$#! has increased by #blue #b [Country.MakeScope.Var('zw_var_count_1_fish').GetValue]#!#!.\nIts max level in our subjects has also increased by #blue #b [Country.MakeScope.Var('zw_var_count_2_fish').GetValue]#!#!.\n\n"
+
+	je_zw_resource_management_reason_fish_cl_2: ""
+
+	# resources management: arable_land
+
+	je_zw_resource_management_reason_arable_land: "[ROOT.GetCountry.GetCustom('je_zw_resource_management_reason_arable_land_cl')]"
+
+	je_zw_resource_management_reason_arable_land_cl_1: "@zw_texticon_tech_arable_land! #yellow #b $zw_tech_arable_land$#!#!:\nAdvanced argricultural engineering allows us to convert more land into arable land in states that have great agricultural potential when available arable land is countrywide insufficient."
+
+	je_zw_resource_management_reason_arable_land_cl_2: ""
+
+# Progress bar
+
+	zw_coal_sulfur_research_progress_bar: "$je_zw_coal_sulfur_research$"
+	zw_coal_sulfur_research_progress_bar_desc: "Progress: [JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)]/60"
+
+	zw_iron_lead_research_progress_bar: "$je_zw_iron_lead_research$"
+	zw_iron_lead_research_progress_bar_desc: "Progress: [JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)]/60"
+
+	zw_oil_research_progress_bar: "$je_zw_oil_research$"
+	zw_oil_research_progress_bar_desc: "Progress: [JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)]/60"
+
+	zw_fish_research_progress_bar: "$je_zw_fish_research$"
+	zw_fish_research_progress_bar_desc: "Progress: [JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)]/60"
+
+	zw_wood_rubber_research_progress_bar: "$je_zw_wood_rubber_research$"
+	zw_wood_rubber_research_progress_bar_desc: "Progress: [JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)]/60"
+
+	zw_arable_land_research_progress_bar: "$je_zw_arable_land_research$"
+	zw_arable_land_research_progress_bar_desc: "Progress: [JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)]/60"
+
+# Progress bar monthly progress
+
+	# Progress bar monthly progress: coal_sulfur
+
+	zw_coal_sulfur_research_progress_bar_sell_orders_tt: "Large market\n      #yellow @coal! $coal$#! [concept_sell_orders] >= [SCOPE.ScriptValue('zw_value_sell_orders_coal')]\n      #yellow @sulfur! $sulfur$#! [concept_sell_orders] >= [SCOPE.ScriptValue('zw_value_sell_orders_sulfur')]"
+
+	zw_coal_sulfur_research_progress_bar_innovation_tt: "@innovation! [concept_innovation] >= [SCOPE.ScriptValue('zw_value_innovation')]"
+
+	zw_coal_sulfur_research_progress_bar_goods_pricier_tt: "#yellow @coal! $coal$#! or #yellow @sulfur! $sulfur$#! [concept_market_price] >= 120% [concept_base_price]"
+
+	# Progress bar monthly progress: iron_lead
+
+	zw_iron_lead_research_progress_bar_sell_orders_tt: "Large market\n      #yellow @iron! $iron$#! [concept_sell_orders] >= [SCOPE.ScriptValue('zw_value_sell_orders_iron')]\n      #yellow @lead! $lead$#! [concept_sell_orders] >= [SCOPE.ScriptValue('zw_value_sell_orders_lead')]"
+
+	zw_iron_lead_research_progress_bar_innovation_tt: "@innovation! [concept_innovation] >= [SCOPE.ScriptValue('zw_value_innovation')]"
+
+	zw_iron_lead_research_progress_bar_goods_pricier_tt: "#yellow @iron! $iron$#! or #yellow @lead! $lead$#! [concept_market_price] >= 120% [concept_base_price]"
+
+	# Progress bar monthly progress: oil
+
+	zw_oil_research_progress_bar_sell_orders_tt: "Large market\n      #yellow @oil! $oil$#! [concept_sell_orders] >= [SCOPE.ScriptValue('zw_value_sell_orders_oil')]"
+
+	zw_oil_research_progress_bar_innovation_tt: "@innovation! [concept_innovation] >= [SCOPE.ScriptValue('zw_value_innovation')]"
+
+	zw_oil_research_progress_bar_goods_pricier_tt: "#yellow @oil! $oil$#! [concept_market_price] >= 120% [concept_base_price]"
+
+	# Progress bar monthly progress: fish
+
+	zw_fish_research_progress_bar_sell_orders_tt: "Large market\n      #yellow @fish! $fish$#! [concept_sell_orders] >= [SCOPE.ScriptValue('zw_value_sell_orders_fish')]"
+
+	zw_fish_research_progress_bar_innovation_tt: "@innovation! [concept_innovation] >= [SCOPE.ScriptValue('zw_value_innovation')]"
+
+	zw_fish_research_progress_bar_goods_pricier_tt: "#yellow @fish! $fish$#! [concept_market_price] >= 120% [concept_base_price]"
+
+	# Progress bar monthly progress: wood_rubber
+
+	zw_wood_rubber_research_progress_bar_sell_orders_tt: "Large market\n      #yellow @wood! $wood$#! [concept_sell_orders] >= [SCOPE.ScriptValue('zw_value_sell_orders_wood')]\n      #yellow @rubber! $rubber$#! [concept_sell_orders] >= [SCOPE.ScriptValue('zw_value_sell_orders_rubber')]"
+
+	zw_wood_rubber_research_progress_bar_innovation_tt: "@innovation! [concept_innovation] >= [SCOPE.ScriptValue('zw_value_innovation')]"
+
+	zw_wood_rubber_research_progress_bar_goods_pricier_tt: "#yellow @wood! $wood$#! or #yellow @rubber! $rubber$#! [concept_market_price] >= 120% [concept_base_price]"
+
+	# Progress bar monthly progress: arable_land
+
+	zw_arable_land_research_progress_bar_sell_orders_tt: "Large market\n      #yellow @grain! $grain$#! [concept_sell_orders] >= [SCOPE.ScriptValue('zw_value_sell_orders_grain')]"
+
+	zw_arable_land_research_progress_bar_innovation_tt: "@innovation! [concept_innovation] >= [SCOPE.ScriptValue('zw_value_innovation')]"
+
+	zw_arable_land_research_progress_bar_goods_pricier_tt: "#yellow @grain! $grain$#! [concept_market_price] >= 120% [concept_base_price]"
+
+# Scripted buttons
+
+	# Scripted buttons: breakdown
+
+	zw_research_cost_tt: "The current weekly cost of the research will be @money!#gold #b [SCOPE.ScriptValue('zw_value_money_cost_for_research')]#!#!.\n\nThe weekly cost will be adjusted to #blue #b 0.01%#!#! of our GDP monthly but will not exceed @money!#gold #b 1M#!#!.\n\nStarting this research also needs an initial up-front funding of @money!#gold #b [SCOPE.ScriptValue('zw_value_money_cost_for_research_up_front')]#!#!, which is four times the current weekly cost."
+
+	zw_research_subjects_cost_tt: "The current weekly cost of the technology transfer will be @money!#gold #b [SCOPE.ScriptValue('zw_value_money_cost_for_research')]#!#!.\n\nThe weekly cost will be adjusted to #blue #b 0.01%#!#! of our current GDP monthly but will not exceed @money!#gold #b 1M#!#!.\n\nStarting the technology transfer also needs an initial up-front funding of @money!#gold #b [SCOPE.ScriptValue('zw_value_money_cost_for_research_up_front')]#!#!, which is four times the current weekly cost."
+
+	zw_has_at_least_one_subject: "We have at least one subject (incl. indirect subjects)."
+
+	# Scripted buttons: debt control
+
+	zw_add_resource_debt_control_button: "@green_checkmark! Debt Management"
+	zw_add_resource_debt_control_button_desc: ""
+	zw_add_resource_debt_control_button_effect: "All research will be paused temporarily if our government is in debt.\n\nThe research won't be cancelled and will be restored automatically once the debt is paid off."
+
+	zw_add_resource_debt_control_undo_button: "@red_cross! Debt Management"
+	zw_add_resource_debt_control_undo_button_desc: ""
+	zw_add_resource_debt_control_undo_button_effect: "Research won't be paused even if our government is in debt."
+
+	# Scripted buttons: coal_sulfur
+
+	zw_add_coal_sulfur_button: "@green_checkmark! #gold Research Expenditure#! @zw_texticon_tech_coal_sulfur!"
+	zw_add_coal_sulfur_button_desc: ""
+	zw_add_coal_sulfur_button_effect_tt: "Increase our research expenditure on @zw_texticon_tech_coal_sulfur! #yellow $zw_tech_coal_sulfur$#!.\n\nThis research will give us 10% chance each month to increase the max level of #yellow $building_coal_mine_zw$#! and #yellow $building_sulfur_mine_zw$#! by [SCOPE.ScriptValue('zw_value_max_level_change_coal_sulfur')].\n\n$zw_research_cost_tt$"
+
+	zw_add_coal_sulfur_undo_button: "@red_cross! #gold Research Expenditure#! @zw_texticon_tech_coal_sulfur!"
+	zw_add_coal_sulfur_undo_button_desc: ""
+	zw_add_coal_sulfur_undo_button_effect_tt: "No extra research expenditure on #yellow $zw_tech_coal_sulfur$#!.\n\nThe on-going research will be cancelled and the initial up-front funding needs to be paid again when the research is restored. @warning!"
+
+	# Scripted buttons: coal_sulfur_subjects
+
+	zw_add_coal_sulfur_subjects_button: "@green_checkmark! Technology Transfer  @zw_texticon_tech_coal_sulfur!"
+	zw_add_coal_sulfur_subjects_button_desc: ""
+	zw_add_coal_sulfur_subjects_button_effect_tt: "Transfer our technology of #yellow $zw_tech_coal_sulfur$#! to subjects.\n\nThis technology transfer will give us 10% chance each month to increase the max level of #yellow $building_coal_mine_zw$#! and #yellow $building_sulfur_mine_zw$#! in our subjects by [SCOPE.ScriptValue('zw_value_max_level_change_subjects_coal_sulfur')]. The technology will be transferred to a subject only when our technology is more advanced.\n\n$zw_research_subjects_cost_tt$"
+	zw_add_coal_sulfur_subjects_button_trigger_1_tt: "#blue $zw_add_coal_sulfur_button$#! is selected."
+	zw_add_coal_sulfur_subjects_button_trigger_2_tt: "$zw_has_at_least_one_subject$"
+
+	zw_add_coal_sulfur_subjects_undo_button: "@red_cross! Technology Transfer  @zw_texticon_tech_coal_sulfur!"
+	zw_add_coal_sulfur_subjects_undo_button_desc: ""
+	zw_add_coal_sulfur_subjects_undo_button_effect_tt: "No technology transfer of #yellow $zw_tech_coal_sulfur$#! to our subjects.\n\nThe on-going technology transfer will be cancelled and the initial up-front funding needs to be paid again when the technology transfer is restored. @warning!"
+
+	# Scripted buttons: iron_lead
+
+	zw_add_iron_lead_button: "@green_checkmark! #gold Research Expenditure#! @zw_texticon_tech_iron_lead!"
+	zw_add_iron_lead_button_desc: ""
+	zw_add_iron_lead_button_effect_tt: "Increase our research expenditure on @zw_texticon_tech_iron_lead! #yellow $zw_tech_iron_lead$#!.\n\nThis research will give us 10% chance each month to increase the max level of #yellow $building_iron_mine_zw$#! and #yellow $building_lead_mine_zw$#! by [SCOPE.ScriptValue('zw_value_max_level_change_iron_lead')].\n\n$zw_research_cost_tt$"
+
+	zw_add_iron_lead_undo_button: "@red_cross! #gold Research Expenditure#! @zw_texticon_tech_iron_lead!"
+	zw_add_iron_lead_undo_button_desc: ""
+	zw_add_iron_lead_undo_button_effect_tt: "No extra research expenditure on #yellow $zw_tech_iron_lead$#!.\n\nThe on-going research will be cancelled and the initial up-front funding needs to be paid again when the research is restored. @warning!"
+
+	# Scripted buttons: iron_lead_subjects
+
+	zw_add_iron_lead_subjects_button: "@green_checkmark! Technology Transfer  @zw_texticon_tech_iron_lead!"
+	zw_add_iron_lead_subjects_button_desc: ""
+	zw_add_iron_lead_subjects_button_effect_tt: "Transfer our technology of #yellow $zw_tech_iron_lead$#! to subjects.\n\nThis technology transfer will give us 10% chance each month to increase the max level of #yellow $building_iron_mine_zw$#! and #yellow $building_lead_mine_zw$#! in our subjects by [SCOPE.ScriptValue('zw_value_max_level_change_subjects_iron_lead')]. The technology will be transferred to a subject only when our technology is more advanced.\n\n$zw_research_subjects_cost_tt$"
+	zw_add_iron_lead_subjects_button_trigger_1_tt: "#blue $zw_add_iron_lead_button$#! is selected."
+	zw_add_iron_lead_subjects_button_trigger_2_tt: "$zw_has_at_least_one_subject$"
+
+	zw_add_iron_lead_subjects_undo_button: "@red_cross! Technology Transfer  @zw_texticon_tech_iron_lead!"
+	zw_add_iron_lead_subjects_undo_button_desc: ""
+	zw_add_iron_lead_subjects_undo_button_effect_tt: "No technology transfer of #yellow $zw_tech_iron_lead$#! to our subjects.\n\nThe on-going technology transfer will be cancelled and the initial up-front funding needs to be paid again when the technology transfer is restored. @warning!"
+
+	# Scripted buttons: oil
+
+	zw_add_oil_button: "@green_checkmark! #gold Research Expenditure#! @zw_texticon_tech_oil!"
+	zw_add_oil_button_desc: ""
+	zw_add_oil_button_effect_tt: "Increase our research expenditure on @zw_texticon_tech_oil! #yellow $zw_tech_oil$#!.\n\nThis research will give us 10% chance each month to increase the max level of #yellow $building_oil_rig_zw$#! by [SCOPE.ScriptValue('zw_value_max_level_change_oil')].\n\n$zw_research_cost_tt$"
+
+	zw_add_oil_undo_button: "@red_cross! #gold Research Expenditure#! @zw_texticon_tech_oil!"
+	zw_add_oil_undo_button_desc: ""
+	zw_add_oil_undo_button_effect_tt: "No extra research expenditure on #yellow $zw_tech_oil$#!.\n\nThe on-going research will be cancelled and the initial up-front funding needs to be paid again when the research is restored. @warning!"
+
+	# Scripted buttons: oil_subjects
+
+	zw_add_oil_subjects_button: "@green_checkmark! Technology Transfer  @zw_texticon_tech_oil!"
+	zw_add_oil_subjects_button_desc: ""
+	zw_add_oil_subjects_button_effect_tt: "Transfer our technology of #yellow $zw_tech_oil$#! to subjects.\n\nThis technology transfer will give us 10% chance each month to increase the max level of #yellow $building_oil_rig_zw$#! in our subjects by [SCOPE.ScriptValue('zw_value_max_level_change_subjects_oil')]. The technology will be transferred to a subject only when our technology is more advanced.\n\n$zw_research_subjects_cost_tt$"
+	zw_add_oil_subjects_button_trigger_1_tt: "#blue $zw_add_oil_button$#! is selected."
+	zw_add_oil_subjects_button_trigger_2_tt: "$zw_has_at_least_one_subject$"
+
+	zw_add_oil_subjects_undo_button: "@red_cross! Technology Transfer  @zw_texticon_tech_oil!"
+	zw_add_oil_subjects_undo_button_desc: ""
+	zw_add_oil_subjects_undo_button_effect_tt: "No technology transfer of #yellow $zw_tech_oil$#! to our subjects.\n\nThe on-going technology transfer will be cancelled and the initial up-front funding needs to be paid again when the technology transfer is restored. @warning!"
+
+	# Scripted buttons: fish
+
+	zw_add_fish_button: "@green_checkmark! #gold Research Expenditure#! @zw_texticon_tech_fish!"
+	zw_add_fish_button_desc: ""
+	zw_add_fish_button_effect_tt: "Increase our research expenditure on @zw_texticon_tech_fish! #yellow $zw_tech_fish$#!.\n\nThis research will give us 10% chance each month to increase the max level of #yellow $building_fishing_wharf_zw$#! by [SCOPE.ScriptValue('zw_value_max_level_change_fish')].\n\n$zw_research_cost_tt$"
+
+	zw_add_fish_undo_button: "@red_cross! #gold Research Expenditure#! @zw_texticon_tech_fish!"
+	zw_add_fish_undo_button_desc: ""
+	zw_add_fish_undo_button_effect_tt: "No extra research expenditure on #yellow $zw_tech_fish$#!.\n\nThe on-going research will be cancelled and the initial up-front funding needs to be paid again when the research is restored. @warning!"
+
+	# Scripted buttons: fish_subjects
+
+	zw_add_fish_subjects_button: "@green_checkmark! Technology Transfer  @zw_texticon_tech_fish!"
+	zw_add_fish_subjects_button_desc: ""
+	zw_add_fish_subjects_button_effect_tt: "Transfer our technology of #yellow $zw_tech_fish$#! to subjects.\n\nThis technology transfer will give us 10% chance each month to increase the max level of #yellow $building_fishing_wharf_zw$#! in our subjects by [SCOPE.ScriptValue('zw_value_max_level_change_subjects_fish')]. The technology will be transferred to a subject only when our technology is more advanced.\n\n$zw_research_subjects_cost_tt$"
+	zw_add_fish_subjects_button_trigger_1_tt: "#blue $zw_add_fish_button$#! is selected."
+	zw_add_fish_subjects_button_trigger_2_tt: "$zw_has_at_least_one_subject$"
+
+	zw_add_fish_subjects_undo_button: "@red_cross! Technology Transfer  @zw_texticon_tech_fish!"
+	zw_add_fish_subjects_undo_button_desc: ""
+	zw_add_fish_subjects_undo_button_effect_tt: "No technology transfer of #yellow $zw_tech_fish$#! to our subjects.\n\nThe on-going technology transfer will be cancelled and the initial up-front funding needs to be paid again when the technology transfer is restored. @warning!"
+
+	# Scripted buttons: arable_land
+
+	zw_add_arable_land_button: "@green_checkmark! #blue Agricultural Engineering#!"
+	zw_add_arable_land_button_desc: ""
+	zw_add_arable_land_button_effect_tt: "#yellow Increase arable land#! when available arable land is insufficient.\n\n$zw_add_arable_land_conditions_country_tt$\n\n$zw_add_arable_land_conditions_state_tt$\n\n$zw_add_arable_land_conditions_cost_tt$"
+
+	zw_add_arable_land_undo_button: "@red_cross! #blue Agricultural Engineering#!"
+	zw_add_arable_land_undo_button_desc: ""
+	zw_add_arable_land_undo_button_effect_tt: "No extra budget for #yellow $zw_tech_arable_land$#!."
+
+	zw_add_arable_land_conditions_country_tt: "Arable land will be increased once a year in our country (or in a direct subject) if countrywide at least 70% of the states have no more than 20 available arable land."
+
+	zw_add_arable_land_conditions_state_tt: "Arable land will only be increased in states that meet these conditions:\n\n    Is not a #gold Split State#!\n    #gold Available Arable Land#! <= 3\n    At least one of these conditions are met:\n        #gold Arable Land#! >= 100\n        All of these conditions are met:\n            #gold Arable Land#! >= 70\n            Support at least one of these plantations:\n                @tea! #yellow $building_tea_plantation$#!\n                @coffee! #yellow $building_coffee_plantation$#!\n                @opium! #yellow $building_opium_plantation$#!"
+
+	zw_add_arable_land_conditions_cost_tt: "Each time increasing arable land in a state will cost us @money!#gold #b 500k#!#!.\n\nArable land will be increased in each suitable state until the total cost reaches our #yellow planned budget#! or we ran out of money.\n\nThe more populated a state is, the more likely its arable land will be increased first, but the exact order will also be affected by random factors."
+
+	# Scripted buttons: arable land budget
+
+	zw_add_arable_land_budget_increase_button: "@arrow_up_up! Agricultural Budget @zw_texticon_budget_domestic!"
+	zw_add_arable_land_budget_increase_button_desc: ""
+	zw_add_arable_land_budget_increase_button_effect_tt: "#yellow Increase#! the budget for increasing arable land #yellow in our country#! by @money!#gold #b 500k#!#!.\n\n$zw_add_arable_land_budget_breakdown_1$\n\n$zw_add_arable_land_budget_breakdown_2$\n\n$zw_add_arable_land_budget_breakdown_3$\n\n$zw_add_arable_land_budget_breakdown_4$\n\n$zw_add_arable_land_budget_breakdown_5$\n\n$zw_add_arable_land_budget_breakdown_6$"
+
+	zw_add_arable_land_budget_decrease_button: "@arrow_down_down! Agricultural Budget @zw_texticon_budget_domestic!"
+	zw_add_arable_land_budget_decrease_button_desc: ""
+	zw_add_arable_land_budget_decrease_button_effect_tt: "#yellow Decrease#! the budget for increasing arable land #yellow in our country#! by @money!#gold #b 500k#!#!.\n\n$zw_add_arable_land_budget_breakdown_1$\n\n$zw_add_arable_land_budget_breakdown_2$\n\n$zw_add_arable_land_budget_breakdown_3$\n\n$zw_add_arable_land_budget_breakdown_4$\n\n$zw_add_arable_land_budget_breakdown_5$\n\n$zw_add_arable_land_budget_breakdown_6$"
+
+	zw_add_arable_land_budget_breakdown_1: "Our current budget is @money!#gold #b [ROOT.GetCountry.GetCustom('zw_add_arable_land_budget_cl')]#!#!."
+	zw_add_arable_land_budget_breakdown_2: "It can be increased as long as it's less than 5% of our #gold gold reserves limit#!."
+	zw_add_arable_land_budget_breakdown_3: "It allows us to increase arable land in #blue #b [ROOT.GetCountry.GetCustom('zw_add_arable_land_budget_num_cl')]#!#! state(s) each time."
+	zw_add_arable_land_budget_breakdown_4: "The current number of states that need more arable land is #blue #b [SCOPE.ScriptValue('zw_value_num_states_to_add_arable_land')]#!#!."
+	zw_add_arable_land_budget_breakdown_5: "Up to 40 states' arable land can be increased each time if the budget allows."
+	zw_add_arable_land_budget_breakdown_6: "Currently, #blue #b [SCOPE.ScriptValue('zw_value_ratio_states_with_few_arable_land')]%#!#! of states in our country have no more than 20 available arable land. It must at least reach 70% for arable land to be increased."
+
+	zw_add_arable_land_budget_cl_1: "[ROOT.Var('zw_var_add_arable_land_budget').GetValue]"
+	zw_add_arable_land_budget_cl_2: "0"
+
+	zw_add_arable_land_budget_num_cl_1: "[ROOT.Var('zw_var_add_arable_land_budget_num').GetValue]"
+	zw_add_arable_land_budget_num_cl_2: "0"
+
+	zw_add_arable_land_is_selected_tt: "#blue  $zw_add_arable_land_button$#! is selected."
+
+	# Scripted buttons: arable land budget subjects
+
+	zw_add_arable_land_budget_increase_subjects_button: "@arrow_up_up! Agricultural Budget @zw_texticon_budget_subjects!"
+	zw_add_arable_land_budget_increase_subjects_button_desc: ""
+	zw_add_arable_land_budget_increase_subjects_button_effect_tt: "#yellow Increase#! our budget for increasing arable land #yellow in a direct subject#! by @money!#gold #b 500k#!#!.\n\n$zw_add_arable_land_budget_subjects_breakdown_1$\n\n$zw_add_arable_land_budget_subjects_breakdown_2$\n\n$zw_add_arable_land_budget_subjects_breakdown_3$\n\n$zw_add_arable_land_budget_subjects_breakdown_4$\n\n$zw_add_arable_land_budget_subjects_breakdown_5$\n\n$zw_add_arable_land_budget_subjects_breakdown_6$"
+
+	zw_add_arable_land_budget_decrease_subjects_button: "@arrow_down_down! Agricultural Budget @zw_texticon_budget_subjects!"
+	zw_add_arable_land_budget_decrease_subjects_button_desc: ""
+	zw_add_arable_land_budget_decrease_subjects_button_effect_tt: "#yellow Decrease#! our budget for increasing arable land #yellow in a direct subject#! by @money!#gold #b 500k#!#!.\n\n$zw_add_arable_land_budget_subjects_breakdown_1$\n\n$zw_add_arable_land_budget_subjects_breakdown_2$\n\n$zw_add_arable_land_budget_subjects_breakdown_3$\n\n$zw_add_arable_land_budget_subjects_breakdown_4$\n\n$zw_add_arable_land_budget_subjects_breakdown_5$\n\n$zw_add_arable_land_budget_subjects_breakdown_6$"
+
+	zw_add_arable_land_budget_subjects_breakdown_1: "Our current budget is @money!#gold #b [ROOT.GetCountry.GetCustom('zw_add_arable_land_budget_subjects_cl')]#!#!."
+	zw_add_arable_land_budget_subjects_breakdown_2: "It can be increased as long as it's less than 5% of our #gold gold reserves limit#!."
+	zw_add_arable_land_budget_subjects_breakdown_3: "It allows us to increase arable land in #blue #b [ROOT.GetCountry.GetCustom('zw_add_arable_land_budget_num_subjects_cl')]#!#! state(s) in a direct subject each time."
+	zw_add_arable_land_budget_subjects_breakdown_4: "The current number of subjects whose arable land can be increased is #blue #b [SCOPE.ScriptValue('zw_value_num_subjects_to_add_arable_land')]#!#! and the number of states is #blue #b [SCOPE.ScriptValue('zw_value_num_states_to_add_arable_land_subjects')]#!#!."
+	zw_add_arable_land_budget_subjects_breakdown_5: "Up to 40 states' arable land can be increased in a direct subject each time if the budget allows."
+	zw_add_arable_land_budget_subjects_breakdown_6: "Up to 3 direct subject's arable land can be increased by us each year."
+
+	zw_add_arable_land_budget_subjects_cl_1: "[ROOT.Var('zw_var_add_arable_land_budget_subjects').GetValue]"
+	zw_add_arable_land_budget_subjects_cl_2: "0"
+
+	zw_add_arable_land_budget_num_subjects_cl_1: "[ROOT.Var('zw_var_add_arable_land_budget_num_subjects').GetValue]"
+	zw_add_arable_land_budget_num_subjects_cl_2: "0"
+
+# Technologies
+
+	zw_tech_coal_sulfur: "Mineral Mining Engineering"
+	zw_tech_coal_sulfur_desc: "Advanced mining engineering allows us to discover and extract more mine resources. #yellow Its research can only be driven by a high market demand.#!"
+
+	zw_tech_iron_lead: "Metallurgy And Metal Recycling"
+	zw_tech_iron_lead_desc: "Advanced metallurgy allows us to utilize metall resources more efficiently. #yellow Its research can only be driven by a high market demand.#!"
+
+	zw_tech_oil: "Oil Exploration And Refining"
+	zw_tech_oil_desc: "Advanced exploration and refining technology allows us to discover and extract more oil. #yellow Its research can only be driven by a high market demand.#!"
+
+	zw_tech_fish: "Oceanic Fihsery Engineering"
+	zw_tech_fish_desc: "Oceanic fihsery allows us to utilize oceanic resources more efficiently. #yellow Its research can only be driven by a high market demand.#!"
+
+	zw_tech_wood_rubber: "Composite Material"
+	zw_tech_wood_rubber_desc: "Composite material research further reduces our dependence on natural material. #yellow Its research can only be driven by a high market demand.#!"
+
+	zw_tech_arable_land: "Agricultural Engineering"
+	zw_tech_arable_land_desc: "Advanced argricultural engineering allows us to increase our yield per unit and convert more land into arable land. #yellow Its research can only be driven by a high market demand.#!"
+
+# Buildings
+
+	building_coal_mine_zw: "Coal Mining Center"
+	building_coal_mine_zw_lens_option: "Expand $building_coal_mine_zw$"
+
+	building_iron_mine_zw: "Iron Metallurgical Center"
+	building_iron_mine_zw_lens_option: "Expand $building_iron_mine_zw$"
+
+	building_lead_mine_zw: "Lead Metallurgical Center"
+	building_lead_mine_zw_lens_option: "Expand $building_lead_mine_zw$"
+
+	building_sulfur_mine_zw: "Sulfur Mining Center"
+	building_sulfur_mine_zw_lens_option: "Expand $building_sulfur_mine_zw$"
+
+	building_oil_rig_zw: "Oil Exploration Center"
+	building_oil_rig_zw_lens_option: "Expand $building_oil_rig_zw$"
+
+	building_fishing_wharf_zw: "Oceanic Fishery Port"
+	building_fishing_wharf_zw_lens_option: "Expand $building_fishing_wharf_zw$"
+
+	building_logging_camp_zw: "Composite Wood Factory"
+	building_logging_camp_zw_lens_option: "Expand $building_logging_camp_zw$"
+
+	building_rubber_plantation_zw: "Synthetics Rubber Plants"
+	building_rubber_plantation_zw_lens_option: "Expand $building_rubber_plantation_zw$"
+
+# Building groups
+
+	bg_coal_mine_zw: "$building_coal_mine_zw$"
+	bg_iron_mine_zw: "$building_iron_mine_zw$"
+	bg_lead_mine_zw: "$building_lead_mine_zw$"
+	bg_sulfur_mine_zw: "$building_sulfur_mine_zw$"
+	bg_oil_rig_zw: "$building_oil_rig_zw$"
+	bg_fishing_wharf_zw: "$building_fishing_wharf_zw$"
+	bg_logging_camp_zw: "$building_logging_camp_zw$"
+	bg_rubber_plantation_zw: "$building_rubber_plantation_zw$"
+
+# Production methods
+
+	pm_building_coal_mine_zw: "Exploration And Extraction"
+	pm_building_iron_mine_zw: "Extraction And Recycling"
+	pm_building_lead_mine_zw: "Extraction And Recycling"
+	pm_building_sulfur_mine_zw: "Exploration And Extraction"
+	pm_building_oil_rig_zw: "Exploration And Refining"
+	pm_building_fishing_wharf_zw: "Oceanic Fishing"
+	pm_building_logging_camp_zw: "Composite Wood Production"
+	pm_building_rubber_plantation_zw: "Synthetic Rubber Production"
+
+# Production method groups
+
+	pmg_building_coal_mine_zw: "$pm_base$"
+	pmg_building_iron_mine_zw: "$pm_base$"
+	pmg_building_lead_mine_zw: "$pm_base$"
+	pmg_building_sulfur_mine_zw: "$pm_base$"
+	pmg_building_oil_rig_zw: "$pm_base$"
+	pmg_building_fishing_wharf_zw: "$pm_base$"
+	pmg_building_logging_camp_zw: "$pm_base$"
+	pmg_building_rubber_plantation_zw: "$pm_base$"
+
+# Modifiers
+
+	state_building_coal_mine_zw_max_level_add: "$building_coal_mine_zw$ Max Level"
+	state_building_coal_mine_zw_max_level_add_desc: "A bonus or penalty to the maximum level of $building_coal_mine_zw$ buildings."
+
+	state_building_iron_mine_zw_max_level_add: "$building_iron_mine_zw$ Max Level"
+	state_building_iron_mine_zw_max_level_add_desc: "A bonus or penalty to the maximum level of $building_iron_mine_zw$ buildings."
+
+	state_building_lead_mine_zw_max_level_add: "$building_lead_mine_zw$ Max Level"
+	state_building_lead_mine_zw_max_level_add_desc: "A bonus or penalty to the maximum level of $building_lead_mine_zw$ buildings."
+
+	state_building_sulfur_mine_zw_max_level_add: "$building_sulfur_mine_zw$ Max Level"
+	state_building_sulfur_mine_zw_max_level_add_desc: "A bonus or penalty to the maximum level of $building_sulfur_mine_zw$ buildings."
+
+	state_building_oil_rig_zw_max_level_add: "$building_oil_rig_zw$ Max Level"
+	state_building_oil_rig_zw_max_level_add_desc: "A bonus or penalty to the maximum level of $building_oil_rig_zw$ buildings."
+
+	state_building_fishing_wharf_zw_max_level_add: "$building_fishing_wharf_zw$ Max Level"
+	state_building_fishing_wharf_zw_max_level_add_desc: "A bonus or penalty to the maximum level of $building_fishing_wharf_zw$ buildings."
+
+	zw_modifier_add_coal_sulfur: "$zw_tech_coal_sulfur$"
+	zw_modifier_add_iron_lead: "$zw_tech_iron_lead$"
+	zw_modifier_add_oil: "$zw_tech_oil$"
+	zw_modifier_add_fish: "$zw_tech_fish$"
+
+	zw_modifier_add_coal_sulfur_subjects: "Technology Transfer"
+	zw_modifier_add_iron_lead_subjects: "Technology Transfer"
+	zw_modifier_add_oil_subjects: "Technology Transfer"
+	zw_modifier_add_fish_subjects: "Technology Transfer"
+
+	zw_modifier_add_coal_sulfur_cost: "Research Expenditure"
+	zw_modifier_add_iron_lead_cost: "Research Expenditure"
+	zw_modifier_add_oil_cost: "Research Expenditure"
+	zw_modifier_add_fish_cost: "Research Expenditure"
+
+# Other custom_tooltip
+
+	zw_is_market_owner_tt: "[SCOPE.GetRootScope.GetCountry.GetName] is the owner of [SCOPE.GetRootScope.GetCountry.GetMarket.GetName]"
+
+	zw_can_queue_building_levels_5_tt: "Untapped resource level < 5"
+
+	zw_can_queue_building_levels_2_tt: "Untapped resource level < 2"
+
+	zw_can_build_trigger_coal_tt: "State doesn't have #yellow $building_iron_mine_zw$#!, #yellow $building_lead_mine_zw$#!, #yellow $building_sulfur_mine_zw$#! and #yellow $building_oil_rig_zw$#!."
+
+	zw_can_build_trigger_iron_tt: "State doesn't have #yellow $building_coal_mine_zw$#!, #yellow $building_lead_mine_zw$#!, #yellow $building_sulfur_mine_zw$#! and #yellow $building_oil_rig_zw$#!."
+
+	zw_can_build_trigger_lead_tt: "State doesn't have #yellow $building_coal_mine_zw$#!, #yellow $building_iron_mine_zw$#!, #yellow $building_sulfur_mine_zw$#! and #yellow $building_oil_rig_zw$#!."
+
+	zw_can_build_trigger_sulfur_tt: "State doesn't have #yellow $building_coal_mine_zw$#!, #yellow $building_iron_mine_zw$#!, #yellow $building_lead_mine_zw$#! and #yellow $building_oil_rig_zw$#!."
+
+	zw_can_build_trigger_oil_tt: "State doesn't have #yellow $building_coal_mine_zw$#!, #yellow $building_iron_mine_zw$#!, #yellow $building_lead_mine_zw$#! and #yellow $building_sulfur_mine_zw$#!."

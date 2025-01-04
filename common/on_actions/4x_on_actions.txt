@@ -14,21 +14,39 @@
 	}
 }
 
-vassalization_principle_authority_refresh = {
+HMPS_Check_for_GM = {
 	effect = {
-		remove_modifier = modifier_vassalization_authority_per_subject_bonus
-		every_power_bloc = {
+		if = {
 			limit = {
-				has_identity = identity:identity_sovereign_empire
-				has_principle_group = principle_group:principle_group_vassalization
-			}
-			every_power_bloc_member = {	
-				limit = { NOT = { has_modifier = modifier_vassalization_authority_per_subject_bonus } }
-				add_modifier = {
-					name = modifier_vassalization_authority_per_subject_bonus
-					multiplier = number_of_subjects_counter
+				has_global_variable = player_gm
+				any_country = {
+					has_modifier = game_master
+					is_player = no
 				}
 			}
+			random_country = {
+				limit = {
+					has_modifier = game_master
+				}
+				remove_modifier = game_master
+				remove_global_variable = player_gm
+			}
+		}
+	}
+}
+
+HMPS_undo_sp = {
+	effect = {
+		if = {
+			limit = {
+				has_global_variable = single_player
+				has_modifier = game_master
+				any_country = {
+					is_player = yes
+					NOT = { this = ROOT }
+				}
+			}
+			remove_global_variable = single_player
 		}
 	}
 }

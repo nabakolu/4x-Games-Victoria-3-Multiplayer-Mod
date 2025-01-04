@@ -7,15 +7,6 @@
 	}
 }
 
-country_authority_per_subject_mult={
-	decimals=0
-	color=good
-	percent=yes
-	game_data={
-		ai_value=0
-	}
-}
-
 power_bloc_mandate_progress_per_major_power_member_add={
 	decimals=1
 	color=good

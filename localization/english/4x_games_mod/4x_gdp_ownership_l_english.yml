@@ -25,3 +25,42 @@
 
  ATTITUDE_DETAILS: "[COUNTRY.GetAttitudeTowards(TARGET_COUNTRY.Self).GetReasonsDesc]\n$TOOLTIP_DELIMITER$\n[TARGET_COUNTRY.GetName] has [COUNTRY.GetInvestmentLevelsInCountry(TARGET_COUNTRY.Self)|v] [Concept('concept_building_level', '$concept_building_levels$')] in [COUNTRY.GetName], amount to [COUNTRY.GetInvestmentGdpFractionInCountry(TARGET_COUNTRY.Self)|%2v] of [COUNTRY.GetAdjective] $GDP_SHORT$\n[COUNTRY.GetName] has [TARGET_COUNTRY.GetInvestmentLevelsInCountry(COUNTRY.Self)|v] [Concept('concept_building_level', '$concept_building_levels$')] in [TARGET_COUNTRY.GetName], amount to [TARGET_COUNTRY.GetInvestmentGdpFractionInCountry(COUNTRY.Self)|%2v] of [TARGET_COUNTRY.GetAdjective] $GDP_SHORT$"
  ai_attitude_human_tooltip: "#header $ai_attitude_human$#!\n$ai_attitude_human_desc$\n$TOOLTIP_DELIMITER$\n$ATTITUDE_DETAILS$"
+
+ GDPGR_month_0:  "January"
+ GDPGR_month_1:  "February"
+ GDPGR_month_2:  "March"
+ GDPGR_month_3:  "April"
+ GDPGR_month_4:  "May"
+ GDPGR_month_5:  "June"
+ GDPGR_month_6:  "July"
+ GDPGR_month_7:  "August"
+ GDPGR_month_8:  "September"
+ GDPGR_month_9:  "October"
+ GDPGR_month_10: "November"
+ GDPGR_month_11: "December"
+ 
+ GDPGR_growth_text: "#tooltippable;tooltip:[Country.GetTooltipTag],GDPGR_GDP_tooltip [Multiply_CFixedPoint('(CFixedPoint)12',Country.MakeScope.Var('GDPGR_past_year_avg_rate').GetValue)|1+=%]#!
+ 
+ GDPGR_GDP_tooltip: "$GDPGR_GDP_tooltip_h$\n$TOOLTIP_DELIMITER$\n$GDPGR_GDP_tooltip_mp_h$:\n$GDPGR_GDP_tooltip_mp_abs$ ($GDPGR_GDP_tooltip_mp_per$)\n\n$GDPGR_GDP_tooltip_mr_h$:\n$GDPGR_GDP_tooltip_mr_abs$ ($GDPGR_GDP_tooltip_mr_per$)\n\n$GDPGR_GDP_tooltip_r_h$:\n$GDPGR_GDP_tooltip_r_abs$ ($GDPGR_GDP_tooltip_r_per$)\n\n$GDPGR_GDP_tooltip_y_h$:\n$GDPGR_GDP_tooltip_y_abs$ ($GDPGR_GDP_tooltip_y_per$)"
+
+ GDPGR_GDP_tooltip_h: "#header [Concept('concept_gdp','$concept_gdp_short$')] Growth Trends#!"
+    
+ # Yearly, moving window
+ GDPGR_GDP_tooltip_r_h:   "#bold Past 12 Months#!"
+ GDPGR_GDP_tooltip_r_per: "[Country.MakeScope.Var('GDPGR_rolling_gdp_growth_rate').GetValue|1+=%]"
+ GDPGR_GDP_tooltip_r_abs: "@money![Country.MakeScope.Var('GDPGR_rolling_difference').GetValue|D+=]"
+    
+ # Yearly, between starts of years
+ GDPGR_GDP_tooltip_y_h:   "Between the starts of #bold [Subtract_CFixedPoint(GetGlobalVariable('GDPGR_year').GetValue,'(CFixedPoint)1')|0]#! and #bold [GetGlobalVariable('GDPGR_year').GetValue|0]#!"
+ GDPGR_GDP_tooltip_y_per: "[Country.MakeScope.Var('gdp_growth_rate').GetValue|1+=%]"
+ GDPGR_GDP_tooltip_y_abs: "@money![Subtract_CFixedPoint(Country.MakeScope.Var('current_gdp').GetValue,Country.MakeScope.Var('before_gdp').GetValue)|D+=]"
+    
+ # Monthly rolling average
+ GDPGR_GDP_tooltip_mr_h:   "#bold Monthly Average#! in Past Year"
+ GDPGR_GDP_tooltip_mr_per: "[Country.MakeScope.Var('GDPGR_past_year_avg_rate').GetValue|1+=%]"
+ GDPGR_GDP_tooltip_mr_abs: "@money![Country.MakeScope.Var('GDPGR_past_year_avg_diff').GetValue|D+=]"
+    
+ # Since previous month
+ GDPGR_GDP_tooltip_mp_h:   "#bold Last Month#!"
+ GDPGR_GDP_tooltip_mp_per: "[Country.MakeScope.Var('GDPGR_past_month_rate').GetValue|1+=%]"
+ GDPGR_GDP_tooltip_mp_abs: "@money![Country.MakeScope.Var('GDPGR_past_month_diff').GetValue|D+=]"

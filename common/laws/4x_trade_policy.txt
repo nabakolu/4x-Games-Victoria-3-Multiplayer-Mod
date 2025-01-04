@@ -31,7 +31,7 @@ law_mercantilism = {
 			AND = {
 				is_in_same_power_bloc = scope:target_country
 				AND = {
-					country_can_impose_same_lawgroup_trade_policy_in_power_bloc_bool = yes
+					modifier:country_can_impose_same_lawgroup_trade_policy_in_power_bloc_bool = yes
 					has_law = scope:law
 				}
 			}
@@ -98,7 +98,7 @@ law_protectionism = {
 			AND = {
 				is_in_same_power_bloc = scope:target_country
 				AND = {
-					country_can_impose_same_lawgroup_trade_policy_in_power_bloc_bool = yes
+					modifier:country_can_impose_same_lawgroup_trade_policy_in_power_bloc_bool = yes
 					has_law = scope:law
 				}
 			}
@@ -155,7 +155,7 @@ law_free_trade = {
 			AND = {
 				is_in_same_power_bloc = scope:target_country
 				AND = {
-					country_can_impose_same_lawgroup_trade_policy_in_power_bloc_bool = yes
+					modifier:country_can_impose_same_lawgroup_trade_policy_in_power_bloc_bool = yes
 					has_law = scope:law
 				}
 			}
@@ -208,7 +208,7 @@ law_isolationism = {
 			AND = {
 				is_in_same_power_bloc = scope:target_country
 				AND = {
-					country_can_impose_same_lawgroup_trade_policy_in_power_bloc_bool = yes
+					modifier:country_can_impose_same_lawgroup_trade_policy_in_power_bloc_bool = yes
 					has_law = scope:law
 				}
 			}

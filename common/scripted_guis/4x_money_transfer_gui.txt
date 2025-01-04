@@ -170,7 +170,7 @@ send_money_to_target = {
 		post_notification = imperia_sent_money
 		var:money_transfer_target_country = {
 			add_treasury = root.var:country_money_transfer_amount
-			post_notification = imperia_received_money
+			post_notification = country_received_money
 		}
 	}
 	is_valid = {
