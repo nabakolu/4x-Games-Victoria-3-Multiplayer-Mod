@@ -1,0 +1,11 @@
+﻿# List of changes:
+#	- Building Group Shipyards:
+#		- Parent group changed from heavy industry to light industry
+
+# Infrastructure
+bg_port = {
+	parent_group = bg_infrastructure
+	is_government_funded = yes
+	urbanization = 5
+	economy_of_scale = yes
+}

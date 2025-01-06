@@ -1,0 +1,25 @@
+﻿# For moderator controlled Switzerland only
+moderator_controlled_switzerland_decision = {
+	is_shown = {
+		exists = c:SWI
+		this = c:SWI
+		NOT = { has_variable = moderator_controlled_switzerland_decision_taken }
+	}
+
+	possible = {
+		this = c:SWI
+		hidden_trigger = { NOT = { has_variable = moderator_controlled_switzerland_decision_taken } }
+	}
+	
+	when_taken = {
+		trigger_event = { 
+			id = moderator_event.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

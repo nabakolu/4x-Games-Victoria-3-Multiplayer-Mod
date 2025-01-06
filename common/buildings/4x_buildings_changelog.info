@@ -1,6 +1,6 @@
-﻿# List of changes
-#	- Coal Liquefaction Plant added
-#		= Convert coal into oil
-#		- Convert oil into rubber
-#   - Port:
-#       - Building Group changed from Public Infrastructure to Port
+﻿List of changes
+    Coal Liquefaction Plant added
+        Convert coal into oil
+        Convert oil into rubber
+    Port:
+        Building Group changed from Public Infrastructure to Port

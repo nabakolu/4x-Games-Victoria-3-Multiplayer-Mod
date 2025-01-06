@@ -1,0 +1,7 @@
+﻿power_bloc_mandate_progress_per_major_power_member_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}

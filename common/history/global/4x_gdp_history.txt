@@ -1,3 +1,0 @@
-﻿GLOBAL = {
-    GDPGR_initialize_all = yes
-}

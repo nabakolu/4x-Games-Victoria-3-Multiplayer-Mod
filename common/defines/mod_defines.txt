@@ -1,0 +1,33 @@
+﻿NGame = {
+	MAX_NUMBER_OF_AUTOSAVES = 12
+}
+
+NDiplomacy = {
+	DIPLOMATIC_PLAY_ABANDON_SUPPORT_RELATIONS_IMPACT = 0
+}
+
+NEconomy = {
+	AUTO_DOWNSIZE_BUILDING_MONTHS_TO_WAIT = 3							# After a building decides to start auto-downsizing, wait this many months before actually starting to downsize, in case conditions change
+
+	BUILDING_TIMED_MODIFIER_WEEKS = 104				# Duration of a timed modifier which is applied after switching a production method
+	
+	TRADE_ROUTE_MAX_LEVEL = 250						# Maximum level of a trade route
+	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 61		# After this level, trade route economy of scale no longer increases the amount per level
+}
+
+NMilitary = {
+	MILITARY_FORMATION_WEEKLY_MAX_UNIT_UPGRADES_ARMY = 0.02		# Each week a mobilized army can upgrade this (0.0-1.0) fraction of its total number of units. # Was 0.1 = 10 weeks to upgrade all units # Now 0.02 = 50 weeks (1 year) to upgrade all units
+	MILITARY_FORMATION_WEEKLY_MAX_UNIT_UPGRADES_FLEET = 0.01	# Each week a mobilized fleet can upgrade this (0.0-1.0) fraction of its total number of units. # Was 0.05 = 20 weeks to upgrade all units # Now 0.01 = 100 weeks (2 years) to upgrade all units
+
+	GENERAL_TRAVEL_AUTO_REASSIGN_INSTANTLY = 120		# If General is being auto reassigned (front destruction for example) and travel time is below this number of days make them travel instantly # Was 15 = 15 days
+
+}
+
+NPops = {
+	# Migration Pull
+	MIGRATION_PULL_FROM_AVAILABLE_ARABLE_LAND_EMPLOYMENT = 0.75					# Migration pull is increased by for each 10k available subsistence jobs
+	MIGRATION_PULL_FROM_AVAILABLE_ARABLE_LAND_EMPLOYMENT_MAX = 60				# Migration pull from available subsistence jobs cannot exceed this
+	MIGRATION_MIN_STATE_POPS = 50000											# A state with less population than this will not get emigration. # Was 20000
+	MIGRATION_STATE_POPULATION_THRESHOLD = 250000								# States with less pops than this have reduced market emigration numbers to avoid total depopulation. # Was 100000
+
+}
