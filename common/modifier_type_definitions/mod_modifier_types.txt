@@ -5,3 +5,12 @@
 		ai_value=0
 	}
 }
+
+country_authority_mult={
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=20
+	}
+}
