@@ -4,11 +4,13 @@ moderator_controlled_switzerland_decision = {
 		exists = c:SWI
 		this = c:SWI
 		NOT = { has_variable = moderator_controlled_switzerland_decision_taken }
+		is_ai = no
 	}
 
 	possible = {
 		this = c:SWI
 		hidden_trigger = { NOT = { has_variable = moderator_controlled_switzerland_decision_taken } }
+		is_ai = no
 	}
 	
 	when_taken = {
