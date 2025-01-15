@@ -4,6 +4,19 @@
 
 NDiplomacy = {
 	DIPLOMATIC_PLAY_ABANDON_SUPPORT_RELATIONS_IMPACT = 0
+
+	# Doubled to 50%
+	DIPLOMATIC_PACT_COST_MULT_FROM_INFAMOUS = 0.50		# Maintenance cost of a pact is increased by this when at Infamous level of infamy
+	# Doubled to 100%
+	DIPLOMATIC_PACT_COST_MULT_FROM_NOTORIOUS = 1.00		# Maintenance cost of a pact is increased by this when at Notorious level of infamy
+	# Doubled to 200%
+	DIPLOMATIC_PACT_COST_MULT_FROM_PARIAH = 2.00		# Maintenance cost of a pact is increased by this when at Pariah level of infamy
+
+	DIPLOMATIC_DEMAND_PENDING_APPROVAL_DAYS = 30  # Number of days before a demand is auto-declined and a diplomatic play starts
+	# Was 21
+	DIPLOMATIC_PLAY_OPENING_PHASE_END = 31	# Before this, defender needs to set their wargoal and you can't join/sway
+	# Was 80
+	DIPLOMATIC_PLAY_CLOSING_PHASE_START = 90 # After this, it isn't possible to join/sway further countries
 }
 
 NEconomy = {
@@ -29,5 +42,4 @@ NPops = {
 	MIGRATION_PULL_FROM_AVAILABLE_ARABLE_LAND_EMPLOYMENT_MAX = 60				# Migration pull from available subsistence jobs cannot exceed this
 	MIGRATION_MIN_STATE_POPS = 50000											# A state with less population than this will not get emigration. # Was 20000
 	MIGRATION_STATE_POPULATION_THRESHOLD = 250000								# States with less pops than this have reduced market emigration numbers to avoid total depopulation. # Was 100000
-
 }

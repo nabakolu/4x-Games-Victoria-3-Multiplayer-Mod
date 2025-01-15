@@ -1,3 +1,13 @@
 ﻿l_english:
  DIPLO_ACTION_PLAYER_TO_PLAYER:1 "We are a player and they are a player."
+
+ diplo_warning_required:0 "Send the Warning"
+ diplo_warning_required_action_name:0 "Send the Warning"
+ diplo_warning_required_action_propose_name:0 "Send the Warning"
+ diplo_warning_required_desc:0 "This prevents players from being able to start wars without having done required diplomacy."
+ diplo_warning_required_action_notification_name:0 "You have received the diplomacy warning from [INITIATOR_COUNTRY.GetName]. They will soon be able to threaten us against us."
+ diplo_warning_required_action_notification_desc:0 "We have received a diplomacy warning from [INITIATOR_COUNTRY.GetName]. They will soon threaten war against us."
+ diplo_warning_required.t:0 "A diplo warning has been sent"
+ diplo_warning_required_action_notification_third_party_name:1 "Diplo warning has been sent to another country"
+ diplo_warning_required_action_notification_third_party_desc:1 "[INITIATOR_COUNTRY.GetName] has taken an action against or in favor of [TARGET_COUNTRY.GetName]."
  

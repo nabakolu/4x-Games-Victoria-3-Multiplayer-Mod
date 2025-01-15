@@ -113,3 +113,13 @@ modifier_vassalization_authority_per_subject_bonus = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_authority_mult = 0.02
 }
+
+#
+mod_i_did_diplo = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+}
+
+# 
+mod_i_did_not_diplo = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+}

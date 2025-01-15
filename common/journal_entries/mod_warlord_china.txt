@@ -89,9 +89,10 @@
 						has_diplomatic_pact = {
 							who = root
 							type = foreign_investment_rights
+							is_initiator = no
 						}
 						has_diplomatic_pact = {
-							who = THIS
+							who = root
 							type = foreign_investment_agreement
 						}
 					}

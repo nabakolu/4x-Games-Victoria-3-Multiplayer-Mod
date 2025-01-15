@@ -35,7 +35,22 @@ dp_open_market = {
 
 	possible = {
 		NOT = { is_country_type = decentralized }
-		aggressive_diplomatic_plays_permitted = yes
+		OR = {
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				OR = {
+					scope:target_country = { is_player = no }
+					root = { is_player = no }
+				}
+			}
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}
 		NOT = { is_subject_of = scope:target_country }		
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
@@ -60,12 +75,27 @@ dp_regime_change = {
 
 	possible = {
 		NOT = { is_country_type = decentralized }
-		aggressive_diplomatic_plays_permitted = yes
+		OR = {
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				OR = {
+					scope:target_country = { is_player = no }
+					root = { is_player = no }
+				}
+			}
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}
 		NOT = { is_subject_of = scope:target_country }	
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
-		}	
+		}
 	}
 	
 	ai_acceptance_max = 90
@@ -84,7 +114,22 @@ dp_ban_slavery = {
 
 	possible = {
 		NOT = { is_country_type = decentralized }
-		aggressive_diplomatic_plays_permitted = yes
+		OR = {
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				OR = {
+					scope:target_country = { is_player = no }
+					root = { is_player = no }
+				}
+			}
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}
 		NOT = { is_subject_of = scope:target_country }	
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
@@ -121,6 +166,8 @@ dp_conquer_state = {
 				AND = {
 					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
 					root = { is_player = yes }					# Is the initiator country controlled by a human player?
+					has_variable = aggressive_diplo_action_now_allowed
+					NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 				}
 			}
 		}
@@ -156,6 +203,8 @@ dp_return_state = {
 				AND = {
 					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
 					root = { is_player = yes }					# Is the initiator country controlled by a human player?
+					has_variable = aggressive_diplo_action_now_allowed
+					NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 				}
 			}
 		}
@@ -191,6 +240,8 @@ dp_liberate_subject = {
 				AND = {
 					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
 					root = { is_player = yes }					# Is the initiator country controlled by a human player?
+					has_variable = aggressive_diplo_action_now_allowed
+					NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 				}
 			}
 		}
@@ -221,6 +272,8 @@ dp_liberate_country = {
 				AND = {
 					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
 					root = { is_player = yes }					# Is the initiator country controlled by a human player?
+					has_variable = aggressive_diplo_action_now_allowed
+					NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 				}
 			}
 		}
@@ -261,6 +314,8 @@ dp_independence = {
 				AND = {
 					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
 					root = { is_player = yes }					# Is the initiator country controlled by a human player?
+					has_variable = aggressive_diplo_action_now_allowed
+					NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 				}
 			}
 		}
@@ -291,6 +346,8 @@ dp_leave_power_bloc = {
 				AND = {
 					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
 					root = { is_player = yes }					# Is the initiator country controlled by a human player?
+					has_variable = aggressive_diplo_action_now_allowed
+					NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 				}
 			}
 		}
@@ -320,7 +377,17 @@ dp_increase_autonomy = {
 				is_diplomatic_catalyst_type = catalyst_autonomy_increase_denied
 				target = scope:target_country
 			}
-		}			
+		}
+		OR = {
+			scope:target_country = { is_player = no }
+			root = { is_player = no }
+			AND = {
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}
 	}
 	
 	on_weekly_pulse = {}
@@ -350,7 +417,17 @@ dp_reduce_autonomy = {
 				scope:target_country = { has_government_type = gov_chartered_company }
 			} 
 			has_technology_researched = civilizing_mission
-		}	
+		}
+		OR = {
+			scope:target_country = { is_player = no }
+			root = { is_player = no }
+			AND = {
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}
 	}
 	
 	on_weekly_pulse = {}
@@ -381,6 +458,8 @@ dp_take_treaty_port = {
 				AND = {
 					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
 					root = { is_player = yes }					# Is the initiator country controlled by a human player?
+					has_variable = aggressive_diplo_action_now_allowed
+					NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 				}
 			}
 		}
@@ -401,7 +480,22 @@ dp_make_tributary = {
 	texture = "gfx/interface/icons/war_goals/make_tributary.dds"
 	
 	possible = {
-		aggressive_diplomatic_plays_permitted = yes	
+		OR = {
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				OR = {
+					scope:target_country = { is_player = no }
+					root = { is_player = no }
+				}
+			}
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}		
 	}
 	
 	ai_acceptance_max = 90
@@ -419,7 +513,22 @@ dp_make_dominion = {
 	texture = "gfx/interface/icons/war_goals/make_dominion.dds"
 	
 	possible = {
-		aggressive_diplomatic_plays_permitted = yes	
+		OR = {
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				OR = {
+					scope:target_country = { is_player = no }
+					root = { is_player = no }
+				}
+			}
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}	
 	}
 	
 	ai_acceptance_max = 90
@@ -437,7 +546,22 @@ dp_make_protectorate = {
 	texture = "gfx/interface/icons/war_goals/make_protectorate.dds"
 	
 	possible = {	
-		aggressive_diplomatic_plays_permitted = yes				
+		OR = {
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				OR = {
+					scope:target_country = { is_player = no }
+					root = { is_player = no }
+				}
+			}
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}		
 	}
 	
 	ai_acceptance_max = 90
@@ -470,6 +594,8 @@ dp_transfer_subject = {
 				AND = {
 					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
 					root = { is_player = yes }					# Is the initiator country controlled by a human player?
+					has_variable = aggressive_diplo_action_now_allowed
+					NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 				}
 			}
 		}			
@@ -510,7 +636,22 @@ dp_annex_subject = {
 		}
 		
 		NOT = { is_country_type = decentralized }
-		aggressive_diplomatic_plays_permitted = yes
+		OR = {
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				OR = {
+					scope:target_country = { is_player = no }
+					root = { is_player = no }
+				}
+			}
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			is_direct_subject_of = root
@@ -642,6 +783,8 @@ dp_secession = {
 	
 	possible = {
 		scope:initiator = { is_secessionist = yes }
+		has_variable = aggressive_diplo_action_now_allowed
+		NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 	}
 
 	additional_involvement_trigger = {
@@ -760,7 +903,22 @@ dp_join_power_bloc = {
 	
 	possible = {
 		NOT = { is_country_type = decentralized }
-		aggressive_diplomatic_plays_permitted = yes
+		OR = {
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				OR = {
+					scope:target_country = { is_player = no }
+					root = { is_player = no }
+				}
+			}
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}
 		is_power_bloc_leader = yes # Also checked by wargoal, but here for performance reasons
 		custom_tooltip = {
 			text = dp_join_power_bloc_must_have_declined_invite
@@ -796,6 +954,8 @@ dp_force_nationalization = {
 				AND = {
 					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
 					root = { is_player = yes }					# Is the initiator country controlled by a human player?
+					has_variable = aggressive_diplo_action_now_allowed
+					NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 				}
 			}
 		}
@@ -831,6 +991,8 @@ dp_give_foreign_investment_rights = {
 				AND = {
 					scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
 					root = { is_player = yes }					# Is the initiator country controlled by a human player?
+					has_variable = aggressive_diplo_action_now_allowed
+					NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
 				}
 			}
 		}
@@ -1268,7 +1430,22 @@ dp_humiliation = {
 	texture = "gfx/interface/icons/war_goals/humiliation.dds"
 	
 	possible = {	
-		aggressive_diplomatic_plays_permitted = yes		
+		OR = {
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				OR = {
+					scope:target_country = { is_player = no }
+					root = { is_player = no }
+				}
+			}
+			AND = {
+				aggressive_diplomatic_plays_permitted = yes
+				scope:target_country = { is_player = yes }	# Is the target country controlled by a human player?
+				root = { is_player = yes }					# Is the initiator country controlled by a human player?
+				has_variable = aggressive_diplo_action_now_allowed
+				NOT = { has_variable = aggressive_diplo_action_not_allowed_yet }
+			}			
+		}
 	}
 	
 	on_weekly_pulse = {}
