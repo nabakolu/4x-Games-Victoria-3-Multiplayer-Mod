@@ -64,17 +64,20 @@
 			join_power_bloc = root
 		}
 		if = {
-			limit = { is_country_type = unrecognized }
-			create_diplomatic_pact = {
-				country = scope:target_country
-				type = tributary
-			}						
-		}
-		else = {
-			create_diplomatic_pact = {
-				country = scope:target_country
-				type = protectorate
-			}			
+			limit = { power_bloc ?= { has_identity = identity:identity_sovereign_empire } }
+			if = {
+				limit = { is_country_type = unrecognized }
+				create_diplomatic_pact = {
+					country = scope:target_country
+					type = tributary
+				}						
+			}
+			else = {
+				create_diplomatic_pact = {
+					country = scope:target_country
+					type = protectorate
+				}			
+			}
 		}
 	}
 	
