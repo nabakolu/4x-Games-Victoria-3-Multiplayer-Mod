@@ -1,5 +1,3 @@
-﻿# List of changes:
-#	- Building Group Shipyards:
-#		- Parent group changed from heavy industry to light industry
-#   - Building Group Ports:
-#       - Economy of Scale enabled
+﻿List of changes:
+    Building Group Ports:
+        Economy of Scale enabled

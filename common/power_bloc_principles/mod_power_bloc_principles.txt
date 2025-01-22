@@ -1174,9 +1174,6 @@ principle_freedom_of_movement_2 = {
 	member_modifier = {
 		# Increased migration
 		state_migration_quota_mult = 0.2
-		
-		# Increases chance to be picked for mass migrations
-		country_mass_migration_attraction_mult = 0.5	
 	}
 
 	power_bloc_modifier = {
@@ -1196,6 +1193,7 @@ principle_freedom_of_movement_3 = {
 	member_modifier = {
 		# Increased migration
 		state_migration_quota_mult = 0.2
+		
 		# Increases chance to be picked for mass migrations
 		country_mass_migration_attraction_mult = 0.5	
 	}
