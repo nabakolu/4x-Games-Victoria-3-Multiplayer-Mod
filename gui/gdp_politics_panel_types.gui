@@ -826,7 +826,7 @@ types information_panels_types
 			using = default_list_position
 		}
 		piechart = {
-			parentanchor = hcenter
+			parentanchor = center
 			startangle = 450
 			endangle = 90
 
@@ -855,7 +855,7 @@ types information_panels_types
 		}
 		icon = {
 			texture = "gfx/interface/piechart/piechart_frame.dds"
-			parentanchor = hcenter
+			parentanchor = center
 			size = { 130% 110% }
 		}
 	}
@@ -865,7 +865,7 @@ types information_panels_types
 			using = default_list_position
 		}
 		treemapchart = {
-			parentanchor = hcenter
+			parentanchor = center
 
 			block "piechartsize" {
 				size = { 140 140 }
@@ -900,7 +900,7 @@ types information_panels_types
 		}
 		icon = {
 			texture = "gfx/interface/treemapchart/treemapchart_frame.dds"
-			parentanchor = hcenter
+			parentanchor = center
 			size = { 124% 110% }
 		}
 	}

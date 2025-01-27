@@ -156,6 +156,8 @@
  gm_actions.38.d:0 "Add Local Flu Epidemic"
  gm_actions.38.e:0 "Add Army Debuff"
 
+ gm_actions.39.a:0 "Punish China"
+ gm_actions.39.b:0 "Opium War Outcome Correction"
  
  ###Infamy
  gm_actions.2.d:0 "Decide if you want negative or positive infamy changes."
@@ -310,6 +312,7 @@
  gm_actions.16.f:0 "If multiple states have the GM Scope decree, they will be selected at random. Universities are often an issue because the AI will delete them. Admin buildings can be an issue because AI deletes them or certain colonies might need them upon formation."
  gm_actions.16.a:0 "Add 1 University (Max: 20)"
  gm_actions.16.b:0 "Add 1 Government Administration (Max: 20)"
+ gm_actions.16.c:0 "Add 1 Port"
  gm_actions.17.t:0 "(Un)Incorporate a State"
  gm_actions.17.d:0 "All states with the "GM Scope" decree targeting them will be incorporated if unincorporated and vice versa."
  gm_actions.17.a:0 "(Un)Incorporate this state"

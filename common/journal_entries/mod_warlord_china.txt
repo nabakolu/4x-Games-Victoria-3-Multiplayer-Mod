@@ -85,20 +85,21 @@
 			if = {
 				limit = {
 					NOT = { has_variable = china_warlord_explosion_investment }
-					OR = {
-						has_diplomatic_pact = {
-							who = root
-							type = foreign_investment_rights
-							is_initiator = no
-						}
-						has_diplomatic_pact = {
-							who = root
-							type = foreign_investment_agreement
+					any_country = {
+						OR = {
+							has_diplomatic_pact = {
+								who = root
+								type = foreign_investment_rights
+							}
+							has_diplomatic_pact = {
+								who = root
+								type = foreign_investment_agreement
+							}
 						}
 					}
 				}
 				set_variable = china_warlord_explosion_investment
-				chi_add_1_fragile_unity = yes
+				chi_remove_1_fragile_unity = yes
 			}
 			# If China has abolished the monarchy
 			if = {

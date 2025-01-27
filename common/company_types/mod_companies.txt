@@ -251,3 +251,215 @@ company_construction_power_bloc = {
 		building_construction_sector_throughput_add = 0.05
 	}	
 }
+
+# Nam Định Textile Factory
+company_nam_dinh = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/vietnam_nam_dinh.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_textile_mills
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_indochina
+		country_has_primary_culture = cu:vietnamese
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_TONKIN
+			}
+		}
+	}			
+	
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_TONKIN
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_textile_mills
+				level >= 3
+			}
+		}
+		has_technology_researched = corporate_charters
+		country_has_primary_culture = cu:vietnamese
+	}
+	
+	prosperity_modifier = {
+		country_tech_spread_mult = 0.1
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Imperial Tobacco Corporation of Persia, Limited
+company_imperial_tobacco = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/imperial_tobacco.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_tobacco_plantation
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_persia
+		OR = {
+			country_has_primary_culture = cu:persian
+			country_has_primary_culture = cu:british
+			country_has_primary_culture = cu:scottish
+		}
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				region = sr:region_persia
+			}
+		}
+	}		
+	
+	possible = {
+		any_scope_state = {
+			region = sr:region_persia
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tobacco_plantation
+				level >= 5
+			}
+			count >= 4
+		}
+		has_technology_researched = corporate_charters
+		OR = {
+			country_has_primary_culture = cu:persian
+			country_has_primary_culture = cu:british
+			country_has_primary_culture = cu:scottish
+		}
+	}
+	
+	prosperity_modifier = {
+		country_tech_spread_mult = 0.2
+		interest_group_ig_rural_folk_approval_add = -2
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Sunhwaguk
+company_sunhwaguk = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/korea_sunhwaguk.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_tobacco_plantation
+		building_rice_farm
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_manchuria
+		country_has_primary_culture = cu:korean
+	}
+	
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = { is_homeland = cu:korean }
+			}
+		}
+	}		
+	
+	possible = {
+		any_scope_state = {
+			state_region = {
+				is_homeland = cu:korean
+			}
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tobacco_plantation
+				level >= 10
+			}
+		}
+		has_technology_researched = central_planning
+		country_has_primary_culture = cu:korean
+	}
+	
+	prosperity_modifier = {
+		country_tech_spread_mult = 0.1
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Kaiping Mining Company
+company_kaiping_mining = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/chinese_kaiping_mining_company.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_coal_mine
+		building_railway
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_north_china
+		OR = {
+			country_has_primary_culture = cu:han
+			country_has_primary_culture = cu:manchu
+		}
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				OR = {
+					state_region = s:STATE_BEIJING
+					state_region = s:STATE_ZHILI
+				}
+			}
+		}
+	}			
+	
+	possible = { 
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_BEIJING
+				state_region = s:STATE_ZHILI
+			}
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coal_mine
+				level >= 3
+			}
+		}
+		has_technology_researched = steam_donkey
+		has_technology_researched = railways
+		OR = {
+			country_has_primary_culture = cu:han
+			country_has_primary_culture = cu:manchu
+		}
+	}
+	
+	prosperity_modifier = {
+		country_tech_spread_mult = 0.1
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}

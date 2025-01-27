@@ -750,7 +750,7 @@ je_disrupt_russian_caucasus = {
 	}
 
 	complete = {
-		c:CIR = {
+		c:CIR ?= {
             owns_entire_state_region = STATE_KUBAN
         }
 	}
@@ -760,8 +760,16 @@ je_disrupt_russian_caucasus = {
 	}
 
 	fail = {
-		c:CIR ?= {
-			is_country_alive = no
+		custom_tooltip = {
+			text = circassia_dead_tt
+			OR = {	
+				c:CIR ?= {
+					is_country_alive = no
+				}
+				NOT = {
+					exists = c:CIR
+				}	
+			}
 		}
 	}
 

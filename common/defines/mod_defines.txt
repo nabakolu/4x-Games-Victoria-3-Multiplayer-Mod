@@ -1,5 +1,5 @@
 ﻿NGame = {
-	MAX_NUMBER_OF_AUTOSAVES = 12
+	MAX_NUMBER_OF_AUTOSAVES = 16
 }
 
 NDiplomacy = {
@@ -13,10 +13,6 @@ NDiplomacy = {
 	DIPLOMATIC_PACT_COST_MULT_FROM_PARIAH = 2.00		# Maintenance cost of a pact is increased by this when at Pariah level of infamy
 
 	DIPLOMATIC_DEMAND_PENDING_APPROVAL_DAYS = 30  # Number of days before a demand is auto-declined and a diplomatic play starts
-	# Was 21
-	DIPLOMATIC_PLAY_OPENING_PHASE_END = 31	# Before this, defender needs to set their wargoal and you can't join/sway
-	# Was 80
-	DIPLOMATIC_PLAY_CLOSING_PHASE_START = 90 # After this, it isn't possible to join/sway further countries
 }
 
 NEconomy = {

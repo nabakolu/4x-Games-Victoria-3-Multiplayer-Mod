@@ -26,6 +26,7 @@
 - Reworked Vanilla Buildings:
     - Port:
         - Building Group changed from Public Infrastructure to Port
+        - Can no longer be downsized/deleted
 - SRBE New Buildings:
     - Coal Mining Center
     - Iron Metallurgical Center
@@ -77,6 +78,21 @@
         - Land Trade Capacity increased from 5 to 50
     - United Construction Company:
         - Construction throughput reduced from 20% to 5%
+    - Imperial Tobacco Corporation of Persia, Limited
+        - Now requires the country to have any of the following primary cultures:
+            - Persian
+            - English
+            - Scottish
+    - Nam Định Textile Factory:
+        - Now requires the country to have any of the following primary cultures:
+            - Vietnamese
+    Sunhwaguk:
+        - Now requires the country to have any of the following primary cultures:
+            - Korean
+    Kaiping Mining Company:
+        - Now requires the country to have any of the following primary cultures:
+            - Han
+            - Manchu
 
 #####################
 ### Country Ranks ###
@@ -258,6 +274,9 @@
     - Rifles: +5 offense, +5 defense
     - Repeaters: +10 offense, +10 defense, +1 small arms upkeep
     - Bolt-Action: +15 offense, +15 defense, +2 small arms & +1 ammunition upkeep
+- Chemical Weapons reworked:
+    - Unit kill rate bonus increased from 50% to 100%
+    - +200% devastation has been added
 
 ###########################
 ### Political Movements ###

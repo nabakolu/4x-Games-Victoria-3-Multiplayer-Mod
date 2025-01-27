@@ -11,6 +11,9 @@ principle_vassalization_1 = {
 	
 	visible = {
 		has_dlc_feature = power_bloc_features
+		power_bloc ?= {
+			NOT = { has_principle_group = principle_group:principle_group_exploit_members }
+		}
 	}
 
 	member_modifier = {
@@ -84,6 +87,9 @@ principle_exploit_members_1 = {
 
 	visible = {
 		has_dlc_feature = power_bloc_features
+		power_bloc ?= {
+			NOT = { has_principle_group = principle_group:principle_group_vassalization }
+		}
 	}
 
 	leader_modifier = {
@@ -168,7 +174,7 @@ principle_exploit_members_2 = {
 principle_exploit_members_3 = {
 	icon = "gfx/interface/icons/principles_icons/exploitation_of_members.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
-	
+
 	leader_modifier = {
 		# Modifiers from previous level(s)		
 		country_authority_mult = 0.4

@@ -57,6 +57,8 @@ building_port = {
 	required_construction = construction_cost_medium
 
 	terrain_manipulator = urban_port
+
+	downsizeable = no
 	
 	potential = {
 		is_coastal = yes
