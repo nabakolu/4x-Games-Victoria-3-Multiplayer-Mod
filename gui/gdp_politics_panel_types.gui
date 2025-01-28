@@ -55,7 +55,7 @@ types information_panels_types
 				text = "ENACT_LAW"
 				autoresize = yes
 				align = nobaseline
-				parentanchor = hcenter
+				parentanchor = center
 			}
 
 			enabled = "[IsValid( Law.StartEnacting )]"
@@ -81,7 +81,7 @@ types information_panels_types
 					text = "[FixedPointToFloat(Law.GetCheckpointProgress)|%v1]"
 					align = center|nobaseline
 					using = fontsize_xl
-					parentanchor = hcenter
+					parentanchor = center
 				}
 			}
 
@@ -516,7 +516,7 @@ types information_panels_types
 								widget = {
 									size = { 36 40 }
 									icon = {
-										parentanchor = hcenter
+										parentanchor = center
 										texture = "[InterestGroupTrait.GetTexture]"
 										enabled = "[InterestGroupTrait.IsEnabled(InterestGroup.Self)]"
 										tooltipwidget = {
@@ -1822,7 +1822,7 @@ types information_panels_types
 						block "empty_state_text" {
 							raw_text = "#todo nothing to see here#!"
 						}
-						parentanchor = hcenter
+						parentanchor = center
 						align = hcenter|nobaseline
 					}
 				}
@@ -2022,7 +2022,7 @@ types information_panels_types
 					block "empty_state_text" {
 						raw_text = "#todo nothing to see here#!"
 					}
-					parentanchor = hcenter
+					parentanchor = center
 					align = hcenter|nobaseline
 				}
 			}
@@ -2971,7 +2971,7 @@ types information_panels_types
 		}
 
 		size = { 100% 100% }
-		parentanchor = hcenter
+		parentanchor = center
 		texture = "gfx/interface/icons/ig_icons/influential_ig_frame.dds"
 		alwaystransparent = yes
 	}
@@ -2989,7 +2989,7 @@ types information_panels_types
 			icon = {
 				size = { 100% 100% }
 				texture = "[Party.GetIcon]"
-				parentanchor = hcenter
+				parentanchor = center
 			}
 		}
 
@@ -3024,7 +3024,7 @@ types information_panels_types
 			icon = {
 				size = { 100% 100% }
 				texture = "[InterestGroup.GetTexture]"
-				parentanchor = hcenter
+				parentanchor = center
 			}
 		}
 
@@ -3068,7 +3068,7 @@ types information_panels_types
 				visible = "[Not(InterestGroup.IsValid)]"
 				size = { 100% 100% }
 				texture = "gfx/interface/icons/ig_icons/politically_unaligned.dds"
-				parentanchor = hcenter
+				parentanchor = center
 				tooltipwidget = {
 					FancyTooltip_PoliticallyUnaligned = {}
 				}
@@ -3089,7 +3089,7 @@ types information_panels_types
 			}
 			position = { 0 -1 }
 			using = fontsize_large
-			parentanchor = hcenter
+			parentanchor = center
 			align = hcenter|nobaseline
 			autoresize = yes
 		}
@@ -3107,7 +3107,7 @@ types information_panels_types
 			}
 			position = { 0 -2 }
 			using = fontsize_xxl
-			parentanchor = hcenter
+			parentanchor = center
 			align = hcenter|nobaseline
 			autoresize = yes
 		}
@@ -3550,7 +3550,7 @@ types information_panels_types
 
 			button_icon_round_big = {
 				size = { 59 59 }
-				parentanchor = hcenter
+				parentanchor = center
 
 				click_modifiers = {
 					ondefault = "[GetExilePool.SetInterestGroupFilter(InterestGroup.Self)]"
@@ -3781,7 +3781,7 @@ types information_panels_types
 			}
 
 			button = {
-				parentanchor = hcenter
+				parentanchor = center
 				size = { 100% 100% }
 				onclick = "[InformationPanelBar.OpenPoliticalMovementPanel(PoliticalMovement.AccessSelf)]"
 				onrightclick = "[RightClickMenuManager.ShowForPoliticalMovement(PoliticalMovement.AccessSelf)]"
@@ -4012,7 +4012,7 @@ types information_panels_types
 							widget = {
 								name = revolution_clock
 								size = { 0 0 }
-								parentanchor = hcenter
+								parentanchor = center
 
 								###REVOLUTION CLOCK ANIMATION###
 								state = {
@@ -4038,14 +4038,14 @@ types information_panels_types
 										texture = "gfx/interface/animation/color_bad.dds"
 									}
 									size = { 250% 250% }
-									parentanchor = hcenter
+									parentanchor = center
 								}
 
 								round_progress_bad = {
 									size = { 80% 80% }
 									position = { 0 7 }
 									value = "[FixedPointToFloat(PoliticalMovement.GetCivilWar.GetClockTime)]"
-									parentanchor = hcenter
+									parentanchor = center
 								}
 								
 								icon = {
@@ -4054,7 +4054,7 @@ types information_panels_types
 								}
 
 								icon = {
-									parentanchor = hcenter
+									parentanchor = center
 									position = { 0 5 }
 									size = { 50 50 }
 									texture = "[PoliticalMovement.GetTexture]"
