@@ -20,6 +20,10 @@
 				country_is_in_europe = yes
 			}
 			custom_tooltip = {
+				text = mod_european_migration_cooldown_tt
+				NOT = { has_variable = mod_european_migration_cooldown }
+			}
+			custom_tooltip = {
 				text = same_state_religion
 				religion = root.religion
 			}

@@ -20,3 +20,5 @@
 
  mod_i_did_diplo: "Did do required diplo"
  mod_i_did_not_diplo: "Did not do the required diplo"
+
+ mod_european_migration_cooldown_modifier: "Has recently been hit by a mass migration"
