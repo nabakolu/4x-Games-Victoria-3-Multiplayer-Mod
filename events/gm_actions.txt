@@ -1872,6 +1872,16 @@ gm_actions.39 = {
 			chi_remove_1_fragile_unity = yes
 		}
 	}
+	option = {
+		name = gm_actions.39.c
+		remove_global_variable = GM_taking_action
+		scope:recipient = {
+			remove_variable = actionee
+			add_journal_entry = {
+				type = je_heavenly_kingdom_main
+			}
+		}
+	}
 }
 
 #Add war exhaustion
