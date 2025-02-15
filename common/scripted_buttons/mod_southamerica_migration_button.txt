@@ -14,34 +14,102 @@
 			NOT = { has_variable = sa_migration_cooldown }
 		}
 		average_sol >= 10
-		any_country = {
-			custom_tooltip = {
-				text = is_in_europe_tt
-				country_is_in_europe = yes
+		trigger_if = {
+			limit = { 
+				OR = {
+					has_law = law_type:law_state_religion
+					has_law = law_type:law_state_atheism
+				}
 			}
-			custom_tooltip = {
-				text = same_state_religion
-				religion = root.religion
-			}
-			custom_tooltip = {
-				text = average_sol_below_root_tt
-				average_sol <= root.average_sol
-			}
-			any_primary_culture = {
-				culture_can_have_mass_migration_to_country = ROOT
-			}
-			any_scope_state = {
-				is_incorporated = yes
+			any_country = {
 				custom_tooltip = {
 					text = is_in_europe_tt
-					state_is_in_europe = yes
+					country_is_in_europe = yes
 				}
-				# Instead of needing 3 or more states to be a viable target,
-				# the country must have a state with a population of 250,000 or more
-				state_population >= 250000
+				custom_tooltip = {
+					text = same_state_religion
+					religion = root.religion
+				}
+				custom_tooltip = {
+					text = average_sol_below_root_tt
+					average_sol <= root.average_sol
+				}
+				any_primary_culture = {
+					culture_can_have_mass_migration_to_country = ROOT
+				}
+				# Total population of the country must be greater then 3 million to be a viable target
+				total_population >= 3000000
+				any_scope_state = {
+					is_incorporated = yes
+					custom_tooltip = {
+						text = is_in_europe_tt
+						state_is_in_europe = yes
+					}
+					# Instead of needing 3 or more states to be a viable target,
+					# the country must have a state with a population of 750,000 or more
+					state_population >= 750000
+				}
 			}
-			# Total population of the country must be greater then 3 million to be a viable target
-			total_population >= 3000000
+		}
+		trigger_else_if = {
+			limit = { has_law = law_type:law_freedom_of_conscience }
+			any_country = {
+				custom_tooltip = {
+					text = is_in_europe_tt
+					country_is_in_europe = yes
+				}
+				custom_tooltip = {
+					text = same_religious_group
+					religion = { has_discrimination_trait = christian }
+				}
+				custom_tooltip = {
+					text = average_sol_below_root_tt
+					average_sol <= root.average_sol
+				}
+				any_primary_culture = {
+					culture_can_have_mass_migration_to_country = ROOT
+				}
+				# Total population of the country must be greater then 3 million to be a viable target
+				total_population >= 3000000
+				any_scope_state = {
+					is_incorporated = yes
+					custom_tooltip = {
+						text = is_in_europe_tt
+						state_is_in_europe = yes
+					}
+					# Instead of needing 3 or more states to be a viable target,
+					# the country must have a state with a population of 750,000 or more
+					state_population >= 750000
+				}
+			}
+		}
+		trigger_else_if = {
+			limit = { has_law = law_type:law_total_separation }
+			any_country = {
+				custom_tooltip = {
+					text = is_in_europe_tt
+					country_is_in_europe = yes
+				}
+				custom_tooltip = {
+					text = average_sol_below_root_tt
+					average_sol <= root.average_sol
+				}
+				any_primary_culture = {
+					culture_can_have_mass_migration_to_country = ROOT
+				}
+				# Total population of the country must be greater then 3 million to be a viable target
+				total_population >= 3000000
+				any_scope_state = {
+					is_incorporated = yes
+					custom_tooltip = {
+						text = is_in_europe_tt
+						state_is_in_europe = yes
+					}
+					# Instead of needing 3 or more states to be a viable target,
+					# the country must have a state with a population of 750,000 or more
+					state_population >= 750000
+				}
+			}
 		}
 		any_scope_state = {
 			trigger_if = {

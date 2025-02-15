@@ -28,33 +28,30 @@ sa_migration.1 = {
 		# Note that this closely reflects triggers in the button. Do not change one without changing both
 		random_country = {
 			limit = {
-				custom_tooltip = {
-					text = is_in_europe_tt
-					country_is_in_europe = yes
-				}
-				custom_tooltip = {
-					text = same_state_religion
+				country_is_in_europe = yes
+				trigger_if = {
+					limit = { has_law = law_type:law_state_religion }
 					religion = root.religion
 				}
-				custom_tooltip = {
-					text = average_sol_below_root_tt
-					average_sol <= root.average_sol
+				trigger_else_if = {
+					limit = { has_law = law_type:law_freedom_of_conscience }
+					religion = { has_discrimination_trait = christian }
 				}
-				any_primary_culture = {
-					culture_can_have_mass_migration_to_country = ROOT
+				trigger_else_if = {
+					limit = { has_law = law_type:law_state_atheism }
+					religion = root.religion
 				}
-				any_scope_state = {
-					is_incorporated = yes
-					custom_tooltip = {
-						text = is_in_europe_tt
-						state_is_in_europe = yes
-					}
-					# Instead of needing 3 or more states to be a viable target,
-					# the country must have a state with a population of 250,000 or more
-					state_population >= 250000
-				}
+				average_sol <= root.average_sol
+				any_primary_culture = { culture_can_have_mass_migration_to_country = ROOT }
 				# Total population of the country must be greater then 3 million to be a viable target
 				total_population >= 3000000
+				any_scope_state = {
+					is_incorporated = yes
+					state_is_in_europe = yes
+					# Instead of needing 3 or more states to be a viable target,
+					# the country must have a state with a population of 750,000 or more
+					state_population >= 750000
+				}		
 			}
 			save_scope_as = migration_country
 			random_scope_state = {
@@ -118,13 +115,18 @@ sa_migration.1 = {
 				origin = scope:migration_country
 				culture = scope:migration_culture
 			}
-		}			
+		}
 	}
 
 	option = {
 		name = sa_migration.1.a
 		add_modifier = {
 			name = sa_migration_cost
+			months = normal_modifier_time
+		}
+		add_modifier = {
+			name = sa_migration_cost_money
+			multiplier = money_amount_multiplier_small
 			months = normal_modifier_time
 		}
 		show_as_tooltip = {
